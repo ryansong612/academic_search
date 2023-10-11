@@ -1,0 +1,2732 @@
+{
+    "author": {
+        "name": "Jason Li",
+        "email": "pakaLFZ@gmail.com",
+        "organizationEmail": "fl822@ic.ac.uk"
+    },
+    "overview": {
+        "topic": "the birth of civilization",
+        "numParagraphs": 154,
+        "example_ranking": {
+            "ranking_types": [
+                "high",
+                "medium",
+                "low",
+                "none"
+            ],
+            "high": [
+                0,
+                4,
+                8,
+                12,
+                16,
+                20,
+                24,
+                28,
+                30,
+                33,
+                36,
+                39,
+                42,
+                45,
+                46,
+                50,
+                55,
+                59,
+                61,
+                68,
+                70,
+                73,
+                82,
+                87,
+                92,
+                96,
+                100,
+                104,
+                108,
+                112,
+                116,
+                120,
+                123,
+                127,
+                131,
+                135,
+                139,
+                143,
+                147,
+                151
+            ],
+            "medium": [
+                1,
+                5,
+                9,
+                13,
+                17,
+                21,
+                25,
+                29,
+                31,
+                34,
+                37,
+                40,
+                43,
+                48,
+                51,
+                53,
+                57,
+                62,
+                63,
+                66,
+                69,
+                71,
+                74,
+                75,
+                77,
+                80,
+                83,
+                85,
+                88,
+                91,
+                93,
+                97,
+                101,
+                105,
+                109,
+                113,
+                117,
+                121,
+                124,
+                128,
+                132,
+                136,
+                140,
+                144,
+                148,
+                152
+            ],
+            "low": [
+                2,
+                6,
+                10,
+                14,
+                18,
+                22,
+                26,
+                32,
+                35,
+                38,
+                41,
+                44,
+                47,
+                49,
+                52,
+                54,
+                56,
+                58,
+                60,
+                64,
+                67,
+                72,
+                76,
+                78,
+                81,
+                84,
+                86,
+                90,
+                94,
+                98,
+                102,
+                106,
+                110,
+                114,
+                118,
+                122,
+                125,
+                129,
+                133,
+                137,
+                141,
+                145,
+                149,
+                153
+            ],
+            "none": [
+                3,
+                7,
+                11,
+                15,
+                19,
+                23,
+                27,
+                65,
+                79,
+                89,
+                95,
+                99,
+                103,
+                107,
+                111,
+                115,
+                119,
+                126,
+                130,
+                134,
+                138,
+                142,
+                146,
+                150
+            ]
+        }
+    },
+    "query": "evolution of moral standards",
+    "data": [
+        {
+            "id": 0,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "History",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "Mesopotamia",
+                "Sumerians",
+                "Egypt",
+                "Indus Valley",
+                "China"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization marks a significant turning point in human history. It refers to the emergence of complex societies characterized by the development of agriculture, the formation of cities, and the establishment of social hierarchies. One of the earliest known cradles of civilization is Mesopotamia, where the Sumerians built the world's first city-states. Meanwhile, in ancient Egypt, the Nile River provided the crucial resources for a thriving civilization. In the Indus Valley, the Harappans created a sophisticated urban culture, while in China, the Shang Dynasty laid the foundation for Chinese civilization."
+        },
+        {
+            "id": 1,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Archaeology",
+            "style": "academic",
+            "type": "influence",
+            "entities": [
+                "hunter-gatherer societies",
+                "agricultural revolution",
+                "domestication",
+                "specialization"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization can be attributed to the transition from hunter-gatherer societies to settled agricultural communities. This transformation, known as the agricultural revolution, occurred around 10,000 years ago and was marked by the domestication of plants and animals. With the ability to cultivate crops and raise livestock, early humans were able to establish permanent settlements, leading to the development of more complex social structures. As communities grew, individuals began to specialize in various tasks, such as farming, crafting, and governing, further contributing to the growth and complexity of early civilizations."
+        },
+        {
+            "id": 2,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Anthropology",
+            "style": "informal",
+            "type": "reflection",
+            "entities": [],
+            "correctness": true,
+            "text": "The birth of civilization is a fascinating topic that has intrigued historians, archaeologists, and anthropologists for centuries. It represents a pivotal moment in human history when societies shifted from nomadic lifestyles to settled communities. The advancements in agriculture, technology, and social organization during this period laid the groundwork for the complex civilizations that followed. Studying the birth of civilization provides valuable insights into how human societies have evolved over time and offers a glimpse into the challenges and achievements of our ancestors."
+        },
+        {
+            "id": 3,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Geography",
+            "style": "casual",
+            "type": "geographic",
+            "entities": [
+                "Tigris River",
+                "Euphrates River",
+                "Nile River",
+                "Indus River",
+                "Yellow River"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization was closely tied to the geographical features of the regions where they emerged. For example, the fertile lands along the Tigris and Euphrates Rivers in Mesopotamia provided the necessary resources for agricultural development, while the Nile River in Egypt supported a thriving civilization through its annual floods. Similarly, the Indus River in the Indus Valley and the Yellow River in China played essential roles in supporting the growth of early civilizations in these regions by providing water for irrigation and transportation."
+        },
+        {
+            "id": 4,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Sociology",
+            "style": "academic",
+            "type": "social",
+            "entities": [
+                "social hierarchies",
+                "religion",
+                "government",
+                "economic systems"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization brought about significant changes in social structures, with the emergence of complex hierarchies. Early civilizations developed elaborate religious beliefs and rituals that played a central role in shaping society. Government institutions were established to maintain order and enforce rules, while economic systems evolved to facilitate trade and commerce. The existence of social hierarchies enabled the division of labor and specialization, allowing individuals to focus on specific roles and contribute to the overall functioning of the civilization."
+        },
+        {
+            "id": 5,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Art",
+            "style": "creative",
+            "type": "cultural",
+            "entities": [
+                "cuneiform",
+                "hieroglyphics",
+                "pottery",
+                "sculptures",
+                "paintings"
+            ],
+            "correctness": true,
+            "text": "Artistic expression played a crucial role in the birth of civilization. In Mesopotamia, the Sumerians developed one of the first writing systems, known as cuneiform, which allowed for the recording of administrative, economic, and literary texts. In ancient Egypt, hieroglyphics were used to document important events and convey religious beliefs. The artistic achievements of these early civilizations can be seen in the intricate pottery, sculptures, and paintings that have been discovered through archaeological excavations, providing valuable insights into their culture, technology, and worldview."
+        },
+        {
+            "id": 6,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Technology",
+            "style": "informal",
+            "type": "innovation",
+            "entities": [
+                "irrigation",
+                "wheel",
+                "metallurgy",
+                "plow"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization was accompanied by remarkable technological advancements that revolutionized human societies. Innovations such as irrigation systems allowed for the efficient cultivation of crops, leading to greater food production and population growth. The invention of the wheel facilitated transportation and trade, while metallurgy enabled the production of tools, weapons, and other metal artifacts. The development of the plow revolutionized agriculture, making it easier to till the land and increasing agricultural productivity. These technological innovations played a crucial role in the development and expansion of early civilizations."
+        },
+        {
+            "id": 7,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Religion",
+            "style": "casual",
+            "type": "spiritual",
+            "entities": [
+                "polytheism",
+                "monotheism",
+                "Ziggurats",
+                "temples"
+            ],
+            "correctness": true,
+            "text": "Religion played a central role in the birth of civilization, with early civilizations developing complex belief systems and religious practices. Many early civilizations were polytheistic, worshiping multiple gods and goddesses who represented various aspects of nature and life. Over time, some civilizations transitioned towards monotheism, the belief in a single supreme deity. Religious structures, such as Ziggurats and temples, were built as places of worship and served as centers of spiritual and cultural life within the civilization. Religion provided a sense of purpose, identity, and moral guidance to the people of these early societies."
+        },
+        {
+            "id": 8,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Language",
+            "style": "academic",
+            "type": "linguistic",
+            "entities": [
+                "cuneiform script",
+                "hieroglyphics",
+                "pictograms",
+                "writing systems"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization was closely linked to the development of written language. Writing systems, such as cuneiform script in Mesopotamia and hieroglyphics in ancient Egypt, emerged as means of recording information and communicating complex ideas. These early writing systems initially relied on pictograms, symbols representing objects or ideas, which gradually evolved into more abstract forms to convey linguistic expressions. The ability to record and transmit knowledge through writing was a crucial tool for the preservation and dissemination of culture, history, and literature within early civilizations."
+        },
+        {
+            "id": 9,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Architecture",
+            "style": "creative",
+            "type": "structural",
+            "entities": [
+                "ziggurats",
+                "pyramids",
+                "palaces",
+                "temples"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the construction of impressive architectural structures that showcased the skills and ingenuity of ancient civilizations. In Mesopotamia, ziggurats were towering stepped temples built as religious centers and symbols of power. The pyramids of Egypt served as monumental tombs for pharaohs, while palaces provided residences for rulers and government officials. Temples were erected to honor deities and facilitate religious ceremonies. The architectural achievements of these early civilizations continue to inspire awe and admiration for their engineering prowess and cultural significance."
+        },
+        {
+            "id": 10,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Trade",
+            "style": "informal",
+            "type": "economic",
+            "entities": [
+                "Mesopotamia",
+                "sumerians",
+                "Indus Valley",
+                "Harappans",
+                "Silk Road"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization brought about new opportunities for trade and commerce. Early civilizations, such as those in Mesopotamia and the Indus Valley, engaged in long-distance trade, exchanging goods and ideas with neighboring regions. For example, the Sumerians established extensive trade networks that stretched across the ancient Near East, connecting different cultures and facilitating the exchange of goods, including precious metals, textiles, and agricultural products. Later, the Silk Road emerged as a major trade route linking China with the Mediterranean world, fostering economic interactions between diverse civilizations."
+        },
+        {
+            "id": 11,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Science",
+            "style": "casual",
+            "type": "knowledge",
+            "entities": [
+                "Astronomy",
+                "Mathematics",
+                "Medicine"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization laid the foundation for scientific inquiry and the development of various fields of knowledge. In ancient Mesopotamia, astronomers studied and recorded celestial phenomena, contributing to the early understanding of astronomy. Mathematics also flourished, with civilizations developing numerical systems and arithmetic operations. Medical practices and knowledge were advanced by early civilizations, who developed herbal remedies and surgical techniques. The scientific achievements of these early societies set the stage for further discoveries and advancements in scientific disciplines throughout history."
+        },
+        {
+            "id": 12,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Culture",
+            "style": "academic",
+            "type": "diversity",
+            "entities": [
+                "Mesopotamia",
+                "Egypt",
+                "Indus Valley",
+                "China"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization resulted in the emergence of diverse and rich cultural traditions in different regions of the world. Mesopotamia, known as the cradle of civilization, gave rise to complex societies characterized by extensive legal codes, epic literature, and advanced mathematics. In ancient Egypt, a unique religious and funerary culture shaped the lives of its inhabitants. The Indus Valley civilization exhibited remarkable planning and engineering skills, evident in their urban layout and drainage systems. China's early civilization showcased distinctive philosophical, artistic, and political traditions that continue to influence global culture."
+        },
+        {
+            "id": 13,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Politics",
+            "style": "formal",
+            "type": "governance",
+            "entities": [
+                "kings",
+                "pharaohs",
+                "emperors",
+                "dynasties"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization coincided with the establishment of political systems and the rise of centralized governance. Early civilizations were often ruled by kings, pharaohs, or emperors who exercised authority over their realms. These rulers established dynasties that passed power from one generation to the next. Political institutions were developed to govern societies, enforce laws, and maintain order. The political structures of ancient civilizations shaped the social, economic, and cultural landscapes of their respective regions and influenced the trajectory of human history."
+        },
+        {
+            "id": 14,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Music",
+            "style": "informal",
+            "type": "artistic",
+            "entities": [
+                "Mesopotamia",
+                "Sumerians",
+                "harps",
+                "lyres",
+                "flutes"
+            ],
+            "correctness": true,
+            "text": "Music played an integral role in the birth of civilization, serving as a form of artistic expression and communication. In Mesopotamia, the Sumerians developed musical instruments such as harps, lyres, and flutes, which were used in religious ceremonies and entertainment. Music in early civilizations was often associated with religious rituals, accompanying sacred texts or invoking divine entities. The melodies and rhythms of ancient music have been lost to time, but archaeological evidence provides glimpses into the importance of music in the cultural and social fabric of early civilizations."
+        },
+        {
+            "id": 15,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Literature",
+            "style": "casual",
+            "type": "creative",
+            "entities": [
+                "Epic of Gilgamesh",
+                "Book of the Dead",
+                "Vedas",
+                "Confucian classics"
+            ],
+            "correctness": true,
+            "text": "Literature flourished in the birth of civilization, with ancient societies producing epic poems, religious texts, and philosophical treatises. The Epic of Gilgamesh, originating from Mesopotamia, is one of the earliest surviving works of literature, exploring themes of mortality, heroism, and friendship. In ancient Egypt, the Book of the Dead provided guidance for the afterlife, while in India, the Vedas contained hymns and philosophical insights. China's early literary tradition encompassed the Confucian classics, which emphasized ethical behavior and social harmony. These literary works offer glimpses into the beliefs, values, and aspirations of early civilizations."
+        },
+        {
+            "id": 16,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Religion",
+            "style": "academic",
+            "type": "spiritual",
+            "entities": [
+                "polytheism",
+                "deities",
+                "rituals",
+                "afterlife",
+                "divination"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the development of complex religious beliefs and practices. Many early civilizations embraced polytheism, worshiping a pantheon of deities who governed various aspects of life and nature. Rituals and ceremonies played a central role in religious practices, serving as means of communication with the divine. Concepts of an afterlife and notions of divine judgment influenced the moral conduct and ethical values of these societies. Additionally, divination, the practice of seeking knowledge of the future through supernatural means, provided guidance and reassurance to individuals in the face of uncertainty."
+        },
+        {
+            "id": 17,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Science",
+            "style": "academic",
+            "type": "knowledge",
+            "entities": [
+                "Astronomy",
+                "mathematics",
+                "medicine"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization marked a significant advancement in scientific knowledge and understanding. In ancient Mesopotamia, astronomers observed celestial phenomena and developed basic principles of astronomy. Mathematics also flourished, with early civilizations introducing numerical systems and arithmetic operations. Medical practices and knowledge were advanced by early civilizations, who developed herbal remedies, surgical techniques, and anatomical understanding. These scientific achievements laid the foundation for future scientific advancements and continue to shape our understanding of the world today."
+        },
+        {
+            "id": 18,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Technology",
+            "style": "informal",
+            "type": "innovation",
+            "entities": [
+                "Irrigation",
+                "metallurgy",
+                "wheel",
+                "writing"
+            ],
+            "correctness": true,
+            "text": "Technological innovations played a crucial role in the birth of civilization. The adoption of irrigation systems revolutionized agriculture, enabling the cultivation of crops and supporting the growth of settled communities. Metallurgy allowed for the production of tools, weapons, and other metal artifacts, enhancing the efficiency of various tasks. The invention of the wheel facilitated transportation and trade, influencing economic and cultural exchanges. The development of writing systems provided a means of communication, record-keeping, and the preservation of knowledge. These technological advancements transformed human societies and laid the groundwork for further progress."
+        },
+        {
+            "id": 19,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Economy",
+            "style": "casual",
+            "type": "economic",
+            "entities": [
+                "agriculture",
+                "trade",
+                "craftsmanship"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization brought about significant changes in economic systems. The transition from nomadic hunting and gathering to settled agriculture led to increased food production and population growth. Farming communities produced surplus goods, which allowed for the emergence of trade networks and economic specialization. Craftsmanship and the development of artisans' skills became more valued as civilizations sought to produce goods of higher quality and aesthetic appeal. These economic developments laid the foundation for the growth of urban centers and the establishment of complex market systems."
+        },
+        {
+            "id": 20,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Art",
+            "style": "creative",
+            "type": "cultural",
+            "entities": [
+                "Mesopotamia",
+                "Egypt",
+                "Indus Valley",
+                "China"
+            ],
+            "correctness": true,
+            "text": "Art flourished in early civilizations, serving as a medium for cultural expression, religious rituals, and visual storytelling. In Mesopotamia, intricate carvings adorned the walls of temples, depicting scenes from mythology and royal achievements. Ancient Egypt produced iconic artwork, such as the grand statues of pharaohs and elaborate tomb paintings. The Indus Valley civilization showcased distinctive pottery and seals engraved with intricate designs. Chinese art displayed a combination of calligraphy, painting, and ceramic craftsmanship. These artistic traditions continue to inspire and fascinate people, providing valuable insights into the cultures and beliefs of ancient civilizations."
+        },
+        {
+            "id": 21,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Politics",
+            "style": "formal",
+            "type": "governance",
+            "entities": [
+                "kings",
+                "pharaohs",
+                "emperors",
+                "dynastic rule"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the rise of political systems and the establishment of governance structures. Early civilizations were often ruled by kings, pharaohs, or emperors who held absolute power over their realms. Dynastic rule became a common feature, with power being passed down through bloodlines. Political institutions were developed to enforce laws, maintain order, and administer justice. The political landscape of early civilizations influenced not only the distribution of power but also social hierarchies, economic systems, and cultural norms."
+        },
+        {
+            "id": 22,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Geography",
+            "style": "informal",
+            "type": "geographic",
+            "entities": [
+                "Mesopotamia",
+                "Tigris River",
+                "Euphrates River",
+                "Nile River",
+                "Indus River"
+            ],
+            "correctness": true,
+            "text": "Geography played a significant role in the birth of civilization. The geographical features of regions such as Mesopotamia, with its fertile lands between the Tigris and Euphrates Rivers, provided the necessary resources for agricultural development. In ancient Egypt, the Nile River served as the lifeblood of the civilization, providing water and fertile soil for farming. Similarly, the Indus Valley civilization thrived along the banks of the Indus River, which facilitated irrigation and trade. The unique geography of these regions influenced the development and sustainability of early civilizations."
+        },
+        {
+            "id": 23,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Technology",
+            "style": "casual",
+            "type": "innovation",
+            "entities": [
+                "agricultural tools",
+                "irrigation systems",
+                "wheel",
+                "writing"
+            ],
+            "correctness": true,
+            "text": "Technological advancements played a pivotal role in the birth of civilization. Innovations in agriculture, such as the development of agricultural tools and irrigation systems, significantly increased food production. The invention of the wheel revolutionized transportation and trade, facilitating the movement of goods and people. Writing systems emerged to record information and preserve knowledge, enabling the growth of complex societies. These technological breakthroughs laid the foundation for the cultural, economic, and political achievements of early civilizations."
+        },
+        {
+            "id": 24,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Culture",
+            "style": "academic",
+            "type": "diversity",
+            "entities": [
+                "Mesopotamia",
+                "Egypt",
+                "Indus Valley",
+                "China"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization resulted in the emergence of diverse and vibrant cultural traditions. Mesopotamia, often referred to as the cradle of civilization, witnessed the development of advanced legal codes, epic literature, and intricate art forms. Ancient Egypt left behind a rich legacy of religious beliefs, monumental architecture, and funerary practices. The Indus Valley civilization showcased sophisticated urban planning and craftmanship. China's early civilizations shaped distinctive philosophical, artistic, and political traditions that continue to influence global culture today. These cultural achievements reflect the ingenuity, creativity, and diversity of early societies."
+        },
+        {
+            "id": 25,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Language",
+            "style": "academic",
+            "type": "linguistic",
+            "entities": [
+                "cuneiform script",
+                "hieroglyphics",
+                "pictograms",
+                "written communication"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization saw the development of written languages, revolutionizing communication and documentation. Early writing systems, such as cuneiform script in Mesopotamia and hieroglyphics in ancient Egypt, utilized pictograms to represent words and concepts. Over time, these writing systems evolved into more complex forms, allowing for the recording of historical events, administrative records, and religious texts. Writing enabled the transmission of knowledge across generations, facilitating advancements in science, literature, and governance, and ultimately contributing to the growth and preservation of early civilizations."
+        },
+        {
+            "id": 26,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Trade",
+            "style": "informal",
+            "type": "economic",
+            "entities": [
+                "Mesopotamia",
+                "Egypt",
+                "Indus Valley",
+                "China"
+            ],
+            "correctness": true,
+            "text": "Trade played a critical role in the birth of civilization, facilitating economic exchanges and cultural interactions between different regions. Mesopotamia, Egypt, the Indus Valley, and China were all centers of trade, connecting diverse civilizations through complex networks. Goods such as precious metals, textiles, agricultural products, and luxury items were exchanged, fostering economic growth and cultural diffusion. Trade routes expanded the horizons of early societies, enabling the exploration of new lands and the establishment of lasting connections between distant civilizations."
+        },
+        {
+            "id": 27,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Religion",
+            "style": "casual",
+            "type": "spiritual",
+            "entities": [
+                "polytheism",
+                "monotheism",
+                "deities",
+                "temples"
+            ],
+            "correctness": true,
+            "text": "Religion played a significant role in the birth of civilization, shaping the beliefs, values, and social structures of early societies. Many ancient civilizations embraced polytheistic religions, worshiping multiple deities associated with various aspects of life and nature. Over time, some civilizations transitioned towards monotheism, the belief in a single supreme deity. Temples were constructed as sacred spaces for religious rituals and ceremonies. Religion provided a framework for understanding the world, establishing moral guidelines, and offering solace in times of hardship. The influence of religion can be seen in the art, architecture, and governance of early civilizations."
+        },
+        {
+            "id": 28,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Sociology",
+            "style": "academic",
+            "type": "social",
+            "entities": [
+                "social hierarchies",
+                "domestication",
+                "labor specialization",
+                "gender roles"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization brought about significant social changes and the emergence of complex societies. Early civilizations developed social hierarchies, with rulers and elites holding powerful positions in society. The domestication of plants and animals, a key innovation during this period, led to settled agricultural communities and the establishment of permanent settlements. As communities grew, labor specialization became more prevalent, with individuals taking on specific roles and professions. Gender roles also played a significant role, with distinct expectations and responsibilities for men and women within early civilizations."
+        },
+        {
+            "id": 29,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Archaeology",
+            "style": "academic",
+            "type": "influence",
+            "entities": [
+                "hunter-gatherer societies",
+                "agricultural revolution",
+                "urbanization"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization marked a transition from hunter-gatherer societies to settled agricultural communities. This shift, known as the agricultural revolution, was a transformative period that had a profound impact on human history. With the ability to cultivate crops and raise livestock, early humans were able to create stable food sources, leading to increased population growth. Settlements evolved into cities, fostering urbanization and the growth of complex societies. The influence of the agricultural revolution can be seen in the development of technology, social structures, and cultural practices within early civilizations."
+        },
+        {
+            "id": 30,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "History",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "Mesopotamia",
+                "Sumerians",
+                "cuneiform",
+                "Euphrates River"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization can be traced back to ancient Mesopotamia, where the Sumerians established the world's first known city-states around 3000 BCE. These early civilizations developed advanced systems of writing, such as cuneiform, and constructed monumental structures like ziggurats. The fertile lands along the Euphrates River provided the necessary resources for agricultural production, leading to the growth of urban centers and the development of complex social and political systems."
+        },
+        {
+            "id": 31,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Indus Valley Civilization",
+                "Harappa",
+                "Mohenjo-daro",
+                "urban planning"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization also occurred in the Indus Valley, specifically in modern-day Pakistan and northwest India. The Indus Valley Civilization, which existed from approximately 2500 to 1900 BCE, developed sophisticated urban planning and had well-organized cities like Harappa and Mohenjo-daro. The civilization featured a written script that has yet to be fully deciphered, indicating their advanced level of intellect and communication."
+        },
+        {
+            "id": 32,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Egyptology",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Nile River",
+                "pyramids",
+                "pharaohs",
+                "hieroglyphics"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization in ancient Egypt can be attributed to the Nile River, which provided fertile soil for agriculture. The construction of monumental pyramids and the rule of powerful pharaohs characterized this civilization. The ancient Egyptians developed a complex writing system known as hieroglyphics, enabling communication and record-keeping."
+        },
+        {
+            "id": 33,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Ancient Greece",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Athens",
+                "Sparta",
+                "democracy",
+                "Olympics"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization in ancient Greece witnessed the rise of city-states like Athens and Sparta. These city-states played a significant role in the development of democracy, philosophy, art, and literature. Ancient Greeks also established the Olympic Games, showcasing their appreciation for athletic competition and physical prowess."
+        },
+        {
+            "id": 34,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Roman Empire",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Julius Caesar",
+                "Colosseum",
+                "Roman law",
+                "Pax Romana"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization in the Roman Empire is characterized by significant political, cultural, and technological developments. The empire, led by influential figures like Julius Caesar, expanded its territory and established a centralized government. The construction of iconic structures like the Colosseum and the implementation of Roman law, such as the Twelve Tables, played crucial roles in shaping Roman society. The Pax Romana period brought relative peace and stability, fostering advancements in various fields."
+        },
+        {
+            "id": 35,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Maya Civilization",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Mesoamerica",
+                "Chichen Itza",
+                "astronomy",
+                "hierarchical structure"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization in Mesoamerica witnessed the rise of the Maya civilization, known for its architectural marvels such as the famous city of Chichen Itza. The Maya built intricate palaces, pyramids, and observatories that showcased their advanced knowledge of astronomy. Their society had a complex hierarchical structure with rulers, nobles, and commoners, providing governance and ensuring social order."
+        },
+        {
+            "id": 36,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Chinese Civilization",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Great Wall of China",
+                "Confucius",
+                "Silk Road",
+                "Imperial examination"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization in China is marked by significant contributions to art, philosophy, technology, and governance. The construction of the Great Wall of China, which served as a defensive structure, symbolizes the power and ambition of the Chinese civilization. Philosophical teachings of Confucius provided a moral and ethical framework for society. The Silk Road facilitated cultural exchanges and trade networks, connecting China with other civilizations. The imperial examination system cultivated a class of educated officials, ensuring competent governance."
+        },
+        {
+            "id": 37,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Inca Empire",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Cusco",
+                "Machu Picchu",
+                "terrace farming",
+                "quipu"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization in the Inca Empire witnessed the rise of one of the largest pre-Columbian societies in the Americas. Cusco was the capital city of the empire, and Machu Picchu served as an important religious and ceremonial site. The Inca developed innovative agricultural techniques like terrace farming, maximizing food production in mountainous regions. They also utilized a unique recording system called quipu, consisting of knotted strings, for record-keeping and communication."
+        },
+        {
+            "id": 38,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Medieval Europe",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Feudalism",
+                "Catholic Church",
+                "Crusades",
+                "Gothic architecture"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization in medieval Europe was marked by the feudal system, which defined social and economic relationships. The Catholic Church played a central role in both religious and secular matters. The Crusades, a series of military campaigns, shaped European politics and cultural exchanges with the Islamic world. Gothic architecture emerged during this period, characterized by soaring cathedrals and intricate architectural details."
+        },
+        {
+            "id": 39,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 8,
+            "topic": "Islamic Golden Age",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Baghdad",
+                "Alhambra",
+                "Averroes",
+                "Arabic numerals"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization during the Islamic Golden Age marked a flourishing of arts, sciences, philosophy, and trade. The city of Baghdad became a center of intellectual and cultural exchange, attracting scholars from different regions. Architectural wonders like the Alhambra showcased intricate designs and Islamic motifs. Scholars such as Averroes contributed to the preservation and translation of ancient Greek texts. Arabic numerals and algebra revolutionized mathematical calculations."
+        },
+        {
+            "id": 40,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Renaissance",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Leonardo da Vinci",
+                "Florence",
+                "humanism",
+                "printing press"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization during the Renaissance witnessed a revival of art, literature, and scientific innovation. Florence, Italy, emerged as a hub for artistic and intellectual activities, attracting renowned figures like Leonardo da Vinci. Humanism, with its emphasis on human potential and achievement, reshaped societal values and led to advancements in various disciplines. The invention of the printing press by Johannes Gutenberg facilitated the spread of knowledge and ideas."
+        },
+        {
+            "id": 41,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Industrial Revolution",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "steam engine",
+                "factories",
+                "urbanization",
+                "capitalism"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization during the Industrial Revolution brought about significant transformations in manufacturing, transportation, and society. The invention of the steam engine revolutionized industrial production, leading to the establishment of factories powered by steam. Urbanization became a prominent feature as people migrated from rural areas to cities in search of employment opportunities. Capitalism emerged as the dominant economic system, emphasizing private ownership and profit-driven production."
+        },
+        {
+            "id": 42,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 8,
+            "topic": "American Revolution",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Thomas Jefferson",
+                "Declaration of Independence",
+                "George Washington",
+                "Constitution"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization during the American Revolution marked the establishment of the United States as an independent nation. Visionary leaders like Thomas Jefferson drafted the Declaration of Independence, outlining the principles of liberty and equality. George Washington played a crucial role in leading American forces against British rule. The Constitution of the United States provided the framework for governance, protecting individual rights and enshrining democratic principles."
+        },
+        {
+            "id": 43,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "French Revolution",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Louis XVI",
+                "Robespierre",
+                "Reign of Terror",
+                "Napoleon Bonaparte"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization during the French Revolution marked a period of profound political and social change in France. The overthrow of the monarchy, led by figures like Louis XVI and Marie-Antoinette, resulted in the establishment of a republic. Maximilien Robespierre's influential leadership during the Reign of Terror symbolized radical reforms and widespread violence. Napoleon Bonaparte emerged as a prominent figure, eventually becoming Emperor and bringing stability to France."
+        },
+        {
+            "id": 44,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Industrial Age",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "railways",
+                "telegraph",
+                "mass production",
+                "urbanization"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization during the Industrial Age witnessed rapid technological advancements and societal changes. The introduction of railways revolutionized transportation, enabling faster and more efficient movement of goods and people. The telegraph facilitated instant communication across long distances. Mass production techniques like the assembly line transformed manufacturing processes. Urbanization continued to increase as people migrated to cities in search of employment opportunities."
+        },
+        {
+            "id": 45,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "Digital Age",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "internet",
+                "smartphones",
+                "artificial intelligence",
+                "data privacy"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization during the Digital Age ushered in an era of rapid technological advancements and interconnectedness. The internet revolutionized communication, making information accessible on a global scale. Smartphones became ubiquitous, putting powerful computing devices in the hands of individuals. Artificial intelligence and automation transformed various industries, leading to increased efficiency and new job opportunities. Data privacy concerns emerged as society grappled with the implications of digital technologies."
+        },
+        {
+            "id": 46,
+            "relevance": "high",
+            "queryFreq": 5,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Middle Ages",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Feudalism",
+                "Knights",
+                "Cathedrals",
+                "Black Death"
+            ],
+            "text": "The Middle Ages were a period of significant historical and cultural development in Europe. Feudalism was a key social and economic system, with lords granting land to vassals in exchange for their loyalty and military service. Knights played a crucial role in medieval warfare and chivalry. Magnificent cathedrals, with their impressive architecture, highlighted the influence of Christianity during this era. The Black Death, a devastating pandemic, had a profound impact on population and society."
+        },
+        {
+            "id": 47,
+            "relevance": "low",
+            "queryFreq": 3,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Viking Age",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Vikings",
+                "Longships",
+                "Exploration"
+            ],
+            "text": "The Viking Age, spanning roughly from the late 8th century to the mid-11th century, marked a period of Scandinavian expansion and exploration. Vikings, known for their seafaring skills, embarked on voyages of trade, raiding, and colonization. Their longships enabled them to navigate both rivers and open seas with ease. The Viking Age witnessed the establishment of settlements across Europe and even as far as North America, showcasing their adventurous spirit and cultural influence."
+        },
+        {
+            "id": 48,
+            "relevance": "medium",
+            "queryFreq": 4,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Age of Enlightenment",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Voltaire",
+                "John Locke",
+                "Natural Rights",
+                "Scientific Revolution"
+            ],
+            "text": "The Age of Enlightenment, also known as the Age of Reason, saw significant intellectual and philosophical developments in Europe. Thinkers such as Voltaire and John Locke championed ideas of freedom, reason, and natural rights. They questioned traditional authority and laid the foundation for modern political and social thought. The Scientific Revolution, with its emphasis on empirical observation and experimentation, also played a pivotal role in shaping the intellectual landscape of the time."
+        },
+        {
+            "id": 49,
+            "relevance": "low",
+            "queryFreq": 2,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Age of Exploration",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Christopher Columbus",
+                "Vasco da Gama",
+                "Trade routes"
+            ],
+            "text": "The Age of Exploration, spanning from the 15th to the 17th century, was characterized by extensive overseas exploration and colonization. Explorers like Christopher Columbus and Vasco da Gama embarked on voyages in search of new trade routes and resources. European powers established colonies in Africa, Asia, and the Americas, leading to cultural exchanges, economic expansion, and conflicts. The Age of Exploration reshaped world history and had lasting impacts on global trade and politics."
+        },
+        {
+            "id": 50,
+            "relevance": "high",
+            "queryFreq": 6,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Scientific Revolution",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Copernicus",
+                "Galileo Galilei",
+                "Isaac Newton",
+                "Heliocentric Theory"
+            ],
+            "text": "The Scientific Revolution, which took place from the 16th to the 18th century, brought about a paradigm shift in scientific thinking and understanding. Pioneers like Nicolaus Copernicus challenged the prevailing geocentric view of the universe, proposing the heliocentric theory. Galileo Galilei's observations and experiments further confirmed these discoveries. Isaac Newton's laws of motion and universal gravitation provided a mathematical framework for understanding the physical world, revolutionizing physics. The Scientific Revolution laid the groundwork for modern science and its advancements."
+        },
+        {
+            "id": 51,
+            "relevance": "medium",
+            "queryFreq": 4,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Age of Absolutism",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Louis XIV",
+                "Peter the Great",
+                "Absolute Monarchy",
+                "Centralization"
+            ],
+            "text": "The Age of Absolutism, spanning from the 16th to the 18th century, witnessed the consolidation of monarchical power in Europe. Figures like Louis XIV of France and Peter the Great of Russia established absolute monarchies, centralizing political control and implementing reforms. These rulers aimed to strengthen their states, enhance military power, and pursue territorial expansion. The Age of Absolutism shaped the political landscape of Europe during this period."
+        },
+        {
+            "id": 52,
+            "relevance": "low",
+            "queryFreq": 2,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Age of Revolution",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "American Revolution",
+                "French Revolution",
+                "Haitian Revolution"
+            ],
+            "text": "The Age of Revolution, occurring from the late 18th to the early 19th century, saw a wave of revolutionary movements around the world. The American Revolution marked the birth of the United States as an independent nation, while the French Revolution resulted in radical political and social change in France. The Haitian Revolution witnessed the overthrow of slavery and the establishment of Haiti as the first independent black republic. These revolutions reshaped the global political landscape and inspired future movements for independence and freedom."
+        },
+        {
+            "id": 53,
+            "relevance": "medium",
+            "queryFreq": 3,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Industrialization",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Mechanization",
+                "Factories",
+                "Steam power"
+            ],
+            "text": "The process of industrialization, which gained momentum in the 18th century and continued into the 19th century, marked a significant shift in economic and social structures. Mechanization and the use of steam power led to the establishment of factories and the mass production of goods. This transition from an agrarian to an industrial society had far-reaching impacts on employment, urbanization, and living standards. Industrialization laid the foundation for modern capitalism and set the stage for further technological advancements."
+        },
+        {
+            "id": 54,
+            "relevance": "low",
+            "queryFreq": 2,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "World War I",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Treaty of Versailles",
+                "Trench warfare",
+                "Alliances"
+            ],
+            "text": "World War I, which lasted from 1914 to 1918, was a global conflict that had a profound impact on the course of history. The war was characterized by trench warfare and significant loss of life. The Treaty of Versailles, signed in 1919, imposed harsh penalties on Germany and redrew national borders in Europe. The war also contributed to the collapse of empires, including the Austro-Hungarian and Ottoman Empires, leading to political and territorial changes."
+        },
+        {
+            "id": 55,
+            "relevance": "high",
+            "queryFreq": 5,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "World War II",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Adolf Hitler",
+                "Holocaust",
+                "Atomic bomb",
+                "Allied Powers"
+            ],
+            "text": "World War II, spanning from 1939 to 1945, was a global war that involved many nations and had far-reaching consequences. Adolf Hitler's Nazi Germany, with its aggressive expansionist policies, ignited the conflict. The war witnessed significant atrocities, such as the Holocaust, and the use of destructive weapons like the atomic bomb. The Allied Powers, including the United States, Soviet Union, and United Kingdom, emerged victorious, leading to the reshaping of international politics and the formation of new alliances."
+        },
+        {
+            "id": 56,
+            "relevance": "low",
+            "queryFreq": 2,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Cold War",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "United States",
+                "Soviet Union",
+                "Nuclear arms race"
+            ],
+            "text": "The Cold War, lasting from the mid-1940s to the early 1990s, was a period of political tension and military rivalry between the United States and the Soviet Union. This ideological struggle was characterized by the threat of nuclear war and proxy conflicts in various regions. The Cold War shaped global politics, dividing the world into two competing spheres of influence. The eventual collapse of the Soviet Union in 1991 marked the end of the Cold War."
+        },
+        {
+            "id": 57,
+            "relevance": "medium",
+            "queryFreq": 3,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Space Exploration",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Apollo Program",
+                "Neil Armstrong",
+                "International Space Station"
+            ],
+            "text": "Space exploration, beginning with the launch of Sputnik 1 in 1957, has been a defining feature of modern civilization. The Apollo program, culminating in the historic Moon landing by Neil Armstrong in 1969, marked a significant milestone in human space exploration. Today, the International Space Station serves as a collaborative endeavor involving multiple nations. Space exploration continues to push the boundaries of scientific knowledge and holds potential for future discoveries and advancements."
+        },
+        {
+            "id": 58,
+            "relevance": "low",
+            "queryFreq": 2,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Information Age",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Internet",
+                "Digital revolution",
+                "Information technology"
+            ],
+            "text": "The Information Age, also known as the Digital Age, is characterized by the widespread use of digital technology and the internet. This period, which began in the late 20th century, has revolutionized communication, commerce, and access to information. The internet has connected people across continents and transformed various industries. The digital revolution has given rise to new professions and economic opportunities, while also raising concerns about data privacy and cybersecurity."
+        },
+        {
+            "id": 59,
+            "relevance": "high",
+            "queryFreq": 6,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Globalization",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "International trade",
+                "Multinational corporations",
+                "Cultural exchange"
+            ],
+            "text": "Globalization is the interconnectedness and integration of countries, societies, and economies on a global scale. It is characterized by increased international trade, the growth of multinational corporations, and cultural exchange. Globalization has facilitated the exchange of goods, services, and ideas across borders, leading to economic interdependence and cultural diversity. However, it has also raised concerns about inequality, cultural homogenization, and environmental sustainability."
+        },
+        {
+            "id": 60,
+            "relevance": "low",
+            "queryFreq": 2,
+            "queryTerm": true,
+            "style": "formal",
+            "topic": "Climate Change",
+            "type": "overview",
+            "correctness": true,
+            "entities": [
+                "Greenhouse effect",
+                "Renewable energy",
+                "Paris Agreement"
+            ],
+            "text": "Climate change refers to long-term shifts in weather patterns and temperatures due to human activities and natural processes. The greenhouse effect, caused by the accumulation of greenhouse gases in the atmosphere, plays a significant role in climate change. This phenomenon has led to rising sea levels, extreme weather events, and shifts in ecosystems. Efforts to mitigate climate change include transitioning to renewable energy sources and international agreements like the Paris Agreement, aiming to limit global warming."
+        },
+        {
+            "id": 61,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 8,
+            "topic": "History",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "Mesopotamia",
+                "Egypt",
+                "Indus Valley",
+                "Yellow River"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization marked a significant turning point in human history. It refers to the emergence of complex societies with organized governments, specialized labor, and cultural achievements. One of the earliest civilizations arose in Mesopotamia, where the Sumerians developed sophisticated irrigation systems and invented writing. Similarly, ancient Egypt flourished along the Nile River with its pyramids and intricate hieroglyphic script. The Indus Valley civilization in South Asia boasted advanced urban planning and a system of standardized weights and measures. Across the globe, the Yellow River valley in China witnessed the rise of agricultural communities and early Chinese dynasties."
+        },
+        {
+            "id": 62,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 4,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Civilization",
+                "Prehistoric",
+                "Neolithic",
+                "Urbanization"
+            ],
+            "correctness": true,
+            "text": "Understanding the birth of civilization requires exploring prehistoric times and the transition from hunter-gatherer societies to settled, agrarian communities. The Neolithic period witnessed significant innovations such as agriculture, pottery, and domestication of animals. These advances led to permanent settlements and the development of complex social structures. Urbanization also played a crucial role, with cities becoming centers of trade, administration, and cultural exchange. The birth of civilization marked a shift from small-scale societies to larger, hierarchical ones, profoundly transforming human existence."
+        },
+        {
+            "id": 63,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Anthropology",
+            "style": "formal",
+            "type": "analysis",
+            "entities": [
+                "Homo sapiens",
+                "Cultural diffusion",
+                "Technological advancements",
+                "Social stratification"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization was a result of Homo sapiens' cognitive abilities and their capacity for collective learning. Through cultural diffusion, ideas, technologies, and practices spread across different regions, contributing to the development of complex societies. Technological advancements, such as the invention of agriculture and metalworking, allowed for surplus food production, population growth, and specialization of labor. Alongside these advancements, social stratification emerged, leading to the establishment of ruling classes and the division of labor based on skills and social status."
+        },
+        {
+            "id": 64,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Sociology",
+            "style": "informal",
+            "type": "opinion",
+            "entities": [
+                "Civilization",
+                "Complex societies",
+                "Human progress",
+                "Cultural diversity"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization is a fascinating topic that sparks debates among scholars. Some argue that civilization represents human progress, showcasing the growth of complex societies and cultural diversity. Others view it as an arbitrary construct that emphasizes certain types of human accomplishments while ignoring alternative ways of organizing societies. Examining different perspectives on the birth of civilization enables us to challenge our preconceived notions and engage in critical discussions about the foundations of human societies."
+        },
+        {
+            "id": 65,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Architecture",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "Ziggurat",
+                "Great Pyramid of Giza",
+                "Mohenjo-daro",
+                "Terracotta Army"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization is exemplified by iconic architectural structures that still astound us today. One such example is the Ziggurat, a pyramid-like temple tower found in Mesopotamia. Its grandeur symbolized the connection between humans and the divine. The Great Pyramid of Giza stands as a testament to ancient Egyptian ingenuity, serving as a burial site for pharaohs. In Mohenjo-daro, the planned city of the Indus Valley civilization, we find an array of well-organized structures. The Terracotta Army from ancient China showcases the artistic and military prowess of the Qin Dynasty."
+        },
+        {
+            "id": 66,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Anthropology",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Hunter-gatherers",
+                "Agricultural revolution",
+                "Sedentary lifestyles",
+                "Domestication"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization marked a monumental shift from nomadic hunter-gatherer societies to settled agricultural communities. This transition, often referred to as the agricultural revolution, began around 10,000 BCE and resulted in significant changes in human lifestyles. As people began cultivating plants and domesticating animals, they were able to establish permanent settlements and rely less on hunting and gathering for sustenance. The adoption of sedentary lifestyles allowed for the development of more complex social structures, trade networks, and cultural advancements."
+        },
+        {
+            "id": 67,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Art History",
+            "style": "formal",
+            "type": "analysis",
+            "entities": [
+                "Cave paintings",
+                "Sumerian art",
+                "Egyptian hieroglyphs",
+                "Indus Valley seals"
+            ],
+            "correctness": true,
+            "text": "Artistic expressions provide valuable insights into the birth of civilization and the cultural aspects of early societies. Cave paintings found in various parts of the world, such as Lascaux in France, depict scenes from daily life and serve as evidence of human creativity. Sumerian art, including intricate cylinder seals and sculptures, reflects their religious beliefs and societal hierarchy. Egyptian hieroglyphs showcase a sophisticated writing system that preserved historical records and conveyed complex ideas. The seals of the Indus Valley civilization offer glimpses into their trade practices and organizational systems."
+        },
+        {
+            "id": 68,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 9,
+            "topic": "Anthropology",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "Civilization",
+                "Mesopotamia",
+                "Harappa",
+                "Yellow River Valley"
+            ],
+            "correctness": true,
+            "text": "To understand the birth of civilization, examining specific examples is crucial. Mesopotamia, often referred to as the cradle of civilization, witnessed the rise of city-states like Sumer and Babylon with their advanced irrigation systems and legal codes such as Hammurabi's Code. Harappa, a major urban center in the Indus Valley civilization, boasted an organized layout with sewage systems and unique script yet to be fully deciphered. In the Yellow River Valley, ancient Chinese civilizations such as the Shang and Zhou dynasties established centralized rule and introduced early forms of writing."
+        },
+        {
+            "id": 69,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Religion",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Polytheism",
+                "Ziggurats",
+                "Pharaohs",
+                "Vedic religion"
+            ],
+            "correctness": true,
+            "text": "Religious beliefs played a significant role in the birth of civilization. Polytheistic systems involving multiple deities were prevalent in early civilizations. In Mesopotamia, ziggurats served as temple complexes dedicated to various gods and goddesses. Egyptian pharaohs were considered divine and responsible for maintaining order and ensuring successful harvests. In the Indus Valley, seals featuring animals hint at a possible connection between religion and nature worship. Vedic religion in ancient India emphasized ritual sacrifice and cosmic order, providing insights into the spiritual foundations of early societies."
+        },
+        {
+            "id": 70,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "Catalhoyuk",
+                "Jiroft culture",
+                "Caral",
+                "Oldest city"
+            ],
+            "correctness": true,
+            "text": "While the birth of civilization is often associated with well-known ancient civilizations, there were also lesser-known centers of early human settlement. Catalhoyuk in present-day Turkey is considered one of the oldest cities ever discovered, providing evidence of complex social structures and advanced architecture. The Jiroft culture in southeastern Iran showcases an independent urban center with remarkable artwork and sophisticated pottery. Caral in Peru bears testimony to the development of a thriving urban society in the Americas around 5,000 years ago, predating the Inca civilization."
+        },
+        {
+            "id": 71,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 4,
+            "topic": "Social Sciences",
+            "style": "formal",
+            "type": "analysis",
+            "entities": [
+                "Urbanization",
+                "Trade networks",
+                "Government systems",
+                "Class divisions"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization brought about notable changes in various aspects of human societies. Urbanization played a crucial role, as settlements grew into cities with distinct economic and social institutions. Trade networks expanded, fostering connections between different regions and enabling the exchange of goods and ideas. Government systems emerged, ranging from city-states with hereditary rulers to centralized empires with elaborate bureaucracies. With increased social complexity, class divisions became more pronounced, with ruling elites and laboring classes occupying distinct positions within society."
+        },
+        {
+            "id": 72,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Sociology",
+            "style": "informal",
+            "type": "opinion",
+            "entities": [
+                "Civilization",
+                "Societal progress",
+                "Human achievements",
+                "Sustainable development"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization raises questions about societal progress and the notion of human achievements. While some applaud the advancements in technology, governance, and cultural expressions, others highlight the negative consequences such as environmental degradation and societal inequalities. Reflecting on the birth of civilization invites us to critically examine the path of human development and strive for sustainable practices that benefit both present and future generations."
+        },
+        {
+            "id": 73,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "Mesopotamia",
+                "Egypt",
+                "Harappa",
+                "Mesoamerica"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization unfolded across different regions of the world, leaving behind traces of human ingenuity and cultural diversity. In Mesopotamia, the city-states of Sumer, Akkad, and Babylon thrived with their impressive architectural structures and sophisticated legal systems. Ancient Egypt boasted monumental pyramids and intricate hieroglyphic writing. The urban center at Harappa exemplified the organization and planning of the Indus Valley civilization. Mesoamerica witnessed the rise of civilizations like the Maya and Aztecs, known for their complex calendrical systems and monumental architecture."
+        },
+        {
+            "id": 74,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Political Science",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "City-states",
+                "Empires",
+                "Dynastic rule",
+                "Legal codes"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed diverse forms of governance and political organization. City-states, such as those in ancient Mesopotamia, operated as independent entities with their own rulers and systems of governance. Empires like the Assyrians and Persians expanded their control over vast territories, often employing conquered regions' existing administrative structures. Dynastic rule was prevalent, with ruling families maintaining power for extended periods. Legal codes, such as Hammurabi's Code in Babylon, aimed to establish societal norms and ensure justice and order within early civilizations."
+        },
+        {
+            "id": 75,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 4,
+            "topic": "Environmental Science",
+            "style": "formal",
+            "type": "analysis",
+            "entities": [
+                "Agricultural practices",
+                "Deforestation",
+                "Water management",
+                "Ecological impact"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization had profound environmental implications. The adoption of agricultural practices led to deforestation for clearing land and creating space for crops. Irrigation systems were developed to manage water resources, enabling agriculture in arid regions but sometimes leading to salinization or depletion of freshwater sources. Increased population densities and urbanization put pressure on available resources, impacting local ecosystems. Studying the ecological impact of early civilizations allows us to better understand the long-term sustainability challenges that emerged with the birth of complex societies."
+        },
+        {
+            "id": 76,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Cultural Studies",
+            "style": "informal",
+            "type": "opinion",
+            "entities": [
+                "Cultural identity",
+                "Cultural relativism",
+                "Eurocentrism",
+                "Multiculturalism"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization invites discussions on cultural identity and the interpretation of human history. Cultural relativism advocates for understanding civilizations within their specific contexts, challenging Eurocentric narratives that often prioritize Western perspectives. Embracing multiculturalism enables us to appreciate the diversity of human experiences and reevaluate our preconceived notions about progress and development. Exploring the birth of civilization brings to light the complexities of human culture and the need for inclusive and nuanced interpretations of our shared past."
+        },
+        {
+            "id": 77,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Tigris and Euphrates",
+                "Nile River",
+                "Indus River",
+                "Yellow River"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization was intimately linked to the presence of rivers that provided essential resources for early settlements. Mesopotamia thrived between the Tigris and Euphrates rivers, benefiting from fertile lands that facilitated agriculture. The Nile River in Egypt played a pivotal role, providing water and fertile soil for the cultivation of crops. In the Indus Valley, settlements along the Indus River capitalized on its annual floods to support agricultural activities. The Yellow River in China nourished ancient civilizations, allowing for the development of prosperous agricultural communities."
+        },
+        {
+            "id": 78,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Linguistics",
+            "style": "formal",
+            "type": "opinion",
+            "entities": [
+                "Language diversity",
+                "Proto-languages",
+                "Language evolution",
+                "Oral traditions"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization raises intriguing questions about the evolution of human languages. While written records provide valuable insights into the past, they also present limitations and biases. Many early civilizations relied primarily on oral traditions, resulting in limited documentation and obscuring our understanding of language diversity during that period. The recognition of proto-languages and ongoing linguistic research helps shed light on the ancestral roots of modern languages and offers glimpses into the linguistic landscape of early civilizations."
+        },
+        {
+            "id": 79,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Art History",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "Tutankhamun's mask",
+                "Stele of Hammurabi",
+                "Bronze figurines",
+                "Maya murals"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization is associated with stunning examples of artistic achievements. Tutankhamun's golden mask from ancient Egypt represents intricate craftsmanship and symbolizes the power of pharaohs. The Stele of Hammurabi showcases the carving of legal codes upon stone, demonstrating the importance of jurisprudence in Babylon. Bronze figurines from various ancient civilizations exhibit advanced metallurgical techniques and testify to the significance of decorative arts. Maya murals, discovered in Mesoamerican temples, depict elaborate scenes of rituals, warfare, and other aspects of Mayan culture."
+        },
+        {
+            "id": 80,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Anthropology",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "Civilization",
+                "Mesopotamia",
+                "Ancient Egypt",
+                "Mohenjo-daro"
+            ],
+            "correctness": true,
+            "text": "To illustrate the birth of civilization, specific examples highlight the achievements and characteristics of early societies. Mesopotamia, with its extraordinary city-states like Uruk and Ur, shaped the course of human history through innovations in agriculture, trade, and governance. Ancient Egypt, with its monumental architecture and belief in an afterlife, contributes to our understanding of religious and cultural practices in the region. Mohenjo-daro, one of the major settlements of the Indus Valley civilization, offers glimpses into the urban planning and sophisticated sanitation systems of that time."
+        },
+        {
+            "id": 81,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Sociology",
+            "style": "informal",
+            "type": "opinion",
+            "entities": [
+                "Civilization",
+                "Societal progress",
+                "Cultural diversity",
+                "Technological advancements"
+            ],
+            "correctness": false,
+            "text": "The concept of civilization is subject to interpretation and varies across different contexts. While some view civilizations as markers of societal progress, showcasing technological advancements and cultural diversity, others critique the term for its Eurocentric bias and disregard for alternative ways of organizing societies. Studying the birth of civilization requires acknowledging and questioning these biases to gain a comprehensive understanding of human history and societal complexities."
+        },
+        {
+            "id": 82,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "Anthropology",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "Sumerians",
+                "Pharaohs",
+                "Harappan civilization",
+                "Maya city-states"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization encompasses a vast range of ancient societies, each contributing unique aspects to human history. The Sumerians in Mesopotamia introduced writing and developed an elaborate pantheon of gods and goddesses. Ancient Egypt's pharaohs governed with divine authority and constructed monumental structures like the pyramids. The Harappan civilization in the Indus Valley displayed impressive urban planning and advanced drainage systems. In Mesoamerica, Maya city-states flourished with their intricate hieroglyphic writing and complex astronomical knowledge."
+        },
+        {
+            "id": 83,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Social Sciences",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Economic specialization",
+                "Craftsmanship",
+                "Administrative centers",
+                "Religious institutions"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed increasing economic specialization and the emergence of various professions. Craftsmanship became highly valued, as artisans produced exquisite pottery, jewelry, textiles, and tools. Administrative centers developed, managing fiscal matters and coordinating public works. Religious institutions grew in prominence, with priests and priestesses playing essential roles in ceremonies and maintaining communication with the divine. These social developments laid the foundations for societal complexity and cultural achievements within early civilizations."
+        },
+        {
+            "id": 84,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Cultural Studies",
+            "style": "informal",
+            "type": "opinion",
+            "entities": [
+                "Civilization",
+                "Complex societies",
+                "Cultural exchange",
+                "Global history"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization invites us to explore the interconnectedness of diverse cultures throughout history. Complex societies emerged not as isolated entities but through extensive cultural exchange and interaction. The study of global history reminds us that civilization is a collective effort shaped by multiple regions and civilizations. It challenges the notion of a single birthplace of civilization and highlights the continuous exchange of ideas and practices across different parts of the world."
+        },
+        {
+            "id": 85,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Stonehenge",
+                "Pyramids of Teotihuacan",
+                "Great Wall of China",
+                "Tikal"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization left behind monumental structures that continue to captivate our imagination. Stonehenge in England stands as a mysterious testament to ancient astronomical knowledge and sophisticated stone construction techniques. The pyramids of Teotihuacan in Mexico represent an awe-inspiring architectural achievement and a reflection of the Mesoamerican civilization's power and influence. The Great Wall of China showcases both the defensive capabilities and the monumental efforts of early Chinese kingdoms to protect their borders. Tikal, a Mayan city in present-day Guatemala, features towering pyramids and elaborate temples."
+        },
+        {
+            "id": 86,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Linguistics",
+            "style": "formal",
+            "type": "opinion",
+            "entities": [
+                "Language diversity",
+                "Written records",
+                "Oral traditions",
+                "Language evolution"
+            ],
+            "correctness": false,
+            "text": "Investigating the birth of civilization raises intriguing questions about language diversity and its evolution. While written records provide valuable insights into certain civilizations, they often exclude those lacking written traditions. Oral traditions played a crucial role in passing knowledge across generations, creating complex storytelling traditions that helped encode cultural practices. Recognizing the significance of both oral and written forms of communication is vital for understanding the linguistic landscape during the emergence of ancient civilizations."
+        },
+        {
+            "id": 87,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 8,
+            "topic": "History",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "Civilization",
+                "Mesopotamia",
+                "Ancient Egypt",
+                "Indus Valley"
+            ],
+            "correctness": true,
+            "text": "When examining the birth of civilization, specific examples shed light on the various advancements achieved by different early societies. Mesopotamia, with its notable city-states like Ur and Babylon, demonstrated advancements in governance, law, and infrastructure. Ancient Egypt's pharaohs left behind vast architectural marvels and legacy of spiritual beliefs. The Indus Valley civilization showcased meticulous urban planning and advanced sanitation systems. By delving into these examples, we gain a deeper appreciation for the diverse achievements that marked the birth of civilization."
+        },
+        {
+            "id": 88,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Sociology",
+            "style": "formal",
+            "type": "analysis",
+            "entities": [
+                "Gender roles",
+                "Social hierarchies",
+                "Slavery",
+                "Inequality"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization brought about complex social structures with distinct gender roles, social hierarchies, and varying degrees of inequality. Gender roles were often defined by societal norms, assigning specific tasks and responsibilities to men and women. Social hierarchies emerged, with power concentrated in the hands of elite groups or ruling classes. Slavery was a prevalent institution, with captured individuals forced into servitude. These hierarchical arrangements led to varying levels of wealth, privilege, and access to resources within early civilizations."
+        },
+        {
+            "id": 89,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Art History",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "Ancient Greek sculpture",
+                "Mayan architecture",
+                "Indian temple art",
+                "African cave paintings"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed an astounding variety of artistic expressions across different cultures and regions. Ancient Greek sculpture, with its lifelike portrayals of the human form, represents a pinnacle of artistic achievement. Mayan architecture displays intricate carvings and towering pyramids, reflecting their sophisticated understanding of mathematics and astronomy. Indian temple art showcases intricate stone carvings depicting gods, goddesses, and epic narratives. African cave paintings offer glimpses into ancient traditions and document the diverse cultural heritage of the continent."
+        },
+        {
+            "id": 90,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Cultural Studies",
+            "style": "informal",
+            "type": "opinion",
+            "entities": [
+                "Civilization",
+                "Cross-cultural exchange",
+                "Cultural assimilation",
+                "Colonialism"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization invites us to reflect on the concepts of cross-cultural exchange and cultural assimilation. As civilizations interacted and expanded their territories, they often absorbed or adapted aspects of other cultures, leading to a dynamic fusion of ideas and practices. However, it is crucial to critically examine these exchanges, considering the power dynamics and consequences such as cultural appropriation or forced assimilation often associated with colonialism and imperialism. Exploring the birth of civilization entails acknowledging the nuanced complexities of cultural interaction throughout history."
+        },
+        {
+            "id": 91,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 4,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Urban settlements",
+                "Earthen mounds",
+                "Complex societies",
+                "Ceremonial centers"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed striking developments in urban settlements and the rise of complex societies. Earthen mounds, such as those found in ancient Mesopotamia or the Mississippian civilization in North America, served as monumental structures for ceremonial purposes. These centers became focal points for trade, political decision-making, and religious practices. The emergence of complex societies was characterized by labor specialization, stratified social hierarchies, and the crystallization of cultural traditions that influenced subsequent civilizations."
+        },
+        {
+            "id": 92,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "History",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "Mesopotamia",
+                "Egypt",
+                "Indus Valley",
+                "China"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization is a topic that has captivated historians and archaeologists for centuries. It refers to the development of human society from hunter-gatherer communities to complex urban civilizations. Some of the earliest known civilizations emerged in Mesopotamia, Egypt, the Indus Valley, and China. These ancient civilizations were characterized by advancements in agriculture, architecture, writing systems, and political organization. They laid the foundation for future societies and left behind impressive monuments, such as the pyramids of Egypt and the Great Wall of China."
+        },
+        {
+            "id": 93,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Archaeology",
+            "style": "academic",
+            "type": "overview",
+            "entities": [
+                "Neolithic Revolution",
+                "cultural diffusion",
+                "sedentary lifestyle"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization can be attributed to the Neolithic Revolution, a period of transition from hunting and gathering to settled agriculture. This revolution led to the development of permanent settlements and the domestication of plants and animals. As populations grew, so did the need for social and economic organization. Cultural diffusion played a crucial role in spreading knowledge and ideas between different regions, allowing for the exchange of technologies and practices. The establishment of a sedentary lifestyle marked a significant shift in human history and set the stage for the rise of complex societies."
+        },
+        {
+            "id": 94,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Anthropology",
+            "style": "casual",
+            "type": "historical background",
+            "entities": [
+                "hunter-gatherers",
+                "agricultural revolution"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization can be seen as the transition from a nomadic lifestyle of hunter-gatherer societies to settled agricultural communities. This change occurred thousands of years ago when humans learned to cultivate crops and domesticate animals. It led to a more stable food supply, enabling people to establish permanent settlements. The agricultural revolution marked a turning point in human history as it allowed for population growth, specialization of labor, and the development of complex social structures. This laid the foundation for the emergence of early civilizations around the world."
+        },
+        {
+            "id": 95,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Sociology",
+            "style": "informal",
+            "type": "mythological perspective",
+            "entities": [
+                "creation myths",
+                "gods",
+                "divine beings"
+            ],
+            "correctness": true,
+            "text": "In various mythological traditions, the birth of civilization is often attributed to divine beings or gods. Creation myths from different cultures depict the gods shaping the world and imbuing it with order and purpose. These stories highlight the belief that human society was deliberately created by higher powers. While these myths may not align with scientific explanations, they offer insights into how ancient civilizations perceived their origins and the role of divine intervention in shaping human history. Such myths continue to be significant cultural artifacts in many societies."
+        },
+        {
+            "id": 96,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Geography",
+            "style": "academic",
+            "type": "geographical factors",
+            "entities": [
+                "rivers",
+                "fertile land",
+                "natural resources"
+            ],
+            "correctness": true,
+            "text": "Geographical factors played a crucial role in the birth of civilization. Many early civilizations developed along rivers such as the Tigris and Euphrates in Mesopotamia, the Nile in Egypt, and the Indus in the Indus Valley. These rivers provided a reliable source of water for agriculture and facilitated transportation and trade. The availability of fertile land allowed for the cultivation of crops, leading to surplus food production. Additionally, regions rich in natural resources like metals and minerals supported the development of advanced technologies and craftsmanship."
+        },
+        {
+            "id": 97,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Architecture",
+            "style": "formal",
+            "type": "monumental structures",
+            "entities": [
+                "pyramids",
+                "ziggurats",
+                "temple complexes"
+            ],
+            "correctness": true,
+            "text": "One of the most remarkable legacies of the birth of civilization is the construction of monumental structures. The pyramids of Egypt, the ziggurats of Mesopotamia, and the temple complexes of ancient civilizations stand as awe-inspiring examples of architectural achievements. These structures served religious, political, and social functions, showcasing the power and grandeur of the ruling elites. They were symbols of cultural identity and played a vital role in establishing a sense of community among the people. The architectural marvels of early civilizations continue to inspire awe and admiration to this day."
+        },
+        {
+            "id": 98,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 1,
+            "topic": "Art",
+            "style": "casual",
+            "type": "creative expressions",
+            "entities": [
+                "cave paintings",
+                "sculptures",
+                "pottery"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the emergence of various forms of artistic expression. Cave paintings, sculptures, and pottery have been discovered in archaeological sites, providing glimpses into the lives and beliefs of ancient societies. These artworks served diverse purposes, such as religious rituals, storytelling, and decorative ornamentation. They reflect the creativity and imagination of early humans and are valuable cultural artifacts that provide insights into the aesthetic sensibilities and cultural values of past civilizations. The artistic traditions established during this period laid the foundation for the rich artistic heritage we see today."
+        },
+        {
+            "id": 99,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Religion",
+            "style": "informal",
+            "type": "spiritual beliefs",
+            "entities": [
+                "polytheism",
+                "animism",
+                "ancestor worship"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization brought forth a multitude of spiritual beliefs and practices. Many early civilizations embraced polytheism, worshipping a pantheon of gods and goddesses associated with natural forces and human experiences. Animism, the belief in the spiritual essence of non-human entities, was also prevalent. Ancestor worship, honoring deceased family members as intermediaries between the living and the divine, was a significant aspect of religious life in many cultures. These belief systems played a vital role in shaping social norms, rituals, and mythologies within early civilizations."
+        },
+        {
+            "id": 100,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Economics",
+            "style": "academic",
+            "type": "trade networks",
+            "entities": [
+                "Silk Road",
+                "Amber Route",
+                "Mediterranean Sea"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization led to the development of intricate trade networks that spanned vast distances. The Silk Road, connecting China with Europe, facilitated the exchange of goods, ideas, and technologies between East and West. The Amber Route, stretching across Europe, enabled the trade of precious amber. Maritime routes, such as those crossing the Mediterranean Sea, connected different regions and fostered cultural diffusion. These trade networks played a pivotal role in fueling economic growth, promoting cultural exchange, and shaping the interconnectedness of early civilizations."
+        },
+        {
+            "id": 101,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Politics",
+            "style": "formal",
+            "type": "early governance",
+            "entities": [
+                "city-states",
+                "pharaohs",
+                "dynasties"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization marked the establishment of early forms of governance and political organization. City-states emerged in various regions, each having its own system of rule and administration. Ancient Egypt witnessed the centralized power of pharaohs who were considered divine rulers. Dynasties like the Zhou in China and the Maurya in India shaped political structures and policies for centuries. These early governing systems laid down the foundations for later complex political institutions and ideologies that would emerge in human history."
+        },
+        {
+            "id": 102,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 1,
+            "topic": "Science",
+            "style": "casual",
+            "type": "early discoveries",
+            "entities": [
+                "astronomy",
+                "medicine",
+                "mathematics"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed significant advancements in various scientific disciplines. Early civilizations developed knowledge and understanding in fields like astronomy, allowing them to track celestial movements and develop calendars. Medical practices, albeit limited by the available technology, saw progress with basic treatments and herbal remedies. Mathematics and geometry were also explored, leading to the development of basic arithmetic and architectural principles. While the scientific achievements of early civilizations may seem rudimentary compared to modern standards, they set the stage for future scientific inquiry and paved the way for remarkable breakthroughs."
+        },
+        {
+            "id": 103,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Literature",
+            "style": "informal",
+            "type": "oral traditions",
+            "entities": [
+                "epics",
+                "myths",
+                "poetry"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization brought forth rich oral traditions and storytelling practices. Epics, myths, and poetry were passed down through generations, preserving cultural history, moral values, and collective memories. These oral traditions played a significant role in shaping the cultural identity of early civilizations and served as a means of entertainment and education. While written literature was limited during this period, the spoken word held immense power and played a pivotal role in transmitting knowledge, beliefs, and cultural heritage from one generation to another."
+        },
+        {
+            "id": 104,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Technology",
+            "style": "academic",
+            "type": "innovations",
+            "entities": [
+                "wheel",
+                "writing system",
+                "metallurgy"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed remarkable technological innovations that shaped human progress. The invention of the wheel revolutionized transportation and trade networks. Writing systems, such as cuneiform in Mesopotamia and hieroglyphics in Egypt, allowed for the recording and documentation of information. Metallurgy, the practice of working with metals, led to the production of tools, weapons, and advanced craftsmanship. These technological advancements not only improved daily life but also laid the groundwork for future scientific and industrial developments."
+        },
+        {
+            "id": 105,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Social Structure",
+            "style": "formal",
+            "type": "hierarchy",
+            "entities": [
+                "kings",
+                "nobles",
+                "commoners"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the emergence of complex social structures characterized by hierarchical divisions. Kings and rulers occupied the top positions of authority and were often seen as divine or chosen by the gods. Nobles, who held various titles and privileges, formed an elite class. Commoners constituted the majority of the population, engaging in agriculture, trade, and crafts. This hierarchical organization created social stratification and defined the rights and responsibilities of individuals based on their position in society."
+        },
+        {
+            "id": 106,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Culture",
+            "style": "casual",
+            "type": "cultural practices",
+            "entities": [
+                "festivals",
+                "rituals",
+                "food traditions"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization gave rise to diverse cultural practices that shaped the identities of early societies. Festivals and rituals played an integral role in religious and social life, providing opportunities for community bonding and expression of communal identity. Food traditions reflected the agricultural practices and available resources of a region while serving as markers of cultural heritage. Traditional music, dance, and storytelling were other significant cultural expressions that fostered a sense of unity and belonging among members of early civilizations."
+        },
+        {
+            "id": 107,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Environment",
+            "style": "informal",
+            "type": "impact of nature",
+            "entities": [
+                "climate change",
+                "natural disasters",
+                "agricultural productivity"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization was influenced by the natural environment and its impact on human societies. Climate change, natural disasters, and shifts in agricultural productivity played significant roles in shaping the course of human history. Changes in climate patterns affected agricultural practices and food production, leading to resource scarcity and population movements. Natural disasters like floods and earthquakes could devastate settlements and disrupt social order. Understanding the interplay between humans and their environment is crucial for comprehending the challenges and achievements of early civilizations."
+        },
+        {
+            "id": 108,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Education",
+            "style": "academic",
+            "type": "scholarly institutions",
+            "entities": [
+                "scribal schools",
+                "academies",
+                "gurukulas"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the establishment of educational systems and scholarly institutions. Scribes in Mesopotamia were trained in scribal schools, learning the art of writing and record-keeping. Academies in ancient Greece fostered intellectual pursuits and teachings of philosophy, mathematics, and rhetoric. In India, gurukulas served as institutions for holistic learning, where students lived with a guru (teacher) and mastered various subjects. These educational institutions played a vital role in preserving knowledge, advancing intellectual thought, and nurturing future generations of scholars."
+        },
+        {
+            "id": 109,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Migration",
+            "style": "formal",
+            "type": "population movements",
+            "entities": [
+                "nomadic tribes",
+                "settler colonizers",
+                "trade routes"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization was accompanied by significant population movements and migrations. Nomadic tribes roamed vast territories, following seasonal patterns and available resources. Settler colonizers ventured into unexplored lands, establishing new societies and adapting to different environments. Trade routes facilitated the movement of people and goods, leading to cultural exchanges and the diffusion of ideas. These migrations played a crucial role in shaping demographics, cultural diversity, and the spread of civilizations across continents."
+        },
+        {
+            "id": 110,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 1,
+            "topic": "Gender Roles",
+            "style": "casual",
+            "type": "division of labor",
+            "entities": [
+                "patriarchy",
+                "matrilineal",
+                "gendered occupations"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the establishment of gender roles and divisions of labor within societies. Patriarchal systems emerged in many civilizations, granting men dominance in political, economic, and social spheres. However, there were exceptions such as matrilineal societies where descent and inheritance were traced through female lines. Gendered occupations also existed, with certain tasks and professions predominantly associated with either men or women. Understanding the dynamics of gender roles provides insights into the social structures and power dynamics of early civilizations."
+        },
+        {
+            "id": 111,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Law and Justice",
+            "style": "informal",
+            "type": "early legal systems",
+            "entities": [
+                "Hammurabi's Code",
+                "Ma'at",
+                "oral traditions"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the emergence of formal legal systems and concepts of justice. Hammurabi's Code, one of the earliest known legal codes, provided guidelines for governance and punishment in ancient Mesopotamia. The concept of Ma'at in Ancient Egypt emphasized balance, truth, and harmony as the foundation of justice. In the absence of written laws, many early civilizations relied on oral traditions and cultural norms to maintain social order and resolve disputes. These early legal systems laid the groundwork for modern legal frameworks and notions of justice."
+        },
+        {
+            "id": 112,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Religious Practices",
+            "style": "academic",
+            "type": "rituals and ceremonies",
+            "entities": [
+                "temple rituals",
+                "sacrifices",
+                "prayers"
+            ],
+            "correctness": true,
+            "text": "Religious practices played a central role in the birth of civilization. Temples served as sacred spaces for worship, ceremonies, and religious rituals. Offerings, sacrifices, and prayers were common practices aimed at establishing a connection with the divine. Priesthoods held significant influence and acted as intermediaries between the gods and the people. Rituals marked various life events, including birth, marriage, and death, and were integral to the social fabric of early civilizations. Religion provided a framework for moral values, social cohesion, and explanations for the mysteries of life."
+        },
+        {
+            "id": 113,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Urbanization",
+            "style": "formal",
+            "type": "growth of cities",
+            "entities": [
+                "population density",
+                "infrastructure",
+                "city planning"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the rapid growth of cities and urban centers. As agricultural productivity increased, surplus food allowed for the development of specialized occupations and trade. Urbanization led to population density in concentrated areas, necessitating the construction of infrastructure like roads, bridges, and sanitation systems. City planning became crucial to accommodate the growing population and ensure efficient use of resources. The rise of urban centers transformed social dynamics and paved the way for advancements in governance, culture, and economy."
+        },
+        {
+            "id": 114,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 1,
+            "topic": "Warfare",
+            "style": "casual",
+            "type": "military strategies",
+            "entities": [
+                "sieges",
+                "chariots",
+                "archers"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the evolution of warfare and military strategies. Early civilizations developed tactics such as siege warfare, which involved laying siege to fortified cities to starve out the enemy. The use of chariots and skilled archers provided an advantage on the battlefield. Military advancements were driven by the need to defend territories, expand empires, and protect valuable resources. Understanding the history of warfare helps shed light on the complex interplay between power, politics, and conquest during the early stages of civilization."
+        },
+        {
+            "id": 115,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Healthcare",
+            "style": "informal",
+            "type": "medical practices",
+            "entities": [
+                "herbal remedies",
+                "shamanism",
+                "spiritual healing"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization saw the development of various medical practices and beliefs around health and healing. Herbal remedies were commonly used for treating ailments, and knowledge of medicinal plants was passed down through generations. Shamanism, a spiritual practice involving communication with the spirit world, played a role in diagnosis and healing. Spiritual healers were sought after for their ability to address both physical and spiritual illnesses. While medical practices during this time might seem rudimentary by modern standards, they reflect early attempts to understand and care for human health."
+        },
+        {
+            "id": 116,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Communication",
+            "style": "academic",
+            "type": "evolution of writing",
+            "entities": [
+                "cuneiform",
+                "hieroglyphics",
+                "pictographs"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization marked a significant milestone in the evolution of human communication. Early civilizations developed various writing systems, such as cuneiform in Mesopotamia, hieroglyphics in Egypt, and pictographic scripts in different regions. These scripts enabled the recording and preservation of information, facilitating trade, administration, governance, and cultural transmission. The development of writing revolutionized communication, allowing for the dissemination of knowledge and the growth of intellectual pursuits. Writing systems continue to be essential tools for human expression and knowledge preservation."
+        },
+        {
+            "id": 117,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Migration",
+            "style": "formal",
+            "type": "spread of civilization",
+            "entities": [
+                "Bantu migrations",
+                "Austronesian expansion",
+                "migration corridors"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization involved the spread of human populations through migration. The Bantu migrations, originating in West Africa, led to the expansion of agricultural communities across Sub-Saharan Africa. Austronesian speakers expanded from Taiwan, populating islands across Southeast Asia and the Pacific. These migrations created cultural diversity and facilitated the diffusion of technologies, trade networks, and languages. Migration corridors emerged as routes connecting different regions, allowing for the exchange of goods and ideas. The migrations during this period contributed to the shaping of regional identities and the formation of new civilizations."
+        },
+        {
+            "id": 118,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Sports and Recreation",
+            "style": "casual",
+            "type": "leisure activities",
+            "entities": [
+                "olympic games",
+                "ball games",
+                "board games"
+            ],
+            "correctness": true,
+            "text": "Even in the early stages of civilization, sports and recreational activities played a role in social life. The Olympic Games in ancient Greece were a celebration of physical prowess and served as a platform for friendly competition between city-states. Ball games, such as Mesoamerican ballgames, had ritualistic and symbolic significance. Board games like Senet in ancient Egypt provided entertainment and cognitive stimulation. These leisure activities fostered social interaction, cultural exchange, and the development of skills while providing moments of respite from daily routines."
+        },
+        {
+            "id": 119,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Innovation",
+            "style": "informal",
+            "type": "technological breakthroughs",
+            "entities": [
+                "domestication",
+                "irrigation",
+                "hydraulic engineering"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed numerous technological innovations that fundamentally transformed human existence. One such innovation was the domestication of plants and animals, allowing for a reliable food supply and a shift from a nomadic lifestyle to settled communities. The development of irrigation systems enabled efficient farming practices and increased agricultural productivity. Hydraulic engineering projects like canals and reservoirs facilitated water management and provided crucial resources for large populations. These technological breakthroughs revolutionized human societies, paving the way for further advancements and societal complexities."
+        },
+        {
+            "id": 120,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Music",
+            "style": "academic",
+            "type": "early musical traditions",
+            "entities": [
+                "drums",
+                "flutes",
+                "lyres"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed the emergence of early musical traditions. Drums, flutes, and lyres were among the most common musical instruments used in ancient societies. Music played a vital role in rituals, ceremonies, and cultural expressions. It served as a means of communication, storytelling, and entertainment. Music had the power to evoke emotions, create social bonds, and connect individuals with the spiritual realm. Exploring the musical traditions of early civilizations provides insights into their cultural values, artistic sensibilities, and the importance of music in human experiences."
+        },
+        {
+            "id": 121,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Food and Cuisine",
+            "style": "formal",
+            "type": "culinary practices",
+            "entities": [
+                "agriculture",
+                "irrigation",
+                "culinary traditions"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization transformed human diets and culinary practices. The advent of agriculture provided a more stable food supply, allowing for the development of diverse cuisines. Irrigation systems enabled the cultivation of crops in arid regions, expanding agricultural possibilities. Preparation techniques, cooking methods, and the use of spices and herbs varied across different cultures, reflecting their unique culinary traditions. Food and cuisine not only nourished early civilizations but also became significant cultural markers and sources of collective identity."
+        },
+        {
+            "id": 122,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 1,
+            "topic": "Migration",
+            "style": "casual",
+            "type": "cross-cultural interactions",
+            "entities": [
+                "trade routes",
+                "explorations",
+                "cultural assimilation"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization led to intensified cross-cultural interactions as a result of migration, exploration, and trade. Long-distance trade routes, such as the Silk Road and Trans-Saharan routes, connected distant regions, facilitating the exchange of goods, ideas, and knowledge. Explorations by seafaring civilizations, like the Polynesians and Phoenicians, expanded horizons and fostered cultural diffusion. These interactions often resulted in the assimilation or adoption of foreign customs, technologies, and ideologies, leading to cultural hybridization and the emergence of new cultural practices."
+        },
+        {
+            "id": 123,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 8,
+            "topic": "History",
+            "style": "informal",
+            "type": "introduction",
+            "entities": [
+                "Mesopotamia",
+                "Sumerians",
+                "city-states",
+                "writing",
+                "irrigation"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization can be traced back to ancient Mesopotamia, where the Sumerians built the first cities and established the foundation for modern society. These early city-states developed advanced systems of writing, such as cuneiform, which allowed for record keeping and communication. The success of agriculture and irrigation techniques also played a significant role in the growth of civilizations in this region."
+        },
+        {
+            "id": 124,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "overview",
+            "entities": [
+                "Neolithic period",
+                "hunter-gatherers",
+                "agriculture",
+                "settled communities"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization marks the transition from the Neolithic period, characterized by hunter-gatherer societies, to settled communities reliant on agriculture. This shift from nomadic lifestyles to permanent settlements enabled the development of more complex social structures and cultural practices. The advent of agriculture brought about a surplus of food, allowing populations to grow and giving rise to the first cities and civilizations."
+        },
+        {
+            "id": 125,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Anthropology",
+            "style": "informal",
+            "type": "fact",
+            "entities": [
+                "agricultural revolution",
+                "domestication of plants and animals"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization can be attributed to the agricultural revolution, which involved the domestication of plants and animals. This allowed early human societies to become more sedentary and develop permanent settlements. With a stable food supply, communities could allocate more time and resources towards building infrastructure, developing specialized skills, and engaging in trade and commerce."
+        },
+        {
+            "id": 126,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mythology",
+            "style": "formal",
+            "type": "creative",
+            "entities": [
+                "creation myths",
+                "mythological beings"
+            ],
+            "correctness": true,
+            "text": "In mythology, the birth of civilization is often associated with creation myths and the actions of mythological beings. These stories provide symbolic explanations for the origins of civilization, attributing its birth to divine intervention or extraordinary events. They reflect the cultural beliefs and values of different societies and offer insights into their worldview and understanding of the world's beginnings."
+        },
+        {
+            "id": 127,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Archaeology",
+            "style": "informal",
+            "type": "insight",
+            "entities": [
+                "Indus Valley Civilization",
+                "planned cities",
+                "urban planning",
+                "sewage systems"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization extends beyond Mesopotamia, with remarkable examples found in the Indus Valley Civilization. This ancient society developed planned cities with advanced urban planning and sophisticated infrastructure. The presence of well-designed sewage systems indicates a high level of organization and public health measures implemented by this early civilization."
+        },
+        {
+            "id": 128,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "History",
+            "style": "formal",
+            "type": "genealogy",
+            "entities": [
+                "Egyptian civilization",
+                "Nile River",
+                "pyramids",
+                "pharaohs"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization is intricately linked to the rise of ancient Egyptian civilization along the banks of the Nile River. The Nile's annual flooding provided fertile soil for agriculture, leading to the development of prosperous settlements and the construction of iconic pyramids. The pharaohs ruled as divine kings and were considered the backbone of Egyptian society."
+        },
+        {
+            "id": 129,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Archaeology",
+            "style": "informal",
+            "type": "comparison",
+            "entities": [
+                "Maya civilization",
+                "Aztec civilization",
+                "cultural achievements",
+                "urban centers"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed diverse developments across different regions. For instance, the Maya and Aztec civilizations in Mesoamerica left behind exceptional cultural achievements. These societies built impressive urban centers, created intricate calendars, excelled in astronomy, and developed complex writing systems, showcasing the richness of their civilizations."
+        },
+        {
+            "id": 130,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Anthropology",
+            "style": "formal",
+            "type": "theory",
+            "entities": [
+                "cultural evolution",
+                "human progress"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization is a subject of study in anthropological theories of cultural evolution, which aim to understand how human societies have progressed over time. These theories explore factors such as technological advancements, social complexity, and the development of institutions, providing insights into the mechanisms driving the growth and transformation of civilizations."
+        },
+        {
+            "id": 131,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "History",
+            "style": "informal",
+            "type": "impact",
+            "entities": [
+                "Ancient Greece",
+                "democracy",
+                "philosophy",
+                "arts"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization took on a new form in ancient Greece, where the foundations for Western democracy, philosophy, and arts were laid. The city-states of Athens and Sparta set unprecedented examples of citizen participation in governance, while prominent philosophers like Plato and Aristotle shaped intellectual thought. Greek art and architecture continue to inspire and influence modern aesthetic ideals."
+        },
+        {
+            "id": 132,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "discovery",
+            "entities": [
+                "Tigris-Euphrates",
+                "Ancient Mesopotamia",
+                "ziggurats",
+                "Epic of Gilgamesh"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization is vividly documented through archaeological discoveries in the Tigris-Euphrates region, known as Ancient Mesopotamia. The presence of grand structures like ziggurats and the written accounts of the Epic of Gilgamesh provide valuable insights into the early development of complex societies and their cultural beliefs."
+        },
+        {
+            "id": 133,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Anthropology",
+            "style": "informal",
+            "type": "theory",
+            "entities": [
+                "diffusionism",
+                "cultural transmission"
+            ],
+            "correctness": true,
+            "text": "In anthropological theories such as diffusionism, the birth of civilization is attributed to the spread and transmission of cultural innovations from one society to another. This theory suggests that civilizations develop through exchanges and interactions between different cultures, where ideas, technologies, and practices are adopted and adapted over time."
+        },
+        {
+            "id": 134,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mythology",
+            "style": "formal",
+            "type": "legend",
+            "entities": [
+                "Gilgamesh",
+                "Enkidu",
+                "divine intervention"
+            ],
+            "correctness": true,
+            "text": "According to mythologies like the Epic of Gilgamesh, the birth of civilization was marked by legendary figures like Gilgamesh and Enkidu, whose adventures and encounters with divine beings shaped the course of civilization. These legends serve as cultural narratives that emphasize the importance of human aspirations, struggles, and the transformative power of encounters with the divine."
+        },
+        {
+            "id": 135,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "History",
+            "style": "informal",
+            "type": "influence",
+            "entities": [
+                "Roman Empire",
+                "law",
+                "engineering",
+                "imperial expansion"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization saw the rise of the Roman Empire, which left a lasting impact on law, engineering, and governance. Roman legal principles laid the foundation for modern legal systems, while their architectural feats like aqueducts and roads continue to inspire admiration. The empire's imperialism and cultural assimilation also shaped the development of subsequent civilizations."
+        },
+        {
+            "id": 136,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "artifact",
+            "entities": [
+                "Ancient China",
+                "Great Wall",
+                "Terracotta Army"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization in Ancient China is exemplified by remarkable artifacts like the Great Wall and the Terracotta Army. These monumental structures reflect the military might and sophisticated organizational skills of the ancient Chinese society, providing valuable insights into the civilization's defense strategies and belief in the afterlife."
+        },
+        {
+            "id": 137,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Anthropology",
+            "style": "informal",
+            "type": "theory",
+            "entities": [
+                "environmental determinism",
+                "geographical factors"
+            ],
+            "correctness": true,
+            "text": "In theories like environmental determinism, the birth of civilization is explained by the influence of geographical factors on human societies. These theories argue that the availability of natural resources, climate, and terrain shape the development and sustainability of civilizations, influencing their economic systems, cultural practices, and technological advancements."
+        },
+        {
+            "id": 138,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mythology",
+            "style": "formal",
+            "type": "folklore",
+            "entities": [
+                "Prometheus",
+                "fire",
+                "gifts of civilization"
+            ],
+            "correctness": true,
+            "text": "In various mythologies and folklore, the birth of civilization is often associated with a supernatural bestowal of gifts or knowledge upon humanity. In Greek mythology, for example, Prometheus stole fire from the gods and shared it with humans, symbolizing the acquisition of vital skills and tools that propelled civilization forward."
+        },
+        {
+            "id": 139,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "History",
+            "style": "informal",
+            "type": "revolution",
+            "entities": [
+                "Industrial Revolution",
+                "technological advancements",
+                "manufacturing",
+                "urbanization"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed significant changes during the Industrial Revolution, characterized by technological advancements in manufacturing and the widespread shift towards urbanization. This period marked a transition from agrarian-based societies to industrialized nations, with inventions like steam engines and the establishment of factories revolutionizing the way goods were produced and consumed."
+        },
+        {
+            "id": 140,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "ruins",
+            "entities": [
+                "Ancient Rome",
+                "Colosseum",
+                "Forum"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization in Ancient Rome is evident through the ruins of iconic structures like the Colosseum and the Forum. These architectural wonders provide glimpses into the grandeur and sophistication of Roman society, showcasing their prowess in engineering, entertainment, and political discourse."
+        },
+        {
+            "id": 141,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Anthropology",
+            "style": "informal",
+            "type": "theory",
+            "entities": [
+                "cultural diffusion",
+                "trade routes",
+                "exchange networks"
+            ],
+            "correctness": true,
+            "text": "Anthropological theories emphasize the role of cultural diffusion and exchange networks in the birth and spread of civilizations. Trade routes, such as the Silk Road, facilitated the exchange of goods, ideas, and technologies between different regions, fostering cross-cultural interactions, and contributing to the growth and development of civilizations across the globe."
+        },
+        {
+            "id": 142,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mythology",
+            "style": "formal",
+            "type": "legend",
+            "entities": [
+                "King Arthur",
+                "Camelot",
+                "Knights of the Round Table"
+            ],
+            "correctness": true,
+            "text": "In legends such as the Arthurian tales, the birth of civilization is linked to the mythical kingdom of Camelot and its wise ruler, King Arthur. These stories evoke ideals of chivalry, honor, and the pursuit of a just society, reflecting the cultural values and aspirations associated with the foundation of civilizations."
+        },
+        {
+            "id": 143,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "History",
+            "style": "informal",
+            "type": "influence",
+            "entities": [
+                "Islamic Golden Age",
+                "science",
+                "arts",
+                "literature"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization holds significant importance in the context of the Islamic Golden Age, a period characterized by remarkable advancements in science, arts, and literature. Scholars from the Islamic world made groundbreaking contributions to fields such as mathematics, astronomy, medicine, and philosophy, influencing the development of subsequent civilizations."
+        },
+        {
+            "id": 144,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "expedition",
+            "entities": [
+                "Machu Picchu",
+                "Inca civilization",
+                "Andes Mountains"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization is exemplified by archaeological discoveries like Machu Picchu, an ancient Inca city nestled in the majestic Andes Mountains. The remarkable architecture and engineering of this site provide valuable insights into the advanced planning and construction techniques employed by the Inca civilization."
+        },
+        {
+            "id": 145,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Anthropology",
+            "style": "informal",
+            "type": "theory",
+            "entities": [
+                "cultural relativism",
+                "societal norms"
+            ],
+            "correctness": true,
+            "text": "Anthropological theories like cultural relativism emphasize the diversity of customs, beliefs, and societal norms across different civilizations. The birth of civilization is understood as a product of specific historical and cultural contexts, with each society developing its unique set of values, practices, and systems in response to environmental, social, and technological factors."
+        },
+        {
+            "id": 146,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mythology",
+            "style": "formal",
+            "type": "myth",
+            "entities": [
+                "Osiris",
+                "Egyptian mythology",
+                "regeneration"
+            ],
+            "correctness": true,
+            "text": "In Egyptian mythology, the birth of civilization is intertwined with the story of Osiris, the god of the afterlife and regeneration. Osiris represents the cyclical nature of life, death, and rebirth, reflecting the Egyptians' belief in the renewal and continuity of their civilization through divine intervention."
+        },
+        {
+            "id": 147,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "History",
+            "style": "informal",
+            "type": "revolution",
+            "entities": [
+                "American Revolution",
+                "declaration of independence",
+                "constitutional democracy"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization is closely associated with historical events such as the American Revolution, which led to the establishment of a constitutional democracy and the adoption of principles espoused in the Declaration of Independence. This revolution ignited aspirations for freedom, equality, and self-governance, profoundly shaping the development of modern civilizations."
+        },
+        {
+            "id": 148,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "excavation",
+            "entities": [
+                "G\u00f6bekli Tepe",
+                "prehistoric site",
+                "stone pillars"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization includes prehistoric sites like G\u00f6bekli Tepe, where ancient people erected massive stone pillars in a ceremonial complex. Excavations at this site have challenged conventional timelines of human civilization, suggesting that the development of megalithic structures may predate previously established civilizations by thousands of years."
+        },
+        {
+            "id": 149,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Anthropology",
+            "style": "informal",
+            "type": "theory",
+            "entities": [
+                "structural functionalism",
+                "social order"
+            ],
+            "correctness": true,
+            "text": "In anthropological theories such as structural functionalism, the birth of civilization is viewed as a product of social order and the fulfillment of specific functions within a society. This approach examines how various social institutions, roles, and norms contribute to the smooth functioning and stability of civilizations, ensuring the well-being of their members."
+        },
+        {
+            "id": 150,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mythology",
+            "style": "formal",
+            "type": "story",
+            "entities": [
+                "Noah's Ark",
+                "flood mythology",
+                "divine preservation"
+            ],
+            "correctness": true,
+            "text": "In flood myths across different mythologies, the birth of civilization is linked to stories like Noah's Ark, which depict divine preservation amid cataclysmic events. These tales symbolize resilience, redemption, and the rebirth of humanity, seeking to explain the origins of civilizations through supernatural interventions and the survival of chosen individuals or groups."
+        },
+        {
+            "id": 151,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "History",
+            "style": "informal",
+            "type": "influence",
+            "entities": [
+                "Renaissance",
+                "arts",
+                "humanism",
+                "scientific revolution"
+            ],
+            "correctness": true,
+            "text": "The birth of civilization witnessed significant transformations during the Renaissance, where the revival of arts, humanism, and the scientific revolution had profound impacts. This period marked a renewed interest in classical knowledge, critical thinking, and artistic expression, laying foundations for subsequent cultural, intellectual, and societal progress in Western civilizations."
+        },
+        {
+            "id": 152,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Archaeology",
+            "style": "formal",
+            "type": "unearthed",
+            "entities": [
+                "Troy",
+                "Trojan War",
+                "archaeological site"
+            ],
+            "correctness": false,
+            "text": "The birth of civilization is associated with legendary events like the Trojan War, as evidenced by the unearthed remains of Troy. Archaeological excavations at this site have shed light on the ancient city-state of Troy, mentioned in Homer's Iliad, and provided valuable insights into the material culture, social dynamics, and conflicts of early civilizations."
+        },
+        {
+            "id": 153,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Anthropology",
+            "style": "informal",
+            "type": "theory",
+            "entities": [
+                "cultural ecology",
+                "human-environment interaction"
+            ],
+            "correctness": true,
+            "text": "Anthropological theories, such as cultural ecology, emphasize the interplay between human societies and their environments in the birth of civilization. Understanding how civilizations adapt to and modify their natural surroundings provides insights into the sustainability, resilience, and vulnerability of different cultural groups throughout history."
+        }
+    ]
+}

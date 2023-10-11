@@ -1,0 +1,3469 @@
+[
+    {
+        "id": "0",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "doc2vec",
+            "distributed bag of words",
+            "distributed memory model of paragraph vectors"
+        ],
+        "correctness": true,
+        "text": "The doc2vec framework was proposed as an unsupervised learning methodology to generate fixed-length distributed vector representations that encode semantic meaning for text documents of arbitrary length. As an extension of word2vec word embedding techniques, doc2vec offers two main architectures - distributed bag of words (dbow) which ignores word order but uses document ID markers, and distributed memory model of paragraph vectors (dmpv) which concatenates document and word vectors to retain sequential context."
+    },
+    {
+        "id": "1",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 3,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "negative sampling",
+            "NCE loss",
+            "softmax"
+        ],
+        "correctness": true,
+        "text": "To improve computational efficiency during training, doc2vec approaches make use of negative sampling and noise contrastive estimation (NCE) loss to avoid expensive hierarchical softmax calculations over the entire vocabulary typically required in language modeling objectives."
+    },
+    {
+        "id": "2",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Physics",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "Higgs boson"
+        ],
+        "correctness": true,
+        "text": "The monumental discovery of the long-theorized Higgs boson at the Large Hadron Collider in 2012 confirmed experimental detection of a particle critical to the Standard Model's mechanism for explaining mass through electroweak symmetry breaking."
+    },
+    {
+        "id": "3",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "word2vec"
+        ],
+        "correctness": true,
+        "text": "As an extension of the seminal word2vec technique for learning distributed vector representations of words, doc2vec enables unsupervised learning of paragraph vectors to capture semantics for entire documents of arbitrary length."
+    },
+    {
+        "id": "4",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "document classification",
+            "information retrieval",
+            "sentiment analysis"
+        ],
+        "correctness": true,
+        "text": "Doc2vec has been applied to diverse document modeling tasks including sentiment analysis, document classification, search and information retrieval, clustering documents by similarity, and assessing semantic similarity - typically using the cosine similarity of resulting paragraph vectors as features within supervised downstream models."
+    },
+    {
+        "id": "5",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "negative sampling",
+            "NCE loss"
+        ],
+        "correctness": true,
+        "text": "Both the dbow and dmpv architectures in doc2vec apply noise contrastive estimation and negative sampling techniques to accelerate training by avoiding expensive normalized softmax computation over large vocabularies during the language modeling objective."
+    },
+    {
+        "id": "6",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Physics",
+        "style": "technical",
+        "type": "conclusion",
+        "entities": [
+            "general relativity"
+        ],
+        "correctness": true,
+        "text": "Einstein's revolutionary theory of general relativity fundamentally reshaped understandings of gravitation, space and time by describing gravity as geometric curvature of spacetime, providing an improved scientific model of cosmology confirmed through observations like the precession of Mercury's orbit and gravitational lensing."
+    },
+    {
+        "id": "7",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "word2vec"
+        ],
+        "correctness": true,
+        "text": "As an extension of the word2vec framework for learning high-quality word embeddings, doc2vec provides an efficient and flexible methodology for generating distributed paragraph vector representations capturing semantic meanings of documents."
+    },
+    {
+        "id": "8",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "document classification",
+            "semantic similarity"
+        ],
+        "correctness": true,
+        "text": "With its state-of-the-art results and simplicity of generating semantic document embeddings, doc2vec has proven useful across a wide range of document modeling tasks including sentiment analysis, search/information retrieval, document classification, clustering, and assessing semantic similarity between texts of arbitrary length."
+    },
+    {
+        "id": "9",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "negative sampling"
+        ],
+        "correctness": true,
+        "text": "By approximating the conditional log likelihood using negative sampling rather than computing a expensive normalized softmax, doc2vec enables efficient training of high-quality distributed paragraph vectors useful for downstream document analysis tasks."
+    },
+    {
+        "id": "10",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Physics",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "cosmic inflation"
+        ],
+        "correctness": true,
+        "text": "The theory of cosmic inflation posits an exponentially fast expansion of space by at least a factor of 10^78 in an infinitesimal fraction of a second after the Big Bang, likely driven by a negative-pressure vacuum energy density and generating primordial quantum fluctuations that became the seeds for later galaxy formation."
+    },
+    {
+        "id": "11",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "paragraph vectors"
+        ],
+        "correctness": true,
+        "text": "Doc2vec extends the word2vec framework to unsupervised learning of fixed-length distributed paragraph vector representations that capture semantic meaning from entire documents."
+    },
+    {
+        "id": "12",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "document modeling",
+            "text mining",
+            "information retrieval"
+        ],
+        "correctness": true,
+        "text": "With its strong performance across applications in areas like document classification, clustering, search and information retrieval, sentiment analysis and semantic similarity, doc2vec provides an efficient and flexible methodology for unsupervised learning of paragraph vectors capturing semantic meaning from texts of arbitrary length."
+    },
+    {
+        "id": "13",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "dbow",
+            "dmpv"
+        ],
+        "correctness": true,
+        "text": "The distributed bag of words and distributed memory paragraph vector architectures in doc2vec make different tradeoffs - dbow ignores word order but is faster to train, while dmpv preserves order through vector concatenation but has more parameters."
+    },
+    {
+        "id": "14",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Medicine",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "clinical trials"
+        ],
+        "correctness": true,
+        "text": "Well-designed randomized controlled trials are considered the gold standard in evidence-based medicine for minimizing bias when evaluating the safety and efficacy of clinical interventions."
+    },
+    {
+        "id": "15",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "paragraph vectors"
+        ],
+        "correctness": true,
+        "text": "The doc2vec framework extends word2vec to allow unsupervised learning of distributed paragraph vector representations that have proven useful for semantic modeling of texts."
+    },
+    {
+        "id": "16",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "document classification",
+            "document clustering",
+            "information retrieval"
+        ],
+        "correctness": true,
+        "text": "With competitive results on benchmarks, doc2vec provides an efficient approach to generating high-quality distributed paragraph vectors capturing semantic meaning from entire documents, useful across applications like document classification, clustering, search and information retrieval."
+    },
+    {
+        "id": "17",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "negative sampling"
+        ],
+        "correctness": true,
+        "text": "Negative sampling provides an approximation to softmax for training the language modeling objective efficiently in doc2vec, avoiding expensive normalization over large vocabularies by only updating a small random sample of output weights."
+    },
+    {
+        "id": "18",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Astronomy",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "cosmic microwave background"
+        ],
+        "correctness": true,
+        "text": "Analysis of tiny temperature fluctuations in the cosmic microwave background radiation leftover from the Big Bang some 380,000 years afterward provides insights into conditions in the extremely early universe starting from about 10^-36 seconds."
+    },
+    {
+        "id": "19",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Computer Science",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "paragraph vectors"
+        ],
+        "correctness": true,
+        "text": "Doc2vec extends the word2vec distributed representation methodology to allow unsupervised learning of paragraph vectors capturing semantic meaning from texts of arbitrary length, enabling effective document-level modeling."
+    },
+    {
+        "id": "20",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "explanation",
+        "entities": [
+            "doc2vec",
+            "word2vec",
+            "neural networks",
+            "embeddings"
+        ],
+        "correctness": true,
+        "text": "Doc2vec is an unsupervised framework that learns continuous distributed vector representations for pieces of texts, such as sentences, paragraphs or entire documents. It is an extension of Word2vec and uses a neural network architecture to learn embeddings by predicting words in the document. The distributed memory and distributed bag-of-words versions capture word order and document context."
+    },
+    {
+        "id": "21",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "embeddings",
+            "semantic similarity"
+        ],
+        "correctness": true,
+        "text": "Document embeddings learned through doc2vec can measure semantic similarity between texts, which enables applications like document retrieval, classification, clustering and more. The doc2vec representations encode semantic meaning of documents and can be used as features in downstream NLP tasks."
+    },
+    {
+        "id": "22",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Machine Learning",
+        "style": "technical",
+        "type": "overview",
+        "entities": [
+            "neural networks",
+            "unsupervised learning"
+        ],
+        "correctness": true,
+        "text": "The doc2vec algorithm uses a simple neural network to learn vector representations of documents in an unsupervised manner. The vectors encode semantic information about the documents and can be used as features for predictive modeling tasks."
+    },
+    {
+        "id": "23",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Data Mining",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "latent semantic analysis",
+            "embeddings"
+        ],
+        "correctness": true,
+        "text": "Document embedding techniques like latent semantic analysis have been used historically to index and search text documents based on semantic similarity."
+    },
+    {
+        "id": "24",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "comparison",
+        "entities": [
+            "doc2vec",
+            "word2vec",
+            "LDA",
+            "LSI"
+        ],
+        "correctness": true,
+        "text": "Doc2vec generates document embeddings using word order and context, compared to LDA and LSI which rely on bag-of-words statistical models. Doc2vec performed better on document similarity tasks compared to other embedding techniques in benchmarks."
+    },
+    {
+        "id": "25",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Architecture",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "CPU design",
+            "pipelining"
+        ],
+        "correctness": true,
+        "text": "Pipelining is a technique used to increase instruction throughput in CPU design, allowing multiple instructions to be executed concurrently."
+    },
+    {
+        "id": "26",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "search engines",
+            "semantic search",
+            "embeddings"
+        ],
+        "correctness": true,
+        "text": "Search engines can use document embeddings from doc2vec models to index documents based on semantic meaning rather than just keywords, improving search relevancy."
+    },
+    {
+        "id": "27",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "doc2vec",
+            "word2vec",
+            "neural networks",
+            "unsupervised learning"
+        ],
+        "correctness": true,
+        "text": "The doc2vec framework learns embeddings by training shallow neural networks to predict context words in a document or predict the document tag from context words. This unsupervised learning extracts semantic relationships."
+    },
+    {
+        "id": "28",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Operating Systems",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "kernel",
+            "system calls"
+        ],
+        "correctness": true,
+        "text": "The kernel is the core component of operating systems, handling system resources and providing interfaces for applications through system calls."
+    },
+    {
+        "id": "29",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 3,
+        "topic": "Information Retrieval",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "search engines",
+            "recommendations",
+            "embeddings"
+        ],
+        "correctness": true,
+        "text": "Document embeddings from doc2vec can improve search relevancy in search engines. They also enable content-based recommendations by finding semantically similar documents and items."
+    },
+    {
+        "id": "30",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "comparison",
+        "entities": [
+            "doc2vec",
+            "LSA",
+            "LDA"
+        ],
+        "correctness": true,
+        "text": "Doc2vec outperformed LSA and LDA on document similarity tasks in evaluations. Doc2vec uses local context and word order while LSA and LDA rely on global statistics and bag-of-words."
+    },
+    {
+        "id": "31",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Networks",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "TCP/IP",
+            "packets",
+            "routing"
+        ],
+        "correctness": true,
+        "text": "The TCP/IP model is used for communication over the internet. Data is broken into packets which are routed to the destination based on IP addresses on each node."
+    },
+    {
+        "id": "32",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "search engines",
+            "text classification"
+        ],
+        "correctness": true,
+        "text": "Document embeddings from doc2vec provide semantic features that can improve text classification in search engines, social media and other applications."
+    },
+    {
+        "id": "33",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "Key advantages of doc2vec include unsupervised learning from unlabeled data, capturing word order and document context, and model consistency in embedding length regardless of document size."
+    },
+    {
+        "id": "34",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Graphics",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "rendering",
+            "rasterization"
+        ],
+        "correctness": true,
+        "text": "Rasterization is the process of converting vector graphics into raster image formats for rendering on digital displays."
+    },
+    {
+        "id": "35",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "boolean retrieval",
+            "relevance ranking"
+        ],
+        "correctness": true,
+        "text": "Early information retrieval systems relied on boolean keyword matching. Relevance ranking methods improved search results by using techniques like TF-IDF weighting."
+    },
+    {
+        "id": "36",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "text classification",
+            "sentiment analysis"
+        ],
+        "correctness": true,
+        "text": "Document embeddings from doc2vec can enable more semantic text classification and sentiment analysis, compared to bag-of-words models."
+    },
+    {
+        "id": "37",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "distributed memory",
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The doc2vec framework has two architectures - distributed memory which concatenates document and word vectors, and distributed bag of words which ignores order but uses document ID markers."
+    },
+    {
+        "id": "38",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Security",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "encryption",
+            "cryptography"
+        ],
+        "correctness": true,
+        "text": "Cryptography is used to securely communicate and store data through encryption algorithms that scramble information to unauthorized parties."
+    },
+    {
+        "id": "39",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "boolean model"
+        ],
+        "correctness": true,
+        "text": "Early information retrieval used the boolean model where users provided keywords and boolean operators like AND, OR to retrieve relevant documents."
+    },
+    {
+        "id": "40",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec",
+            "word embeddings"
+        ],
+        "correctness": true,
+        "text": "A key advantage of doc2vec over other document embedding techniques is the ability to learn word and document representations in the same vector space."
+    },
+    {
+        "id": "41",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "search engines",
+            "recommendations"
+        ],
+        "correctness": true,
+        "text": "Document embeddings from doc2vec models can improve search engine retrieval and recommendations by identifying semantic document similarities."
+    },
+    {
+        "id": "42",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "text classification",
+            "sentiment analysis"
+        ],
+        "correctness": true,
+        "text": "Doc2vec document embeddings can enable more accurate text classification and sentiment analysis compared to count-based models."
+    },
+    {
+        "id": "43",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "vector space model"
+        ],
+        "correctness": true,
+        "text": "The vector space model represents documents as vectors of identifiers like index terms, allowing similarity calculations between documents."
+    },
+    {
+        "id": "44",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "comparison",
+        "entities": [
+            "doc2vec",
+            "LDA",
+            "LSI"
+        ],
+        "correctness": true,
+        "text": "Doc2vec outperforms models like LSI and LDA on document similarity tasks as it better captures semantics by incorporating word order and document context."
+    },
+    {
+        "id": "45",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Vision",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "object detection",
+            "image recognition"
+        ],
+        "correctness": true,
+        "text": "Object detection and image recognition are core problems in computer vision that deal with identifying and localizing objects in images."
+    },
+    {
+        "id": "46",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 3,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "document clustering"
+        ],
+        "correctness": true,
+        "text": "Document embeddings from doc2vec can enable more semantically meaningful document clustering, compared to raw TF-IDF vectors."
+    },
+    {
+        "id": "47",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "neural networks",
+            "distributed memory",
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "Doc2vec is based on shallow neural networks with two architectures: distributed memory to represent documents along with words, and distributed bag of words without word ordering."
+    },
+    {
+        "id": "48",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Software Engineering",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "agile development",
+            "scrum"
+        ],
+        "correctness": true,
+        "text": "Agile software development emphasizes an iterative approach with cross-functional collaboration based on principles in the Agile Manifesto."
+    },
+    {
+        "id": "49",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "semantic search"
+        ],
+        "correctness": true,
+        "text": "Search engines can leverage document embeddings from doc2vec to enable semantic search instead of just keyword matching."
+    },
+    {
+        "id": "50",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "Key advantages of doc2vec include unsupervised learning on unlabeled data, capturing word order and document context, and fixed embedding size regardless of document length."
+    },
+    {
+        "id": "51",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Parallel Computing",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "multiprocessing",
+            "multithreading"
+        ],
+        "correctness": true,
+        "text": "Parallel computing architectures use multiple processors or threads together to enhance computational throughput for demanding applications."
+    },
+    {
+        "id": "52",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "relevance ranking"
+        ],
+        "correctness": true,
+        "text": "Early attempts at relevance ranking used approaches like term frequency-inverse document frequency (TF-IDF) weighting to retrieve documents."
+    },
+    {
+        "id": "53",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "text summarization"
+        ],
+        "correctness": true,
+        "text": "Doc2vec is useful for abstractive text summarization by encoding semantic document information in a low-dimensional vector space."
+    },
+    {
+        "id": "54",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "neural networks",
+            "unsupervised learning"
+        ],
+        "correctness": true,
+        "text": "Doc2vec applies shallow neural networks in an unsupervised learning fashion to generate useful document embeddings by predicting words or documents based on context."
+    },
+    {
+        "id": "55",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Cloud Computing",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "IaaS",
+            "PaaS",
+            "SaaS"
+        ],
+        "correctness": true,
+        "text": "Cloud computing provides on-demand services - Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS)."
+    },
+    {
+        "id": "56",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "inverted index"
+        ],
+        "correctness": true,
+        "text": "Inverted indexes revolutionized information retrieval by allowing fast lookup of documents containing a query term."
+    },
+    {
+        "id": "57",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "document classification"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can generate semantic embeddings for documents that enable more accurate classification compared to bag-of-words models."
+    },
+    {
+        "id": "58",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "distributed memory",
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The distributed memory and distributed bag of words architectures in doc2vec model paragraphs and documents differently while retaining contextual information."
+    },
+    {
+        "id": "59",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Operating Systems",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "process scheduling",
+            "memory management"
+        ],
+        "correctness": true,
+        "text": "Key functions of operating systems include process scheduling, memory management, handling system resources and providing security."
+    },
+    {
+        "id": "60",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "Doc2vec generates semantically meaningful embeddings using document context, allowing analogical reasoning and inference based on trained embedding spaces."
+    },
+    {
+        "id": "61",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "question answering",
+            "chatbots"
+        ],
+        "correctness": true,
+        "text": "Document embeddings can improve performance of downstream NLP applications like question answering systems and chatbots."
+    },
+    {
+        "id": "62",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "text generation"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can be used to generate semantic embeddings for text generation tasks like summarization, translation and dialogue systems."
+    },
+    {
+        "id": "63",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "precision",
+            "recall"
+        ],
+        "correctness": true,
+        "text": "Precision and recall are standard metrics used to evaluate the performance of information retrieval systems."
+    },
+    {
+        "id": "64",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A key advantage of doc2vec is unsupervised learning from unlabeled data, allowing large training datasets without human annotation."
+    },
+    {
+        "id": "65",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Architecture",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "cache coherence",
+            "NUMA"
+        ],
+        "correctness": true,
+        "text": "Cache coherence protocols ensure consistency between cached copies of data in multi-core processors. NUMA optimizes memory access in non-uniform memory architectures."
+    },
+    {
+        "id": "66",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "recommender systems"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can generate semantically meaningful embeddings to improve recommendation quality in recommender systems."
+    },
+    {
+        "id": "67",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "neural networks",
+            "backpropagation"
+        ],
+        "correctness": true,
+        "text": "Doc2vec applies the continuous bag of words and skip-gram architectures from Word2vec using shallow neural networks trained with backpropagation."
+    },
+    {
+        "id": "68",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Algorithms",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "dynamic programming"
+        ],
+        "correctness": true,
+        "text": "Dynamic programming is an optimization technique to solve complex problems by dividing them into simpler subproblems."
+    },
+    {
+        "id": "69",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 3,
+        "topic": "Information Retrieval",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "semantic search",
+            "query expansion"
+        ],
+        "correctness": true,
+        "text": "Document embeddings can expand and contextualize search queries to improve semantic search relevancy."
+    },
+    {
+        "id": "70",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "distributed memory",
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The distributed memory and distributed bag of words architectures in doc2vec represent different tradeoffs between retaining word order and training efficiency."
+    },
+    {
+        "id": "71",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Software Engineering",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "code reuse",
+            "libraries"
+        ],
+        "correctness": true,
+        "text": "Code reuse through libraries and frameworks improves software quality and developer productivity by avoiding reinventing the wheel."
+    },
+    {
+        "id": "72",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "boolean model"
+        ],
+        "correctness": true,
+        "text": "The boolean model of information retrieval relies on exact keyword matching and boolean operators like AND, OR, NOT."
+    },
+    {
+        "id": "73",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "topic modeling"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can be combined with topic modeling techniques like LDA to generate document embeddings informed by both topics and semantics."
+    },
+    {
+        "id": "74",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "neural networks",
+            "unsupervised learning"
+        ],
+        "correctness": true,
+        "text": "The doc2vec framework applies shallow neural networks in an unsupervised manner to learn continuous distributed representations of documents."
+    },
+    {
+        "id": "75",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Networks",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "IP addressing",
+            "TCP/IP"
+        ],
+        "correctness": true,
+        "text": "The TCP/IP model provides end-to-end data delivery through IP addressing, packet forwarding, and reassembly to ensure reliable transmission."
+    },
+    {
+        "id": "76",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "ranking models"
+        ],
+        "correctness": true,
+        "text": "Ranking models like BM25 improved search results by incorporating term frequency, document length normalization and other signals."
+    },
+    {
+        "id": "77",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "paraphrase detection"
+        ],
+        "correctness": true,
+        "text": "Document embeddings from doc2vec enable more semantic similarity measurements, useful for paraphrase detection."
+    },
+    {
+        "id": "78",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "neural networks",
+            "word2vec"
+        ],
+        "correctness": true,
+        "text": "Doc2vec extends the word2vec framework to learn document embeddings by predicting words based on document context using neural networks."
+    },
+    {
+        "id": "79",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Databases",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "relational model",
+            "SQL"
+        ],
+        "correctness": true,
+        "text": "Relational databases organize data into tables with defined relations, queried using languages like SQL."
+    },
+    {
+        "id": "80",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "Doc2vec provides useful document embeddings even from short texts by incorporating semantic document context into the representations."
+    },
+    {
+        "id": "81",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "document retrieval"
+        ],
+        "correctness": true,
+        "text": "Semantic document embeddings from doc2vec improve retrieval compared to count-based statistical models like TF-IDF."
+    },
+    {
+        "id": "82",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "natural language inference"
+        ],
+        "correctness": true,
+        "text": "Doc2vec embeddings can improve performance on natural language inference tasks involving reasoning about the semantic similarity of sentences or paragraphs."
+    },
+    {
+        "id": "83",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "indexing",
+            "inverted indexes"
+        ],
+        "correctness": true,
+        "text": "Inverted indexing revolutionized full text search by allowing fast lookups of documents matching query terms."
+    },
+    {
+        "id": "84",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A major advantage of doc2vec is more semantically meaningful embeddings relative to frequency-based distributional models like TF-IDF."
+    },
+    {
+        "id": "85",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Networks",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "TCP",
+            "congestion control"
+        ],
+        "correctness": true,
+        "text": "TCP provides reliable data transfer using sequence numbers, acknowledgments and flow control mechanisms like sliding window and congestion control algorithms."
+    },
+    {
+        "id": "86",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "question answering"
+        ],
+        "correctness": true,
+        "text": "Document embedding models like doc2vec can improve performance of question answering systems by capturing semantic meaning to find relevant answers."
+    },
+    {
+        "id": "87",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "neural networks",
+            "unsupervised learning"
+        ],
+        "correctness": true,
+        "text": "A key aspect of doc2vec is unsupervised training of shallow neural networks to learn document vector representations based on words and context."
+    },
+    {
+        "id": "88",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Architecture",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "pipelining",
+            "instruction sets"
+        ],
+        "correctness": true,
+        "text": "Pipelining improves throughput by allowing overlapping fetch, decode, execute cycles. RISC and CISC have different instruction set design philosophies."
+    },
+    {
+        "id": "89",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "document clustering"
+        ],
+        "correctness": true,
+        "text": "Document embeddings from doc2vec enable more semantically meaningful clustering and organization of text corpora."
+    },
+    {
+        "id": "90",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "distributed memory",
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The distributed memory and distributed bag of words models in doc2vec make different tradeoffs between retaining word order and training efficiency."
+    },
+    {
+        "id": "91",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Software Engineering",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "waterfall model",
+            "agile"
+        ],
+        "correctness": true,
+        "text": "Waterfall development follows linear sequential phases, while agile emphasizes iterative delivery and stakeholder collaboration."
+    },
+    {
+        "id": "92",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "precision",
+            "recall"
+        ],
+        "correctness": true,
+        "text": "Precision and recall are commonly used metrics to evaluate the accuracy of document retrieval systems."
+    },
+    {
+        "id": "93",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "dialogue systems"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can provide useful document embeddings for dialogue context tracking and semantic understanding in conversational agents."
+    },
+    {
+        "id": "94",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "neural networks",
+            "embeddings"
+        ],
+        "correctness": true,
+        "text": "The key innovation in doc2vec was the application of neural networks to learn distributed representations that encode semantic meaning about documents."
+    },
+    {
+        "id": "95",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Graphics",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "rendering pipelines",
+            "shading"
+        ],
+        "correctness": true,
+        "text": "The graphics pipeline processes vertices through transformations, rasterization, texturing and shader programs to render final pixels."
+    },
+    {
+        "id": "96",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "ranked retrieval"
+        ],
+        "correctness": true,
+        "text": "Ranked retrieval replaced boolean keyword matching by attempting to rank documents by estimated relevance to queries."
+    },
+    {
+        "id": "97",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "semantic similarity"
+        ],
+        "correctness": true,
+        "text": "Doc2vec semantic embeddings can accurately estimate semantic similarity between sentences and paragraphs for many NLP tasks."
+    },
+    {
+        "id": "98",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "distributed memory",
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The distributed memory and distributed bag of words architectures used in doc2vec represent different modeling tradeoffs with implications for word order."
+    },
+    {
+        "id": "99",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Networks",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "network layers",
+            "encapsulation"
+        ],
+        "correctness": true,
+        "text": "The OSI and TCP/IP models describe layered network architectures where each layer encapsulates and provides services for higher levels."
+    },
+    {
+        "id": "100",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A major advantage of the doc2vec framework is the ability to generate semantic vector representations of documents of arbitrary length. By training shallow neural networks to predict words based on document context, doc2vec can encode semantic meaning in low-dimensional dense vectors regardless of the document size."
+    },
+    {
+        "id": "101",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "Search engines can utilize document embeddings created by doc2vec models to index and retrieve text based on semantic meaning rather than just matching keywords. This allows search queries to take into account the implicit topical and conceptual relationships between words and documents encoded in the learned vector representations."
+    },
+    {
+        "id": "102",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "text classification"
+        ],
+        "correctness": true,
+        "text": "Document embeddings generated by doc2vec models encapsulate semantic information about text, providing useful features for tasks like text classification, sentiment analysis, and natural language understanding. The text classifiers built on top of doc2vec embeddings tend to outperform those based on simpler bag-of-words or TF-IDF statistical representations."
+    },
+    {
+        "id": "103",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "vector space model"
+        ],
+        "correctness": true,
+        "text": "The vector space model represents textual documents as vectors of identifiers, such as index terms or tags, allowing similarity calculations between documents based on the angles or distances between their vector representations. This enabled more advanced information retrieval techniques compared to earlier boolean keyword matching models."
+    },
+    {
+        "id": "104",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "comparison",
+        "entities": [
+            "doc2vec",
+            "LDA"
+        ],
+        "correctness": true,
+        "text": "Evaluations show that document embeddings learned by doc2vec models tend to outperform topic modeling techniques like Latent Dirichlet Allocation (LDA) on tasks involving measuring semantic similarity between texts. Doc2vec can better capture conceptual meaning by incorporating word order and document context, compared to LDA which relies on word co-occurrence statistics."
+    },
+    {
+        "id": "105",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Vision",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "convolutional neural networks"
+        ],
+        "correctness": true,
+        "text": "Convolutional neural networks have emerged as a powerful class of models for computer vision, using techniques like convolutional filters and pooling to learn hierarchical representations of image and video data."
+    },
+    {
+        "id": "106",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "recommender systems"
+        ],
+        "correctness": true,
+        "text": "In recommender systems, document embeddings learned by doc2vec can help identify semantically similar items and generate useful recommendations, going beyond just matching keywords or tracking purchase history. The semantic vectors can connect related products or content that may be described differently."
+    },
+    {
+        "id": "107",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "At its core, doc2vec applies the techniques of neural language models, training shallow neural networks to make word predictions based on the document context. The weights of the hidden layer form the dense vector representing the document semantics. The gradients obtained through backpropagation allow the neural net to improve the quality of document vectors iteratively."
+    },
+    {
+        "id": "108",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Theoretical Computer Science",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "computational complexity"
+        ],
+        "correctness": true,
+        "text": "Computational complexity theory focuses on classifying algorithmic problems based on their inherent difficulty and required resources. Important complexity classes include P, NP, and NP-complete relating to polynomial or non-deterministic polynomial time requirements."
+    },
+    {
+        "id": "109",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "semantic search"
+        ],
+        "correctness": true,
+        "text": "Search engines incorporating doc2vec embeddings could offer semantic search capabilities, where the user intent behind queries can be modeled beyond just matching keywords. Queries can be expanded or refined by relating them to similar semantic document vectors in the indexed corpus."
+    },
+    {
+        "id": "110",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "distributed memory"
+        ],
+        "correctness": true,
+        "text": "One architecture proposed in the doc2vec framework is the distributed memory model which concatenates context word vectors with a unique document vector to predict target words in a text corpus. This retains word ordering and enables the document vectors to encode semantic meaning specific to the contextual usage of words within each document."
+    },
+    {
+        "id": "111",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Software Engineering",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "code testing"
+        ],
+        "correctness": true,
+        "text": "Code testing is an essential practice in software engineering to evaluate quality, detect bugs, and ensure software meets intended functionality and specifications. Different testing types include unit, integration, system, user acceptance."
+    },
+    {
+        "id": "112",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "relevance ranking"
+        ],
+        "correctness": true,
+        "text": "Unlike exact keyword matching systems, relevance ranking models attempt to estimate the relevance of documents to a query to provide more useful search results to users. This involves techniques like term-frequency inverse document frequency weighting."
+    },
+    {
+        "id": "113",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "paraphrase detection"
+        ],
+        "correctness": true,
+        "text": "By encoding semantic similarities between pieces of text in dense vector representations, doc2vec opens up useful applications like paraphrase detection. The document embeddings can be leveraged to identify sentences or paragraphs that convey the same underlying meaning using measures like cosine similarity."
+    },
+    {
+        "id": "114",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The distributed bag of words version of doc2vec ignores the word order but relies on document identifier tags to predict words randomly sampled from paragraphs. This still encodes useful semantic representations of documents without the computational expense of modeling sequences."
+    },
+    {
+        "id": "115",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Security",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "authentication",
+            "authorization"
+        ],
+        "correctness": true,
+        "text": "User authentication verifies identity, while authorization determines appropriate access levels. Multi-factor authentication improves security by combining multiple credentials like biometrics, tokens, passwords."
+    },
+    {
+        "id": "116",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "boolean model"
+        ],
+        "correctness": true,
+        "text": "The boolean model was one of the earliest information retrieval techniques where users provided keywords combined with boolean operators like AND, OR, NOT to precisely define document relevance, but these lacked ranking and relevance weighting."
+    },
+    {
+        "id": "117",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "chatbots"
+        ],
+        "correctness": true,
+        "text": "Document embeddings from doc2vec can improve the capabilities of conversational agents and chatbots by enabling deeper semantic understanding of user queries and dialogue context, allowing the agents to infer meaning and retrieve relevant responses more accurately."
+    },
+    {
+        "id": "118",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "The doc2vec framework introduced an unsupervised neural network architecture that extends word2vec for learning distributed vector representations of paragraphs and documents of arbitrary length. This allowed encoding semantic document information in a fixed low-dimensional dense vector, overcoming limitations of bag-of-words models."
+    },
+    {
+        "id": "119",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Architecture",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "memory hierarchy"
+        ],
+        "correctness": true,
+        "text": "The memory hierarchy in computer systems takes advantage of locality and tradeoffs between size, speed, and cost - with small, fast cache near the CPU feeding into larger, slower DRAM and disk storage."
+    },
+    {
+        "id": "120",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A key advantage of doc2vec is its unsupervised learning approach which allows large volumes of unlabeled text data to be leveraged for training the neural network models. Without needing human annotations, the algorithms can learn latent semantic patterns from word usage and document context. This enables practical applications with massive corpora."
+    },
+    {
+        "id": "121",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "In search engines, using doc2vec for indexing can enrich the user experience by allowing semantic matching instead of just keywords. Queries can be expanded by relating them to similar document vectors, retrieving results based on conceptual relevance even if they lack the exact query terms. This improves search accuracy."
+    },
+    {
+        "id": "122",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "dialogue systems"
+        ],
+        "correctness": true,
+        "text": "Conversational agents and dialogue systems can utilize doc2vec to track extended semantic context across multiple dialogue turns. The document vectors summarize previous chat history and help the agent understand user intents and respond appropriately even as conversations evolve."
+    },
+    {
+        "id": "123",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "stop words"
+        ],
+        "correctness": true,
+        "text": "Stop words refer to the most common words in a language like articles, prepositions, pronouns that were often excluded from indexing in information retrieval systems since they lacked semantic value for search purposes."
+    },
+    {
+        "id": "124",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A key advantage of doc2vec over frequency-based distributional semantic models is its use of neural networks to learn compositional vector representations that capture nuanced semantics even from combinations of common words."
+    },
+    {
+        "id": "125",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Networks",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "network protocols",
+            "TCP/IP"
+        ],
+        "correctness": true,
+        "text": "Network protocols define common formats and rules to enable communication, with important examples including TCP/IP, HTTP, FTP, SMTP etc. TCP/IP provides universal end-to-end connectivity and packet routing on the internet."
+    },
+    {
+        "id": "126",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "semantic search"
+        ],
+        "correctness": true,
+        "text": "Search engines incorporating doc2vec embeddings could offer true semantic search by modeling the latent topical and conceptual relationships between queries and documents instead of purely syntactic matches."
+    },
+    {
+        "id": "127",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "At the heart of doc2vec is a simple single-layer neural network used to make word predictions based on context. The weights learned in the hidden layer become the document embeddings, optimized through backpropagation to improve predictive accuracy."
+    },
+    {
+        "id": "128",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Graphics",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "rendering"
+        ],
+        "correctness": true,
+        "text": "Rendering is the process of generating 2D images from 3D models or scenes using computer graphics techniques like ray tracing, rasterization, and shaders. This involves simulation of light physics and visual perception."
+    },
+    {
+        "id": "129",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "document clustering"
+        ],
+        "correctness": true,
+        "text": "Grouping documents into clusters benefits many applications. Semantic embeddings from doc2vec enable more meaningful clustering based on conceptual topics and themes rather than just statistical word co-occurrence counts."
+    },
+    {
+        "id": "130",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "distributed memory"
+        ],
+        "correctness": true,
+        "text": "The distributed memory architecture in doc2vec represents each document uniquely while also learning vector representations for words. This allows powerful generalization based on document context by combining word and document vectors during training."
+    },
+    {
+        "id": "131",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Architecture",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "pipelining"
+        ],
+        "correctness": true,
+        "text": "Pipelining improves processor performance by allowing multiple instructions to be in different stages of execution concurrently, such as fetching upcoming instructions while executing current ones."
+    },
+    {
+        "id": "132",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "boolean model"
+        ],
+        "correctness": true,
+        "text": "The boolean model represents queries as combinations of terms with AND, OR, NOT operators. While fast, it suffers from requiring precise keyword matching and lacks relevance ranking of results."
+    },
+    {
+        "id": "133",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "document classification"
+        ],
+        "correctness": true,
+        "text": "Text classification can be improved with doc2vec embeddings which encode semantic document meaning rather than relying on count-based distributional statistics like TF-IDF for feature representation."
+    },
+    {
+        "id": "134",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "Shallow neural networks used in doc2vec learn to make word predictions based on document context windows. The weights learned through gradient descent and backpropagation represent each document meaningfully in a dense vector."
+    },
+    {
+        "id": "135",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Cloud Computing",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "IaaS",
+            "PaaS",
+            "SaaS"
+        ],
+        "correctness": true,
+        "text": "Cloud computing provides on-demand services with different abstraction levels - Infrastructure as a Service, Platform as a Service, and Software as a Service."
+    },
+    {
+        "id": "136",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "Early web search engines relied heavily on metadata and page ranking heuristics to retrieve relevant documents matching user queries entered as keywords."
+    },
+    {
+        "id": "137",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "semantic similarity"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can estimate semantic similarity between pieces of text more accurately compared to count-based distributional similarity. This enables many applications like paraphrase identification."
+    },
+    {
+        "id": "138",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "distributed memory"
+        ],
+        "correctness": true,
+        "text": "The distributed memory architecture in doc2vec represents each document uniquely with a context window that includes both document ID and word vectors, enabling powerful learning of semantics."
+    },
+    {
+        "id": "139",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Artificial Intelligence",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "machine learning"
+        ],
+        "correctness": true,
+        "text": "Machine learning is a subset of artificial intelligence focusing on algorithms that can learn from data to make predictions or decisions without explicit programming, improving through experience."
+    },
+    {
+        "id": "140",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A major advantage of doc2vec over bag-of-words models is its ability to take word order into account during training through the distributed memory architecture. By predicting target words based on document ID and context window vectors, doc2vec learns representations that encode sequential relationships rather than just isolated word co-occurrence counts."
+    },
+    {
+        "id": "141",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "question answering"
+        ],
+        "correctness": true,
+        "text": "Semantic representations of questions and passages enabled by doc2vec can significantly improve the accuracy of question answering systems. Related questions and answers can be connected via similar document vectors even if they lack shared keywords, enhancing capabilities beyond information retrieval techniques."
+    },
+    {
+        "id": "142",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "text summarization"
+        ],
+        "correctness": true,
+        "text": "Document embedding techniques like doc2vec are useful for abstractive text summarization applications by encoding semantic information about the document in a lower dimensional vector space. This allows generating summaries reflecting conceptual topics rather than extracting sentences purely based on statistical features."
+    },
+    {
+        "id": "143",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "relevance ranking"
+        ],
+        "correctness": true,
+        "text": "Unlike traditional boolean keyword matching systems, relevance ranking models try to estimate the relevance of documents to a given query on a graded scale, aiming to provide users with more useful, precisely matched search results."
+    },
+    {
+        "id": "144",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A significant advantage of doc2vec for many NLP tasks is the unsupervised learning framework which allows large amounts of unlabeled training data to be leveraged in building semantic representations, avoiding costs and gaps of human-labeled datasets."
+    },
+    {
+        "id": "145",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Software Engineering",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "code testing"
+        ],
+        "correctness": true,
+        "text": "Rigorous code testing and validation are crucial software engineering practices to evaluate correctness, detect bugs, and ensure that software works as intended across different conditions, catching issues before deployment."
+    },
+    {
+        "id": "146",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "recommender systems"
+        ],
+        "correctness": true,
+        "text": "Incorporating doc2vec in the design of recommender systems allows going beyond collaborative or content-based filtering, leveraging semantic document embeddings to connect users with relevant items even lacking similar purchase histories or keywords."
+    },
+    {
+        "id": "147",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The distributed bag of words approach used in doc2vec ignores word ordering but still produces useful representations. By predicting target words based on document ID tags from random windows, it can encode semantics from co-occurrence statistics."
+    },
+    {
+        "id": "148",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Vision",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "object recognition"
+        ],
+        "correctness": true,
+        "text": "Object recognition refers to the ability to identify and localize instances of objects such as people, cars, furniture etc. in digital images and videos, an important problem in the field of computer vision."
+    },
+    {
+        "id": "149",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "Search engine indexing and retrieval can leverage document embeddings from doc2vec models to establish semantic connections between queries and corpus documents that go beyond matching keywords."
+    },
+    {
+        "id": "150",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "The key methodology behind doc2vec is training shallow neural networks to make local word predictions based on document context, enabling the model to learn compositional document representations even from non-sequenced bag-of-words evidence."
+    },
+    {
+        "id": "151",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Networks",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "OSI model"
+        ],
+        "correctness": true,
+        "text": "The OSI reference model describes networking functions in terms of distinct layers of abstraction like physical, data link, network, transport, session, presentation, and application layers."
+    },
+    {
+        "id": "152",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "precision",
+            "recall"
+        ],
+        "correctness": true,
+        "text": "Two common metrics used to evaluate the effectiveness of information retrieval systems are precision, measuring retrieved document relevance, and recall, measuring how many relevant documents are returned."
+    },
+    {
+        "id": "153",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "text generation"
+        ],
+        "correctness": true,
+        "text": "Doc2vec provides a framework to encode semantic knowledge about a document corpus into vectors that can help improve the fluency and coherence of generated text in applications like machine translation, summarization, and dialogue agents."
+    },
+    {
+        "id": "154",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "The doc2vec methodology introduced an unsupervised neural network architecture for learning fixed-length semantic vector representations of variable-length pieces of texts, overcoming limitations with prior statistical distributional semantics models."
+    },
+    {
+        "id": "155",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Databases",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "relational model"
+        ],
+        "correctness": true,
+        "text": "The relational database model organizes data into tables with rows representing records and columns representing attributes with well-defined relationships between tables."
+    },
+    {
+        "id": "156",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "ranked retrieval"
+        ],
+        "correctness": true,
+        "text": "Unlike boolean keyword matching, ranked retrieval systems attempt to sort matching documents by estimated relevance to user query, providing more useful search results."
+    },
+    {
+        "id": "157",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "topic modeling"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can be combined with topic modeling techniques like LDA to improve document embeddings with topological context, capturing semantics more fully."
+    },
+    {
+        "id": "158",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "distributed memory"
+        ],
+        "correctness": true,
+        "text": "The distributed memory architecture in doc2vec uniquely represents each document while learning vector representations for words also based on the document context, enabling richer generalization."
+    },
+    {
+        "id": "159",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Algorithms",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "analysis of algorithms"
+        ],
+        "correctness": true,
+        "text": "Analysis of algorithms involves mathematically modeling the complexity and computational resource requirements of algorithms using concepts like asymptotic notation, NP-completeness, and amortized analysis."
+    },
+    {
+        "id": "160",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A major advantage of doc2vec is its unsupervised learning framework which allows large volumes of unlabeled training data to be leveraged in developing semantically rich document embeddings. This avoids expensive human annotation while exploiting statistical structure, enabling practical applications even with massive corpora."
+    },
+    {
+        "id": "161",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "Search engine indexing can build inverted indexes using document vectors from doc2vec, allowing efficient lookup of semantically related documents for a query even without shared keywords. This facilitates semantic matching by encoding conceptual relationships in the embedding space geometry."
+    },
+    {
+        "id": "162",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "dialogue systems"
+        ],
+        "correctness": true,
+        "text": "Conversational agents powered by doc2vec can track extended dialogue context across multiple turns by accumulating semantic document vectors. These summarized vectors help the agent respond appropriately as conversations evolve, understanding intent and retrieving relevant responses."
+    },
+    {
+        "id": "163",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "inverted indexes"
+        ],
+        "correctness": true,
+        "text": "Inverted indexes revolutionized full text search by allowing instant lookup of documents containing a query term, contrasting earlier approaches which repeatedly scanned through entire document collections."
+    },
+    {
+        "id": "164",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A key advantage of doc2vec is its consistency in producing fixed length, low-dimensional semantic vectors regardless of input document size, enabling both efficient information retrieval and comparisons across documents."
+    },
+    {
+        "id": "165",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Architecture",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "pipelining"
+        ],
+        "correctness": true,
+        "text": "Pipelining improves processor throughput by allowing multiple instructions to be in different execution stages concurrently, such as fetching upcoming instructions while executing current ones."
+    },
+    {
+        "id": "166",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "question answering"
+        ],
+        "correctness": true,
+        "text": "Semantic vectors from doc2vec can significantly boost accuracy for question answering applications by identifying conceptual relationships between questions and potential answer passages beyond just keyword matching."
+    },
+    {
+        "id": "167",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "distributed memory"
+        ],
+        "correctness": true,
+        "text": "The distributed memory architecture in doc2vec uniquely represents each document while also learning predictively useful word vectors based on document context windows. This enables powerful generalizations of semantics."
+    },
+    {
+        "id": "168",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Operating Systems",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "process management"
+        ],
+        "correctness": true,
+        "text": "Key functions provided by operating systems include process management, handling scheduling, inter-process communication, and synchronization between running programs."
+    },
+    {
+        "id": "169",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "semantic search"
+        ],
+        "correctness": true,
+        "text": "Search engines can leverage document embeddings from doc2vec models to enable semantic search through automatic query expansion and results retrieval based on conceptual relevance rather than just keywords."
+    },
+    {
+        "id": "170",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "The key methodological innovation in doc2vec was the application of shallow neural networks to unsupervised document embedding learning, overcoming limitations with prior count-based distributional semantic models."
+    },
+    {
+        "id": "171",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Security",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "encryption",
+            "cryptography"
+        ],
+        "correctness": true,
+        "text": "Cryptography refers to techniques for securing information through mathematical encryption algorithms that render data unintelligible to unauthorized access, along with cryptanalysis methods to break such ciphers."
+    },
+    {
+        "id": "172",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "precision",
+            "recall"
+        ],
+        "correctness": true,
+        "text": "Precision and recall are standard metrics used to evaluate information retrieval systems - precision measures fraction of retrieved documents that are relevant, while recall measures fraction of relevant documents retrieved."
+    },
+    {
+        "id": "173",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "semantic similarity"
+        ],
+        "correctness": true,
+        "text": "Doc2vec generates document embeddings that can accurately estimate semantic similarity between pieces of text through vector space cosine distance measurements, enabling applications like paraphrase detection."
+    },
+    {
+        "id": "174",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "The doc2vec methodology introduced an unsupervised neural network framework to learn fixed-length distributed representations for variable-length texts, overcoming limitations of prior count-based distributional semantic models."
+    },
+    {
+        "id": "175",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Networks",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "TCP/IP"
+        ],
+        "correctness": true,
+        "text": "The TCP/IP model provides universal communications standards to enable networked devices to communicate independent of underlying hardware, with IP handling routing and TCP enabling reliable end-to-end byte streams."
+    },
+    {
+        "id": "176",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "boolean model"
+        ],
+        "correctness": true,
+        "text": "The boolean model represents queries as combinations of terms with AND, OR, NOT operators to precisely define document relevance, but lacks ranking of results and weighting of query terms."
+    },
+    {
+        "id": "177",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "text classification"
+        ],
+        "correctness": true,
+        "text": "Text classification applications like sentiment analysis and spam detection can be improved through document embeddings from doc2vec models which encapsulate semantic meaning beyond traditional bag-of-words models."
+    },
+    {
+        "id": "178",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The distributed bag of words approach in doc2vec captures useful statistical structures from word co-occurrence within documents even while ignoring word ordering, providing an efficient complement to distributed memory."
+    },
+    {
+        "id": "179",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Graphics",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "rendering"
+        ],
+        "correctness": true,
+        "text": "Rendering is the automated process of generating 2D digital images from 3D models or scenes via simulation of optical phenomena like light and shadows using techniques like rasterization and ray tracing."
+    },
+    {
+        "id": "180",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "stop words"
+        ],
+        "correctness": true,
+        "text": "Stop words refer to the most frequent, common words in a language that were often excluded from indexing documents in earlier information retrieval systems since they lacked semantic discrimination for search."
+    },
+    {
+        "id": "181",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A key advantage of doc2vec is its ability to learn semantically meaningful document representations even from very short texts by incorporating broader contextual evidence."
+    },
+    {
+        "id": "182",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "Search engines can leverage doctovec's document embeddings to enable semantic matching between queries and corpus beyond just keywords."
+    },
+    {
+        "id": "183",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "text generation"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can provide useful document embeddings to improve coherence and accuracy in natural language generation applications like machine translation."
+    },
+    {
+        "id": "184",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "vector space model"
+        ],
+        "correctness": true,
+        "text": "The vector space model represents documents mathematically as vectors of identifiers like keywords, allowing similarity calculations via geometric relationships."
+    },
+    {
+        "id": "185",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A key advantage of doc2vec is unsupervised training which allows large amounts of unlabeled data to be leveraged for building high-quality document embeddings."
+    },
+    {
+        "id": "186",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Databases",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "relational databases"
+        ],
+        "correctness": true,
+        "text": "Relational databases organize data into tables with defined relations, supporting queries in languages like SQL."
+    },
+    {
+        "id": "187",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 6,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "semantic search"
+        ],
+        "correctness": true,
+        "text": "Search engines can leverage doc2vec embeddings to enable semantic search instead of just keyword matching."
+    },
+    {
+        "id": "188",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "distributed memory"
+        ],
+        "correctness": true,
+        "text": "The distributed memory architecture in doc2vec represents documents uniquely while learning word vectors tied to document context."
+    },
+    {
+        "id": "189",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Operating Systems",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "kernel",
+            "system calls"
+        ],
+        "correctness": true,
+        "text": "The kernel provides core OS functions like process management, memory, I/O via system calls exposed to applications."
+    },
+    {
+        "id": "190",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 3,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "recommender systems"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can improve recommendations by generating semantic item embeddings beyond just keywords."
+    },
+    {
+        "id": "191",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "A key novelty of doc2vec was using neural networks to learn document embeddings in an unsupervised manner."
+    },
+    {
+        "id": "192",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Software Engineering",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "agile development"
+        ],
+        "correctness": true,
+        "text": "Agile software development emphasizes iterative delivery, stakeholder collaboration, and responding to change."
+    },
+    {
+        "id": "193",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "ranked retrieval"
+        ],
+        "correctness": true,
+        "text": "Unlike boolean keyword matching, ranked retrieval attempts to sort results by estimated relevance."
+    },
+    {
+        "id": "194",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "paraphrase detection"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can enable more semantic similarity measurements, useful for paraphrase detection."
+    },
+    {
+        "id": "195",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The distributed bag of words approach in doc2vec uses document ID tags to predict words randomly sampled from paragraphs."
+    },
+    {
+        "id": "196",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Networks",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "TCP/IP",
+            "OSI model"
+        ],
+        "correctness": true,
+        "text": "The TCP/IP and OSI models provide conceptual frameworks to standardize networked communications."
+    },
+    {
+        "id": "197",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "boolean model"
+        ],
+        "correctness": true,
+        "text": "The boolean model allows users to precisely define document relevance using keywords with AND, OR, NOT operators."
+    },
+    {
+        "id": "198",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "document classification"
+        ],
+        "correctness": true,
+        "text": "Doc2vec can generate useful embeddings for document classification tasks."
+    },
+    {
+        "id": "199",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "distributed memory",
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The distributed memory and distributed bag of words architectures in doc2vec represent different tradeoffs between retaining word order and training efficiency."
+    },
+    {
+        "id": "200",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Architecture",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "pipelining",
+            "caches"
+        ],
+        "correctness": true,
+        "text": "Pipelining and caching are key techniques used to improve computer performance."
+    },
+    {
+        "id": "201",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A significant advantage of doc2vec is its ability to generate semantically meaningful representations of documents by training neural networks to predict words based on surrounding context. This allows the models to encode useful latent attributes into dense low-dimensional vectors even for very large documents or corpus collections. The document vectors capture semantic relationships between concepts and topics based on usage across contexts. This level of generalization is difficult to achieve with count-based distributional semantic models like TF-IDF or LSA which rely only on isolated word co-occurrence statistics."
+    },
+    {
+        "id": "202",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "Search engine indexing and document retrieval can be enhanced through doc2vec models, which provide semantically meaningful representations of queries and corpus documents in the same embedding vector space. Queries can be expanded by finding similar document vectors that reflect conceptual relevance even without keyword overlap. The inverted indexes built using doc2vec embeddings allow identifying relevant search results based on semantic similarity calculations like cosine distances between query and document vectors."
+    },
+    {
+        "id": "203",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "dialogue systems"
+        ],
+        "correctness": true,
+        "text": "Conversational dialogue agents can utilize doc2vec to track extended conversational context across multiple dialogue turns by accumulating semantic document vectors. As users interact with the agent, each turn's utterance can be embedded using doc2vec and appended to the context document representation. This allows the agent's responses to reflect the implicitly derived intents and meanings rather than just reacting to isolated utterances turn-by-turn."
+    },
+    {
+        "id": "204",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "ranking models"
+        ],
+        "correctness": true,
+        "text": "Unlike traditional boolean keyword retrieval models, ranking models in information retrieval aim to estimate the relevance of documents to a given query on a graded scale, sorting the matching documents accordingly to provide users with precisely matched results higher up."
+    },
+    {
+        "id": "205",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A key advantage of the doc2vec framework is its unsupervised learning methodology which allows large volumes of unlabeled training data to be leveraged in developing high-quality semantic document representations. This provides a practical way to exploit statistical patterns in usage from wider corpora without needing expensive human-generated labels or annotations."
+    },
+    {
+        "id": "206",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Software Engineering",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "code testing"
+        ],
+        "correctness": true,
+        "text": "Code testing is an indispensable software engineering practice to evaluate correctness, detect bugs, and ensure that software works as intended before deployment across different use cases and scenarios. Different testing types include unit testing at modular level, integration testing across components, system testing at product level, and user acceptance testing against requirements."
+    },
+    {
+        "id": "207",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "question answering"
+        ],
+        "correctness": true,
+        "text": "Semantic representations of questions and answer passages from doc2vec models can significantly boost accuracy for question answering applications by identifying conceptual relationships between queries and answers that go beyond surface keyword matching. The embeddings encapsulate meaning that allows connecting related questions and answers together."
+    },
+    {
+        "id": "208",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "mechanism",
+        "entities": [
+            "distributed memory"
+        ],
+        "correctness": true,
+        "text": "The distributed memory architecture used in doc2vec represents each document uniquely with a context window that includes both document ID and word vectors, enabling powerful learning of semantics by predicting target words based on models of documents and their contextual usage of words."
+    },
+    {
+        "id": "209",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Networks",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "TCP/IP",
+            "OSI"
+        ],
+        "correctness": true,
+        "text": "The TCP/IP and OSI conceptual models provide standardization to allow heterogeneous networked systems and technologies to communicate, with TCP/IP adopted widely through its inclusion in Internet protocol suites to provide end-to-end data transmission services."
+    },
+    {
+        "id": "210",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "application",
+        "entities": [
+            "semantic search"
+        ],
+        "correctness": true,
+        "text": "Search engines incorporating document embeddings from doc2vec models can offer true semantic search capabilities, where user intent behind queries can be modeled beyond just matching keywords. Queries can be expanded by relating them to similar document vectors that reflect conceptual relevance in the corpus."
+    },
+    {
+        "id": "211",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "The key methodological innovation introduced by doc2vec was the application of neural network architectures to generate unsupervised document embeddings, overcoming limitations of prior count-based distributional semantic models which could not adequately capture semantics from word order and document context."
+    },
+    {
+        "id": "212",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Security",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "authentication",
+            "access control"
+        ],
+        "correctness": true,
+        "text": "User authentication verifies claimed identities, while access control restricts access to authorized users through mechanisms like access control lists, role-based access, multi-factor authentication, single sign-on, and secure password storage."
+    },
+    {
+        "id": "213",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "precision",
+            "recall"
+        ],
+        "correctness": true,
+        "text": "Precision and recall are standard evaluation metrics used in information retrieval, where precision represents the fraction of retrieved documents that are relevant, and recall represents the fraction of all relevant documents in the corpus that were successfully retrieved."
+    },
+    {
+        "id": "214",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "text summarization"
+        ],
+        "correctness": true,
+        "text": "Document embedding techniques like doc2vec are very useful for abstractive text summarization applications, as they can encode semantic information about documents in a lower dimensional vector space to generate summaries reflecting key conceptual topics."
+    },
+    {
+        "id": "215",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "mechanism",
+        "entities": [
+            "distributed bag of words"
+        ],
+        "correctness": true,
+        "text": "The distributed bag of words approach used in doc2vec ignores word order but still produces useful representations by predicting target words based solely on the document ID tag from a randomly sampled window of text from a paragraph or document."
+    },
+    {
+        "id": "216",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Graphics",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "rendering"
+        ],
+        "correctness": true,
+        "text": "Rendering is the automated process of generating photorealistic or stylized 2D images from 3D models and scenes via simulation of real or imagined optical phenomena like colors, textures, shadows, light physics and visual perception using computer graphics techniques."
+    },
+    {
+        "id": "217",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "ranked retrieval"
+        ],
+        "correctness": true,
+        "text": "Unlike earlier boolean keyword retrieval models, ranked retrieval systems attempt to estimate the relevance of documents to a user's query on a graded scale, aiming to sort and return documents by this estimated relevance score."
+    },
+    {
+        "id": "218",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Natural Language Processing",
+        "style": "technical",
+        "type": "application",
+        "entities": [
+            "text classification"
+        ],
+        "correctness": true,
+        "text": "Text classification tasks like sentiment analysis, topic labeling, and spam detection can be significantly improved using document embeddings from doc2vec models as features instead of raw bag-of-words or TF-IDF models, as they encapsulate greater semantic meaning."
+    },
+    {
+        "id": "219",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "academic",
+        "type": "methodology",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "The key methodological innovation in doc2vec was the introduction of an unsupervised neural network framework to learn fixed-length distributed vector representations of documents based on words, overcoming limitations of prior count-based distributional semantics models."
+    },
+    {
+        "id": "220",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Architecture",
+        "style": "academic",
+        "type": "background",
+        "entities": [
+            "pipelining"
+        ],
+        "correctness": true,
+        "text": "Pipelining is a key technique used to improve instruction throughput in modern computer processor architectures by allowing multiple instructions to be in different stages of execution concurrently, such as fetching upcoming instructions while executing current instructions."
+    },
+    {
+        "id": "221",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "conversational",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "One big plus with doc2vec is its ability to learn useful representations of documents even without fancy human labeling or annotations. By analyzing patterns in unlabeled text, it can pick up on semantic relationships to embed meaning in compact numerical vectors."
+    },
+    {
+        "id": "222",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "conversational",
+        "type": "application",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "Search engines could use doc2vec to make queries match conceptually related content, even without the exact same words. So you'd get better results looking for relevant info, not just keyword matches."
+    },
+    {
+        "id": "223",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "conversational",
+        "type": "application",
+        "entities": [
+            "chatbots"
+        ],
+        "correctness": true,
+        "text": "Chatbots might use doc2vec to track the overall conversation by turning each bit into a compact summary vector. That way the bot stays on topic even as users change subjects."
+    },
+    {
+        "id": "224",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "conversational",
+        "type": "background",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "Old school search engines would just match on keywords you typed in, with clunky results. But newer systems try ranking pages by relevance to what you're really looking for."
+    },
+    {
+        "id": "225",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "conversational",
+        "type": "advantages",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "A big advantage of doc2vec is you can use lots of unlabeled text data to train it, instead of needing humans to manually label and annotate things."
+    },
+    {
+        "id": "226",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "conversational",
+        "type": "background",
+        "entities": [
+            "artificial intelligence"
+        ],
+        "correctness": true,
+        "text": "Artificial intelligence involves making computers do tasks that typically require human thinking and reasoning, by designing smart algorithms that can learn and improve."
+    },
+    {
+        "id": "227",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Information Retrieval",
+        "style": "conversational",
+        "type": "application",
+        "entities": [
+            "virtual assistants"
+        ],
+        "correctness": true,
+        "text": "Virtual assistants could use doc2vec to understand conversations better. By encoding each bit into vectors, the assistant can grasp meaning and respond helpfully."
+    },
+    {
+        "id": "228",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 7,
+        "topic": "Natural Language Processing",
+        "style": "conversational",
+        "type": "mechanism",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "The core idea in doc2vec is using neural networks to embed pieces of text into vector numbers that capture underlying meanings based on context patterns, without direct human input."
+    },
+    {
+        "id": "229",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Technology",
+        "style": "conversational",
+        "type": "background",
+        "entities": [
+            "internet"
+        ],
+        "correctness": true,
+        "text": "The internet lets people across the world connect and share information through wired and wireless computer networks."
+    },
+    {
+        "id": "230",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 3,
+        "topic": "Information Retrieval",
+        "style": "conversational",
+        "type": "application",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "By understanding meaning, not just keywords, search engines with doc2vec could give better results based on what you're really seeking."
+    },
+    {
+        "id": "231",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 8,
+        "topic": "Natural Language Processing",
+        "style": "conversational",
+        "type": "methodology",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "The key innovation in doc2vec was using neural nets to embed documents based on surrounding words, without needing human intervention or labeling effort."
+    },
+    {
+        "id": "232",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "conversational",
+        "type": "background",
+        "entities": [
+            "algorithms"
+        ],
+        "correctness": true,
+        "text": "Algorithms are like recipes - sets of steps computers follow to accomplish useful tasks, designed carefully to produce the right output."
+    },
+    {
+        "id": "233",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 1,
+        "topic": "Information Retrieval",
+        "style": "conversational",
+        "type": "background",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "Older search engines would just match keywords you typed, giving sometimes wonky results. Newer ones try to be smarter."
+    },
+    {
+        "id": "234",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Natural Language Processing",
+        "style": "conversational",
+        "type": "application",
+        "entities": [
+            "text analysis"
+        ],
+        "correctness": true,
+        "text": "By encoding text as handy numbered vectors reflecting meaning, doc2vec could enable computers to better grasp concepts in areas like sentiment analysis."
+    },
+    {
+        "id": "235",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 9,
+        "topic": "Natural Language Processing",
+        "style": "conversational",
+        "type": "mechanism",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "Doc2vec uses clever neural net architectures to absorb meanings from word patterns in unlabeled texts - no human help needed! The vectors capture relationships."
+    },
+    {
+        "id": "236",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Technology",
+        "style": "conversational",
+        "type": "background",
+        "entities": [
+            "smartphones"
+        ],
+        "correctness": true,
+        "text": "Smartphones put a powerful computer in your pocket - they can browse the web, track your location, play media, run apps and games, even make phone calls!"
+    },
+    {
+        "id": "237",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 2,
+        "topic": "Information Retrieval",
+        "style": "conversational",
+        "type": "background",
+        "entities": [
+            "search engines"
+        ],
+        "correctness": true,
+        "text": "In the early days, search engines would just find pages with the words you entered, with iffy relevance to your needs."
+    },
+    {
+        "id": "238",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Natural Language Processing",
+        "style": "conversational",
+        "type": "application",
+        "entities": [
+            "text analysis"
+        ],
+        "correctness": true,
+        "text": "By representing text as handy vectors capturing meaning, doc2vec could allow more nuanced text analysis without human labeling effort."
+    },
+    {
+        "id": "239",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 10,
+        "topic": "Natural Language Processing",
+        "style": "conversational",
+        "type": "mechanism",
+        "entities": [
+            "doc2vec"
+        ],
+        "correctness": true,
+        "text": "Doc2vec leverages neural nets to absorb semantic relationships from unlabeled texts, condensing documents into handy low-dimensional vectors encapsulating estimated meaning."
+    },
+    {
+        "id": "240",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Technology",
+        "style": "conversational",
+        "type": "background",
+        "entities": [
+            "social media"
+        ],
+        "correctness": true,
+        "text": "Social media apps like Facebook and Twitter let people share text, photos, and videos online, connect with friends and join virtual communities."
+    }
+]

@@ -1,0 +1,1695 @@
+[
+    {
+        "id": "1",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Philosophy",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "Aristotle",
+            "Plato",
+            "Socrates",
+            "virtue ethics"
+        ],
+        "correctness": true,
+        "text": "The origins of moral philosophy in the Western tradition trace back to ancient Greek philosophers like Socrates, Plato and Aristotle. In his Nicomachean Ethics, Aristotle systematically formulated a theory of virtue ethics that described the path to human flourishing through cultivating virtues of character. This seminal work laid the foundations of ethical thinking and its influence continues to be felt in modern philosophy."
+    },
+    {
+        "id": "2",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "results",
+        "entities": [
+            "hunter-gatherer tribes",
+            "kinship groups"
+        ],
+        "correctness": true,
+        "text": "Anthropological research into early human societies reveals very different moral values and social norms compared to modern industrialized society. Hunter-gatherer groups were organized into small kinship-based bands and clan groups. Responsibilities and obligations were owed primarily to this inner circle rather than universal rights. Concepts of ownership and privacy operated very differently in these tight-knit communities."
+    },
+    {
+        "id": "3",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "Kohlberg",
+            "Gilligan"
+        ],
+        "correctness": false,
+        "text": "Influential psychological theories like Lawrence Kohlberg's stages of moral development were initially based on limited empirical research, primarily studying male subjects from Western educated backgrounds. Carol Gilligan criticized Kohlberg's framework for not adequately capturing female patterns of moral reasoning and there is still debate regarding universal norms of moral development versus diversity across cultures and demographics."
+    },
+    {
+        "id": "4",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Religion",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "Judeo-Christian tradition",
+            "Ten Commandments"
+        ],
+        "correctness": true,
+        "text": "Religious traditions have historically been important in conveying moral principles and rules across societies. The Judeo-Christian tradition pioneered moral codes like the Ten Commandments which outlawed offenses like murder, theft, and false testimony and became pillars of Western legal systems."
+    },
+    {
+        "id": "5",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Biology",
+        "style": "technical",
+        "type": "methods",
+        "entities": [
+            "chimpanzees",
+            "bonobos",
+            "oxytocin"
+        ],
+        "correctness": true,
+        "text": "Comparative studies of primates like chimpanzees and bonobos reveal building blocks of moral behavior in our evolutionary ancestors. Scientists hypothesize that hormones like oxytocin evolved to promote caring, cooperation and group cohesion in early hominid species, laying the biological foundations for moral conduct."
+    },
+    {
+        "id": "6",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 3,
+        "topic": "Political Science",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "French Revolution",
+            "human rights"
+        ],
+        "correctness": true,
+        "text": "Moral universalism emerged as a school of thought during the European Enlightenment. Thinkers argued that certain rights like equality, liberty and self-determination are natural and inalienable. These ideals were influential during events like the American and French Revolutions and became enshrined in documents like the Declaration of Independence."
+    },
+    {
+        "id": "7",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Literature",
+        "style": "informal",
+        "type": "conclusion",
+        "entities": [
+            "Dostoyevsky",
+            "Brothers Karamazov"
+        ],
+        "correctness": true,
+        "text": "Famous writers and novels often wrestle with moral dilemmas of their day. Dostoyevsky's classic The Brothers Karamazov contains lengthy discussions between characters debating profound ethical questions around God, free will, and morality."
+    },
+    {
+        "id": "8",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Astronomy",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "red giants",
+            "main sequence stars"
+        ],
+        "correctness": false,
+        "text": "Analyzing the stellar life cycle of aging stars provides insights into the evolution of our galaxy. As red giants exhaust their nuclear fuel, the expanding outer layers eventually eject and form planetary nebulae, while the core collapses into a white dwarf."
+    },
+    {
+        "id": "9",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "structural functionalism"
+        ],
+        "correctness": true,
+        "text": "Sociologists like Emile Durkheim argued that moral values serve important functions in uniting diverse modern societies. His theory of structural functionalism analyzed how social institutions like religion shape group morals and values."
+    },
+    {
+        "id": "10",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Philosophy",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "moral relativism",
+            "utilitarianism"
+        ],
+        "correctness": true,
+        "text": "Modern debates continue between moral absolutism and moral relativism as well as normative ethical theories like deontology, virtue ethics and utilitarianism. Ultimately the study of morality remains vibrant across disciplines, continuing to evolve philosophically while integrating perspectives from fields like psychology, sociology and anthropology."
+    },
+    {
+        "id": "11",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "Kohlberg",
+            "Gilligan"
+        ],
+        "correctness": true,
+        "text": "While Lawrence Kohlberg's theory of moral development stages was pioneering, it was limited by its small samples of only male participants. Carol Gilligan's critique highlighted that women often have a distinct moral voice and approach ethical dilemmas through an 'ethic of care' rather than formal reasoning."
+    },
+    {
+        "id": "12",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Biology",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "bonobos",
+            "oxytocin"
+        ],
+        "correctness": true,
+        "text": "Field studies of matriarchal primate societies like bonobos reveal behaviors centered on conflict resolution and group harmony. Scientists propose that neuropeptides like oxytocin evolved in bonobos and early hominids to encourage maternal care and emotional bonding."
+    },
+    {
+        "id": "13",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "History",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "slavery",
+            "civil rights movement"
+        ],
+        "correctness": true,
+        "text": "Moral standards and social values evolve over decades and centuries responding to social reform movements. While slavery was historically accepted in many cultures, abolitionist movements led to its eventual prohibition. In America, the civil rights movement led to dismantling of segregation and progress toward racial equality."
+    },
+    {
+        "id": "14",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Literature",
+        "style": "informal",
+        "type": "methods",
+        "entities": [
+            "Dostoyevsky"
+        ],
+        "correctness": true,
+        "text": "Novels often reveal shifting social attitudes and moral gray areas of an era. Dostoyevsky's work grappled with the conflicting moral questions and psychological tensions of late 19th century Russia."
+    },
+    {
+        "id": "15",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Medicine",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "antineoplastic drugs",
+            "dose-limiting toxicity"
+        ],
+        "correctness": true,
+        "text": "Phase 1 trials for cancer drugs focus on finding the maximum tolerated dose with acceptable toxicity. If excessive dose-limiting toxicity occurs in early cohorts, the study protocol must be amended to reduce doses for patient safety."
+    },
+    {
+        "id": "16",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "conclusion",
+        "entities": [
+            "honor cultures",
+            "hunter-gatherers"
+        ],
+        "correctness": true,
+        "text": "The communal morals and clan loyalty of early hunter-gatherer groups could be very different from modern individualistic thinking and universal rights. But some aspects like honor cultures do persist in modified forms today."
+    },
+    {
+        "id": "17",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Political Science",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "social contract theory",
+            "John Locke"
+        ],
+        "correctness": true,
+        "text": "Influential theories like social contract theory were developed by philosophers like Thomas Hobbes and John Locke during the Enlightenment era. These hypothesized a scenario in which individuals mutually consented to govern themselves by moral rules that preserved natural rights."
+    },
+    {
+        "id": "18",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Astronomy",
+        "style": "technical",
+        "type": "conclusion",
+        "entities": [
+            "main sequence",
+            "red giants"
+        ],
+        "correctness": false,
+        "text": "Late-stage stellar evolution predicts that low mass stars transition from fusing hydrogen on the main sequence eventually expanding into red giants as their helium core contracts and their outer layers are ejected."
+    },
+    {
+        "id": "19",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "structural functionalism"
+        ],
+        "correctness": true,
+        "text": "Sociologists like Emile Durkheim and Talcott Parsons analyzed society using structural functionalism which views aspects like social institutions and norms as serving crucial roles in maintaining order and consensus."
+    },
+    {
+        "id": "20",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Literature",
+        "style": "informal",
+        "type": "results",
+        "entities": [
+            "Victorian era"
+        ],
+        "correctness": true,
+        "text": "The works of Victorian-era novelists like Charles Dickens often incorporated moral themes and explored social reforms like improving conditions for the poor and advancing workers' rights."
+    },
+    {
+        "id": "21",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Philosophy",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "Aristotle",
+            "eudaimonia"
+        ],
+        "correctness": true,
+        "text": "Aristotle's virtue ethics tied morality to human flourishing and eudaimonia, developing virtues of character that enabled one to achieve their highest good. This seminal work of Western philosophy established an influential ethical framework centered on virtue, reason and balance."
+    },
+    {
+        "id": "22",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "History",
+        "style": "informal",
+        "type": "conclusion",
+        "entities": [
+            "Hamurabi's Code",
+            "lex talionis"
+        ],
+        "correctness": true,
+        "text": "Some of the earliest legal codes like Hamurabi's Code in Mesopotamia codified moral norms and punishments, like the principle of lex talionis of an eye for an eye. Over centuries, justice systems evolved towards more nuanced penalties."
+    },
+    {
+        "id": "23",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Medicine",
+        "style": "technical",
+        "type": "methods",
+        "entities": [
+            "clinical trials",
+            "randomization"
+        ],
+        "correctness": true,
+        "text": "Double-blinded randomized placebo-controlled trials are the gold standard for evaluating clinical interventions. Randomization and blinding help minimize bias by distributing confounders evenly across study arms."
+    },
+    {
+        "id": "24",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "Kohlberg"
+        ],
+        "correctness": true,
+        "text": "While Lawrence Kohlberg's theory of moral development stages made valuable contributions to psychology, contemporary researchers recognize that morality is multifaceted and develops through complex interactions of biology, social environment and culture."
+    },
+    {
+        "id": "25",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "History",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "human rights"
+        ],
+        "correctness": true,
+        "text": "The concept of human rights as universal and inhering in all people regardless of identity emerged from the European Enlightenment. Thinkers like John Locke and Immanuel Kant advanced ideals of liberty, equality and self-determination that became encoded in documents like the American Declaration of Independence."
+    },
+    {
+        "id": "26",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "structural functionalism"
+        ],
+        "correctness": true,
+        "text": "Sociologists like Emile Durkheim viewed society as a complex system where social institutions like religion contribute to maintaining order, transmission of values and group cohesion according to the theory of structural functionalism."
+    },
+    {
+        "id": "27",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Physics",
+        "style": "technical",
+        "type": "conclusion",
+        "entities": [
+            "general relativity"
+        ],
+        "correctness": true,
+        "text": "Einstein's theory of general relativity superseded Newtonian physics by explaining gravitation as distortion of spacetime geometry due to mass-energy equivalency, providing an improved description of cosmology and the universe."
+    },
+    {
+        "id": "28",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "methods",
+        "entities": [
+            "kin networks"
+        ],
+        "correctness": true,
+        "text": "Anthropologists lived within and studied indigenous communities to gain insights into their social structures and moral values, like the vital role of reciprocal obligations and norms governing kin networks."
+    },
+    {
+        "id": "29",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "neural networks"
+        ],
+        "correctness": true,
+        "text": "Complex machine learning models like deep convolutional neural networks have achieved impressive results in computer vision tasks by learning hierarchical feature representations through extensive training on large labeled datasets."
+    },
+    {
+        "id": "30",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "History",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "social reform"
+        ],
+        "correctness": true,
+        "text": "Moral standards have steadily improved over decades and centuries due in part to philosophers making impassioned arguments against entrenched injustices and inspiring social reform movements."
+    },
+    {
+        "id": "31",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Philosophy",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "John Stuart Mill",
+            "utilitarianism"
+        ],
+        "correctness": true,
+        "text": "Influential philosophies like John Stuart Mill's utilitarianism advanced ideas of morality grounded in concepts of reducing suffering and increasing happiness that diverged from traditional customs, contributing new perspectives to ethical theory."
+    },
+    {
+        "id": "32",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Literature",
+        "style": "informal",
+        "type": "conclusion",
+        "entities": [
+            "Charles Dickens"
+        ],
+        "correctness": true,
+        "text": "The novels of Charles Dickens often incorporated moral and social commentary by portraying the harsh conditions of the poor and working-class in 19th century England, helping spur reforms."
+    },
+    {
+        "id": "33",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Astronomy",
+        "style": "technical",
+        "type": "introduction",
+        "entities": [
+            "cosmology"
+        ],
+        "correctness": true,
+        "text": "Modern cosmology seeks to trace the evolution of the universe back to the initial Big Bang, the first infinitesimal fraction of a second when space and time originated along with elemental particles and forces described by the Standard Model of particle physics."
+    },
+    {
+        "id": "34",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 3,
+        "topic": "Political Science",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "social contract theory"
+        ],
+        "correctness": true,
+        "text": "Social contract theory significantly influenced modern political thinking by proposing that legitimate government derives power not from divine right but from the consent and agreement of the governed who unite to protect their collective welfare and natural rights."
+    },
+    {
+        "id": "35",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "moral foundations theory"
+        ],
+        "correctness": true,
+        "text": "Moral foundations theory in psychology suggests that human ethical reasoning draws from a small set of intuitive moral values oriented around harm, fairness, loyalty, authority and purity that evolved due to adaptive pressures."
+    },
+    {
+        "id": "36",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Physics",
+        "style": "technical",
+        "type": "methods",
+        "entities": [
+            "Large Hadron Collider"
+        ],
+        "correctness": true,
+        "text": "By accelerating beams of protons to speeds close to light speed and colliding them, particle accelerators like CERN's Large Hadron Collider recreate the ultra high-energy conditions of the early universe microseconds after the Big Bang."
+    },
+    {
+        "id": "37",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "results",
+        "entities": [
+            "rituals"
+        ],
+        "correctness": true,
+        "text": "Anthropological research found many commonalities around themes like coming-of-age rituals across cultures that transmit moral values, even if specific practices vary between societies."
+    },
+    {
+        "id": "38",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "History",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "civil rights movement"
+        ],
+        "correctness": true,
+        "text": "Moral progress has often resulted from social and political activism of courageous reformers, as exemplified by the 20th century civil rights movement's efforts to extend equal rights and overturn unjust discriminatory practices encoded in law."
+    },
+    {
+        "id": "39",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "structural functionalism"
+        ],
+        "correctness": true,
+        "text": "Sociological frameworks like structural functionalism analyze the interdependent social structures and institutions that shape values within a society, although contemporary sociologists also consider factors like agency and inequalities."
+    },
+    {
+        "id": "40",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Philosophy",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "Aristotle",
+            "virtue ethics"
+        ],
+        "correctness": true,
+        "text": "The ancient Greek philosopher Aristotle developed an influential virtue-based eudaimonic ethical framework. In the Nicomachean Ethics, he argued that morality is centered on cultivating virtues of character and reason that enable human flourishing and happiness."
+    },
+    {
+        "id": "41",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "History",
+        "style": "informal",
+        "type": "methods",
+        "entities": [
+            "Code of Hammurabi"
+        ],
+        "correctness": true,
+        "text": "The ancient Code of Hammurabi in Babylon was one of the earliest sets of written laws. It prescribed moral rules and punishments like the principle of lex talionis, which later impacted development of criminal justice systems."
+    },
+    {
+        "id": "42",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Astronomy",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "cosmic inflation",
+            "quantum fluctuations"
+        ],
+        "correctness": true,
+        "text": "The theory of cosmic inflation explains the early rapid exponential expansion of space just fractions of a second after the Big Bang, which was driven by negative vacuum pressure and generated quantum fluctuations leaving faint traces in the cosmic microwave background."
+    },
+    {
+        "id": "43",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "Kohlberg"
+        ],
+        "correctness": true,
+        "text": "While Kohlberg's theory of universal moral development stages was foundational for moral psychology, contemporary research recognizes that morality is multifaceted and cultural variations exist in moral values and social norms."
+    },
+    {
+        "id": "44",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Political Science",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "social contract theory"
+        ],
+        "correctness": true,
+        "text": "Social contract theory significantly shaped modern political philosophy by proposing that legitimate government power derives from consent of the governed, who unite to protect shared rights and liberties, as articulated by thinkers like Hobbes, Locke and Rousseau."
+    },
+    {
+        "id": "45",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "History",
+        "style": "informal",
+        "type": "introduction",
+        "entities": [
+            "slavery"
+        ],
+        "correctness": true,
+        "text": "While slavery and forced labor were accepted in ancient societies and throughout history, ethical arguments against slavery grew and abolitionist movements ultimately succeeded in outlawing the practice in developed nations by the late 19th century."
+    },
+    {
+        "id": "46",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "technical",
+        "type": "methods",
+        "entities": [
+            "Reinforcement Learning"
+        ],
+        "correctness": true,
+        "text": "Reinforcement learning trains artificial agents to maximize rewards through trial-and-error interactions with dynamic environments, learning profitable behaviors and policies mapped from states to optimal actions."
+    },
+    {
+        "id": "47",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "results",
+        "entities": [
+            "kinship"
+        ],
+        "correctness": true,
+        "text": "Anthropological studies reveal how pre-modern communal groups enforced moral norms differently than modern societies. Violating obligations to kinship or clan groups was often seen as more unethical than harming distant strangers."
+    },
+    {
+        "id": "48",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 3,
+        "topic": "History",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "civil rights"
+        ],
+        "correctness": true,
+        "text": "Moral progress has often resulted from courageous activists campaigning against systemic injustices, as exemplified by civil rights champions like Martin Luther King, Jr. and Rosa Parks fighting segregation and working to extend legal equality regardless of race."
+    },
+    {
+        "id": "49",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "structural functionalism"
+        ],
+        "correctness": true,
+        "text": "Classical sociologists like Emile Durkheim and Talcott Parsons analyzed society using structural functionalism, examining social structures and norms in terms of their necessary roles in maintaining social order and coherence."
+    },
+    {
+        "id": "50",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Biology",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "natural selection"
+        ],
+        "correctness": true,
+        "text": "Evolutionary biology explains the emergence of complex adaptations and speciation through mechanisms like natural selection, heritable genetic variation, and reproductive success over generational timescales."
+    },
+    {
+        "id": "51",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Literature",
+        "style": "informal",
+        "type": "conclusion",
+        "entities": [
+            "Charles Dickens"
+        ],
+        "correctness": true,
+        "text": "Through portraying the hardships of the disadvantaged, novels by Charles Dickens brought attention to economic and social injustices of Victorian Britain, helping inspire reforms."
+    },
+    {
+        "id": "52",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "History",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "French Revolution"
+        ],
+        "correctness": true,
+        "text": "Enlightenment ideals of liberty and human rights were influential on historical events like the American and French Revolutions, leading to founding documents that expressed moral principles of democratic government based on freedom and equal consent."
+    },
+    {
+        "id": "53",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "structural functionalism"
+        ],
+        "correctness": true,
+        "text": "Sociological theory of structural functionalism analyzes the various social structures, institutions and norms that make up a society in terms of the necessary functions they fulfill to maintain social order and stability."
+    },
+    {
+        "id": "54",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Physics",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "quantum electrodynamics"
+        ],
+        "correctness": true,
+        "text": "Developments in quantum electrodynamics enabled more accurate calculations of anomalous magnetic dipole moments of leptons like electrons and muons through Feynman diagram perturbation theory."
+    },
+    {
+        "id": "55",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "conclusion",
+        "entities": [
+            "rites of passage"
+        ],
+        "correctness": true,
+        "text": "Anthropologists have documented coming-of-age rites of passage in societies across the world that serve to transmit cultural values and mark moral developmental milestones as individuals enter adulthood."
+    },
+    {
+        "id": "56",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "History",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "abolition"
+        ],
+        "correctness": true,
+        "text": "Reformers made impassioned moral arguments against slavery, contributing to abolitionist movements in Britain and the United States that succeeded in bringing about legal prohibitions banning the unjust practice."
+    },
+    {
+        "id": "57",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "symbolic interactionism"
+        ],
+        "correctness": true,
+        "text": "In contrast to structural functionalism, other sociological perspectives like symbolic interactionism focused more on subjective meanings and definitions of morality that emerge through individual interactions and communications within societies."
+    },
+    {
+        "id": "58",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "technical",
+        "type": "introduction",
+        "entities": [
+            "artificial intelligence"
+        ],
+        "correctness": true,
+        "text": "Artificial intelligence research seeks to automate intelligent behavior and adaptability through techniques like machine learning, neural networks, knowledge representation and reasoning, robotics, and natural language processing."
+    },
+    {
+        "id": "59",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "Carol Gilligan"
+        ],
+        "correctness": true,
+        "text": "Psychologist Carol Gilligan criticized Lawrence Kohlberg's theory of universal moral development stages for a male gender bias, arguing that women often demonstrate a distinct moral voice and approach ethical dilemmas through an 'ethic of care'."
+    },
+    {
+        "id": "60",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "Philosophy",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "John Stuart Mill",
+            "utilitarianism"
+        ],
+        "correctness": true,
+        "text": "Influential moral philosophies like utilitarianism advanced by John Stuart Mill diverged from past traditions by judging actions based on the principle of generating the greatest happiness for the greatest number rather than conformity to duties or rules."
+    },
+    {
+        "id": "61",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "History",
+        "style": "informal",
+        "type": "conclusion",
+        "entities": [
+            "Code of Hammurabi"
+        ],
+        "correctness": true,
+        "text": "While the Code of Hammurabi and other ancient legal codes could be brutally harsh, over centuries criminal justice systems evolved towards more nuanced and humane penalties aligned with modern sensibilities."
+    },
+    {
+        "id": "62",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Physics",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "Higgs boson"
+        ],
+        "correctness": true,
+        "text": "Experiments at the Large Hadron Collider at CERN confirmed the detection of the Higgs boson, an elementary particle first predicted in the 1960s by the Standard Model of particle physics."
+    },
+    {
+        "id": "63",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "moral foundations theory"
+        ],
+        "correctness": true,
+        "text": "Moral foundations theory proposes that human ethical reasoning draws from a small set of intuitive values oriented around harm, fairness, loyalty, authority and purity, evolved as adaptive responses to evolutionary pressures."
+    },
+    {
+        "id": "64",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "History",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "Declaration of Independence"
+        ],
+        "correctness": true,
+        "text": "The American Declaration of Independence, inspired by Enlightenment thinkers, expressed seminal moral principles of equality, liberty and self-determination that became founding values of the new nation."
+    },
+    {
+        "id": "65",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "History",
+        "style": "informal",
+        "type": "results",
+        "entities": [
+            "slavery"
+        ],
+        "correctness": true,
+        "text": "While deeply entrenched for centuries, arguments against the profound injustice of slavery grew through the 18th and 19th centuries, leading to abolitionist movements that succeeded in outlawing the practice."
+    },
+    {
+        "id": "66",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Medicine",
+        "style": "technical",
+        "type": "methods",
+        "entities": [
+            "clinical trials"
+        ],
+        "correctness": true,
+        "text": "Randomized, double-blind, placebo-controlled trials are considered the gold standard in medical research to minimize bias when comparing treatments."
+    },
+    {
+        "id": "67",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "introduction",
+        "entities": [
+            "hunter-gatherers"
+        ],
+        "correctness": true,
+        "text": "Studying traditional small-scale societies like hunter-gatherer groups provides insights into how moral values and norms operated very differently than in modern industrialized cultures."
+    },
+    {
+        "id": "68",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "History",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "social reform"
+        ],
+        "correctness": true,
+        "text": "Courageous activists and social reformers throughout history have campaigned tirelessly against systemic injustices, slowly transforming moral standards surrounding issues like slavery, workers rights, racial discrimination and gender equality."
+    },
+    {
+        "id": "69",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "structural functionalism"
+        ],
+        "correctness": true,
+        "text": "Classical sociological theory like structural functionalism shed light on interdependent social structures and institutions that maintain cohesion, although these approaches faced critique for overemphasizing consensus and underplaying conflict and change."
+    },
+    {
+        "id": "70",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "technical",
+        "type": "introduction",
+        "entities": [
+            "artificial intelligence"
+        ],
+        "correctness": true,
+        "text": "Artificial intelligence is a rapidly advancing field in computer science devoted to developing systems and machines capable of tasks requiring human-level intelligence like visual perception, speech recognition, and language translation."
+    },
+    {
+        "id": "71",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Literature",
+        "style": "informal",
+        "type": "methods",
+        "entities": [
+            "Charles Dickens"
+        ],
+        "correctness": true,
+        "text": "Through sympathetic portrayals of disadvantaged characters, novels by Charles Dickens brought attention to economic and social injustices in 19th century England."
+    },
+    {
+        "id": "72",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "History",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "natural rights"
+        ],
+        "correctness": true,
+        "text": "Enlightenment philosophers advanced concepts of human dignity, liberty and natural rights. These ideals inspired historical documents like the Declaration of Independence and subsequent civil rights movements."
+    },
+    {
+        "id": "73",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "structural functionalism"
+        ],
+        "correctness": true,
+        "text": "Classical sociological theory used paradigms like structural functionalism to explain the necessary social roles filled by interdependent societal institutions in maintaining order and cohesion."
+    },
+    {
+        "id": "74",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Biology",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "evolution"
+        ],
+        "correctness": true,
+        "text": "Evidence from fossils, DNA sequencing, anatomical structures and other findings provide overwhelming support for the scientific theory of biological evolution through natural selection acting over geological time."
+    },
+    {
+        "id": "75",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "methods",
+        "entities": [
+            "rituals"
+        ],
+        "correctness": true,
+        "text": "Ethnographic studies have documented the vital role of rituals, taboos and rites of passage in transmitting moral values between generations in traditional societies."
+    },
+    {
+        "id": "76",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "History",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "women's suffrage"
+        ],
+        "correctness": true,
+        "text": "Activism by courageous reformers over decades led to women gaining voting rights, as moral arguments succeeded in overturning the historical denial of suffrage on the basis of gender."
+    },
+    {
+        "id": "77",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "symbolic interactionism"
+        ],
+        "correctness": true,
+        "text": "In contrast to structural functionalism's macro view, sociological perspectives like symbolic interactionism focused on the emergence and evolution of moral norms through micro-level interactions, communications and roles."
+    },
+    {
+        "id": "78",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Physics",
+        "style": "technical",
+        "type": "conclusion",
+        "entities": [
+            "quantum field theory"
+        ],
+        "correctness": true,
+        "text": "Advances in quantum field theory reconciled special relativity with quantum mechanics, providing a more fundamental framework unifying quantum descriptions of all known elementary particles and fundamental forces other than gravity."
+    },
+    {
+        "id": "79",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "Carol Gilligan"
+        ],
+        "correctness": true,
+        "text": "Carol Gilligan's research revealed different patterns in male and female moral reasoning, critiquing Lawrence Kohlberg's theory of universal developmental stages as biased towards male perspectives."
+    },
+    {
+        "id": "80",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "History",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "social reforms"
+        ],
+        "correctness": true,
+        "text": "Moral philosophers and social reformers challenged unjust practices that were historically widespread and deeply entrenched, making reasoned arguments against slavery, denial of suffrage, and other inequities that succeeded in transforming standards."
+    },
+    {
+        "id": "81",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "structural functionalism"
+        ],
+        "correctness": true,
+        "text": "Classical sociological theory employed paradigms like structural functionalism to analyze societies as complex systems of interdependent yet morally reinforcing social structures."
+    },
+    {
+        "id": "82",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "technical",
+        "type": "conclusion",
+        "entities": [
+            "artificial intelligence"
+        ],
+        "correctness": true,
+        "text": "Research in artificial intelligence continues to make strides in areas like computer vision, natural language processing, robotics, and machine learning, although human-level strong AI remains elusive."
+    },
+    {
+        "id": "83",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "results",
+        "entities": [
+            "kin networks"
+        ],
+        "correctness": true,
+        "text": "Anthropologists have found that in many premodern communal societies, moral obligations and norms applied most strongly within kin networks rather than universally as in modern individualistic cultures."
+    },
+    {
+        "id": "84",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "History",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "civil rights"
+        ],
+        "correctness": true,
+        "text": "Courageous 20th century civil rights activists like Martin Luther King, Jr. and Rosa Parks advanced moral arguments and organizing strategies that succeeded in extending equal rights and overturning unjust discriminatory practices."
+    },
+    {
+        "id": "85",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "conflict theory"
+        ],
+        "correctness": true,
+        "text": "Conflict theories in sociology emphasized ongoing struggles between groups within societies as shaping moral norms, critiquing structural functionalism for overlooking tensions, diverse interests and power differentials."
+    },
+    {
+        "id": "86",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Biology",
+        "style": "technical",
+        "type": "conclusion",
+        "entities": [
+            "evolution"
+        ],
+        "correctness": true,
+        "text": "Findings from anthropology, comparative anatomy, embryology, molecular biology, fossils, and other evidence provide consistent support for the unifying scientific theory of biological evolution."
+    },
+    {
+        "id": "87",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Literature",
+        "style": "informal",
+        "type": "results",
+        "entities": [
+            "Charles Dickens"
+        ],
+        "correctness": true,
+        "text": "Through sympathetic portrayals of disadvantaged characters, novels by Victorian authors like Charles Dickens brought attention to economic and social injustices of the period."
+    },
+    {
+        "id": "88",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 3,
+        "topic": "History",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "civil rights movement"
+        ],
+        "correctness": true,
+        "text": "Hard-won successes of reform movements like the 20th century American civil rights movement demonstrate that moral arguments and organized activism can overturn systemic injustices that were historically deeply entrenched."
+    },
+    {
+        "id": "89",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "conflict theory"
+        ],
+        "correctness": true,
+        "text": "Complementing structural functionalism's macro view, conflict theory in sociology focused on divergent interests and ongoing power struggles between groups as shaping the evolution of moral norms."
+    },
+    {
+        "id": "90",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "technical",
+        "type": "methods",
+        "entities": [
+            "machine learning"
+        ],
+        "correctness": true,
+        "text": "Supervised and unsupervised machine learning techniques like regression, classification, dimensionality reduction and clustering enable computers to learn complex models from large amounts of data."
+    },
+    {
+        "id": "91",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "Carol Gilligan"
+        ],
+        "correctness": true,
+        "text": "Psychologist Carol Gilligan's research found differences in male and female approaches to moral conflicts, critiquing Kohlberg's theory of universal developmental stages for having a male bias."
+    },
+    {
+        "id": "92",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "History",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "women's suffrage"
+        ],
+        "correctness": true,
+        "text": "Through sustained ethical arguments and activism over decades, reformers succeeded in extending women's voting rights, overturning the longstanding denial of suffrage on grounds of gender."
+    },
+    {
+        "id": "93",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "symbolic interactionism"
+        ],
+        "correctness": true,
+        "text": "Symbolic interactionist perspectives in sociology focused on micro-level communications, roles and interactions through which shared moral norms and values emerge and evolve within societies."
+    },
+    {
+        "id": "94",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Astronomy",
+        "style": "technical",
+        "type": "conclusion",
+        "entities": [
+            "cosmology"
+        ],
+        "correctness": true,
+        "text": "The Lambda-CDM model provides the current prevailing cosmological framework explaining the composition, evolution and geometry of the universe based on observations of the cosmic microwave background radiation."
+    },
+    {
+        "id": "95",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "conclusion",
+        "entities": [
+            "honor cultures"
+        ],
+        "correctness": true,
+        "text": "While premodern communal moral values differed greatly from modern individualism, some aspects like honor cultures based on reputation and family loyalty persisted into contemporary societies in modified forms."
+    },
+    {
+        "id": "96",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "History",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "abolition"
+        ],
+        "correctness": true,
+        "text": "Through decades of ethical arguments and activism, abolitionists succeeded in bringing about the prohibition of slavery, one of humanity's greatest moral achievements overturning an institution accepted for millennia."
+    },
+    {
+        "id": "97",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "conflict theory"
+        ],
+        "correctness": true,
+        "text": "Conflict theory perspectives in sociology emphasized ongoing struggles between social groups with competing interests and differential power as a force shaping the evolution of moral values and norms."
+    },
+    {
+        "id": "98",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "technical",
+        "type": "methods",
+        "entities": [
+            "deep learning"
+        ],
+        "correctness": true,
+        "text": "Deep learning employs multi-layer artificial neural networks for machine learning, leveraging techniques like convolutional and recurrent layers to learn hierarchical representations from large datasets."
+    },
+    {
+        "id": "99",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "Carol Gilligan"
+        ],
+        "correctness": true,
+        "text": "Psychologist Carol Gilligan critiqued Lawrence Kohlberg's theory of universal moral development stages for being biased towards male perspectives, finding different patterns in female moral reasoning."
+    },
+    {
+        "id": "100",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "History",
+        "style": "formal",
+        "type": "introduction",
+        "entities": [
+            "social reforms"
+        ],
+        "correctness": true,
+        "text": "Over decades and centuries, visionary activists and reformers succeeded in radically transforming moral standards surrounding historic injustices like slavery, denial of suffrage, and racial discrimination that were deeply entrenched."
+    },
+    {
+        "id": "101",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "critical theory"
+        ],
+        "correctness": true,
+        "text": "Critical theorists argued mainstream sociology failed to interrogate how power relations shape moral norms, advocating structural reforms to empower oppressed groups."
+    },
+    {
+        "id": "102",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Astronomy",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "cosmic expansion"
+        ],
+        "correctness": true,
+        "text": "Analyses of supernova light curves and cosmic background radiation indicate the universe is undergoing accelerating expansion, likely driven by dark energy which comprises 68% of the cosmos."
+    },
+    {
+        "id": "103",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "results",
+        "entities": [
+            "kin networks"
+        ],
+        "correctness": true,
+        "text": "In many premodern societies studied by anthropologists, moral obligations and norms were defined primarily by responsibilities to kinship networks rather than universal principles."
+    },
+    {
+        "id": "104",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "History",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "civil rights movement"
+        ],
+        "correctness": true,
+        "text": "Visionary civil rights leaders like Martin Luther King, Jr. spearheaded campaigns of nonviolent civil disobedience that succeeded in advancing equality, overturning discriminatory segregationist policies in America."
+    },
+    {
+        "id": "105",
+        "relevance": "medium",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "critical theory"
+        ],
+        "correctness": true,
+        "text": "Critical theorists diverged from structural functionalism by emphasizing how power differentials impact society's definition of moral norms, calling for reforms to empower marginalized groups."
+    },
+    {
+        "id": "106",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Biology",
+        "style": "technical",
+        "type": "methods",
+        "entities": [
+            "evolution"
+        ],
+        "correctness": true,
+        "text": "The modern synthesis integrated natural selection, population genetics, and Mendelian inheritance into a unifying coherent theory explaining evolution of species through differential reproductive success."
+    },
+    {
+        "id": "107",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Literature",
+        "style": "informal",
+        "type": "methods",
+        "entities": [
+            "Charles Dickens"
+        ],
+        "correctness": true,
+        "text": "Through sympathetic portrayals of disadvantaged characters, Charles Dickens' novels aimed to raise awareness of harsh conditions faced by the poor in 19th century England."
+    },
+    {
+        "id": "108",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "Philosophy",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "John Stuart Mill",
+            "utilitarianism"
+        ],
+        "correctness": true,
+        "text": "Classical utilitarianism developed by philosophers like John Stuart Mill morally evaluated actions based on consequences rather than duties, aiming to maximize happiness impartially considering all people's interests."
+    },
+    {
+        "id": "109",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "critical theory"
+        ],
+        "correctness": true,
+        "text": "Diverging from structural functionalism, critical theory in sociology advocated structural reforms to address how social power imbalances morally disempower marginalized demographic groups."
+    },
+    {
+        "id": "110",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Computer Science",
+        "style": "technical",
+        "type": "results",
+        "entities": [
+            "artificial intelligence"
+        ],
+        "correctness": true,
+        "text": "In artificial intelligence, sophisticated machine learning techniques have enabled advances in computer vision, natural language processing, data modeling, robotics and game-playing systems like AlphaGo."
+    },
+    {
+        "id": "111",
+        "relevance": "low",
+        "queryTerm": true,
+        "queryFreq": 1,
+        "topic": "Psychology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "Carol Gilligan"
+        ],
+        "correctness": true,
+        "text": "Carol Gilligan's psychological research revealed varied patterns between genders in moral perspectives, critically demonstrating problems in Lawrence Kohlberg's theory of universal developmental stages."
+    },
+    {
+        "id": "112",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 4,
+        "topic": "History",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "social reforms"
+        ],
+        "correctness": true,
+        "text": "Successful reform movements abolished deeply unjust moral lapses of the past like slavery, secured women's suffrage, and advanced civil rights, demonstrating that ethical arguments can overturn systemic injustices."
+    },
+    {
+        "id": "113",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "methods",
+        "entities": [
+            "feminist theory"
+        ],
+        "correctness": true,
+        "text": "Feminist theory argued mainstream sociology failed to recognize how gender power imbalances shaped moral norms, calling for reforms to address the marginalization of women."
+    },
+    {
+        "id": "114",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Physics",
+        "style": "technical",
+        "type": "conclusion",
+        "entities": [
+            "quantum mechanics"
+        ],
+        "correctness": true,
+        "text": "Quantum mechanics revolutionized physics by introducing inherently probabilistic descriptions of nature, successfully explaining phenomena from subatomic particles to solid state electronics."
+    },
+    {
+        "id": "115",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Anthropology",
+        "style": "informal",
+        "type": "results",
+        "entities": [
+            "rites of passage"
+        ],
+        "correctness": true,
+        "text": "Anthropological research has documented how rituals and rites of passage in diverse cultures serve to transmit moral values between generations and mark important developmental transitions."
+    },
+    {
+        "id": "116",
+        "relevance": "high",
+        "queryTerm": true,
+        "queryFreq": 5,
+        "topic": "History",
+        "style": "formal",
+        "type": "results",
+        "entities": [
+            "abolition"
+        ],
+        "correctness": true,
+        "text": "Driven by ethical arguments and activism, the 19th century abolitionist movement brought about the prohibition of slavery, overturning an institution that had persisted for centuries as morally acceptable."
+    },
+    {
+        "id": "117",
+        "relevance": "medium",
+        "queryTerm": true,
+        "queryFreq": 2,
+        "topic": "Sociology",
+        "style": "formal",
+        "type": "conclusion",
+        "entities": [
+            "feminist theory"
+        ],
+        "correctness": true,
+        "text": "Feminist sociological theory diverged from structural functionalism by emphasizing how gender power imbalances marginalize women, advocating reforms to address this moral disempowerment."
+    },
+    {
+        "id": "118",
+        "relevance": "none",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Biology",
+        "style": "technical",
+        "type": "introduction",
+        "entities": [
+            "evolution"
+        ],
+        "correctness": true,
+        "text": "Evolutionary biology seeks to explain the origins of complex biological adaptations and diversity of life through mechanisms like natural selection, heritable genetic variation, and differential reproductive success."
+    },
+    {
+        "id": "119",
+        "relevance": "low",
+        "queryTerm": false,
+        "queryFreq": 0,
+        "topic": "Literature",
+        "style": "informal",
+        "type": "conclusion",
+        "entities": [
+            "social novels"
+        ],
+        "correctness": true,
+        "text": "Socially conscious novels by authors like Upton Sinclair and Charles Dickens brought attention to economic inequality and harsh living conditions of the working classes and poor."
+    }
+]

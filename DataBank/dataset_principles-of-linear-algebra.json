@@ -1,0 +1,2654 @@
+{
+    "author": {
+        "name": "Jason Li",
+        "email": "pakaLFZ@gmail.com",
+        "organizationEmail": "fl822@ic.ac.uk"
+    },
+    "overview": {
+        "topic": "principles of linear algebra",
+        "numParagraphs": 154,
+        "example_ranking": {
+            "ranking_types": [
+                "high",
+                "medium",
+                "low",
+                "none"
+            ],
+            "high": [
+                0,
+                30,
+                36,
+                42,
+                45,
+                53,
+                56,
+                61,
+                65,
+                69,
+                73,
+                77,
+                81,
+                85,
+                89,
+                92,
+                97,
+                102,
+                107,
+                123,
+                127,
+                131,
+                135,
+                139,
+                143,
+                147
+            ],
+            "medium": [
+                1,
+                4,
+                7,
+                10,
+                13,
+                16,
+                19,
+                22,
+                25,
+                28,
+                31,
+                34,
+                37,
+                40,
+                43,
+                46,
+                50,
+                54,
+                57,
+                60,
+                62,
+                66,
+                70,
+                74,
+                78,
+                82,
+                86,
+                90,
+                93,
+                96,
+                100,
+                103,
+                106,
+                108,
+                111,
+                114,
+                117,
+                120,
+                124,
+                128,
+                132,
+                136,
+                140,
+                144,
+                148,
+                151
+            ],
+            "low": [
+                2,
+                6,
+                9,
+                12,
+                15,
+                18,
+                21,
+                24,
+                27,
+                32,
+                35,
+                38,
+                41,
+                44,
+                47,
+                49,
+                52,
+                55,
+                58,
+                63,
+                67,
+                71,
+                75,
+                79,
+                83,
+                87,
+                91,
+                94,
+                98,
+                101,
+                104,
+                109,
+                112,
+                115,
+                118,
+                121,
+                125,
+                129,
+                133,
+                137,
+                141,
+                145,
+                149,
+                152
+            ],
+            "none": [
+                3,
+                5,
+                8,
+                11,
+                14,
+                17,
+                20,
+                23,
+                26,
+                29,
+                33,
+                39,
+                48,
+                51,
+                59,
+                64,
+                68,
+                72,
+                76,
+                80,
+                84,
+                88,
+                95,
+                99,
+                105,
+                110,
+                113,
+                116,
+                119,
+                122,
+                126,
+                130,
+                134,
+                138,
+                142,
+                146,
+                150,
+                153
+            ]
+        }
+    },
+    "query": "evolution of moral standards",
+    "data": [
+        {
+            "id": 0,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "vector",
+                "matrix",
+                "linear equation",
+                "eigenvalue"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is a fundamental branch of mathematics that deals with the study of vector spaces and linear transformations. It provides the tools to analyze and solve systems of linear equations, which have numerous applications in various areas such as physics, engineering, and computer science. The principles of linear algebra involve concepts such as vectors, matrices, determinants, eigenvalues, and eigenvectors. These principles are crucial for understanding more advanced topics in mathematics, including calculus, optimization, and differential equations."
+        },
+        {
+            "id": 1,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "span",
+                "basis",
+                "dimension",
+                "subspace"
+            ],
+            "correctness": true,
+            "text": "One of the key principles in linear algebra is the concept of span. The span of a set of vectors is the set of all possible linear combinations of those vectors. Another important principle is the notion of basis, which is a linearly independent spanning set. Every vector in a vector space can be expressed uniquely as a linear combination of the vectors in its basis. The dimension of a vector space is the number of vectors in any basis of that space. Linear algebra also studies subspaces, which are subsets of a vector space closed under addition and scalar multiplication."
+        },
+        {
+            "id": 2,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "example",
+            "entities": [
+                "linear transformation",
+                "kernel",
+                "range"
+            ],
+            "correctness": true,
+            "text": "An example of a principle in linear algebra is the concept of a linear transformation. A linear transformation is a function that preserves the operations of vector addition and scalar multiplication. It maps vectors from one vector space to another, while preserving certain properties such as linearity. The kernel of a linear transformation is the set of vectors that map to the zero vector, while the range is the set of all possible output vectors. Understanding these principles is essential for solving problems related to linear systems, eigenvectors and eigenvalues, and applications such as image processing and data compression."
+        },
+        {
+            "id": 3,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "transpose",
+                "orthogonal",
+                "determinant"
+            ],
+            "correctness": true,
+            "text": "In linear algebra, there are several important principles that govern the behavior of matrices. The transpose of a matrix is obtained by flipping its rows and columns. An orthogonal matrix is a square matrix whose transpose is equal to its inverse. The determinant of a matrix is a scalar value that provides information about its invertibility and volume scaling factor. By understanding these principles, one can solve systems of linear equations using matrix techniques and perform operations such as matrix multiplication, finding inverses, and determining the rank and nullity of matrices."
+        },
+        {
+            "id": 4,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "concept",
+            "entities": [
+                "linear independence",
+                "eigenspace",
+                "diagonalization"
+            ],
+            "correctness": true,
+            "text": "Linear algebra introduces the concept of linear independence, which describes a set of vectors that cannot be expressed as linear combinations of each other. Eigenspaces are subspaces associated with eigenvalues, representing the directions along which a linear transformation stretches or shrinks vectors. Diagonalization is a powerful technique for simplifying calculations involving matrices by expressing them in a diagonal form using eigenvectors. These principles play a crucial role in various areas, such as solving differential equations, understanding geometric transformations, and analyzing networks in graph theory."
+        },
+        {
+            "id": 5,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "inner product",
+                "adjoint",
+                "orthonormal"
+            ],
+            "correctness": true,
+            "text": "An important principle in linear algebra is the concept of an inner product, which is a generalization of the dot product to vector spaces. The inner product provides a measure of angle, length, and orthogonality. The adjoint of a linear transformation is a related concept that describes a map between dual spaces. In an orthonormal basis, all basis vectors are orthogonal to each other and have unit length. These principles are used extensively in areas such as signal processing, quantum mechanics, data analysis, and machine learning."
+        },
+        {
+            "id": 6,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "example",
+            "entities": [
+                "singular value decomposition",
+                "least squares"
+            ],
+            "correctness": true,
+            "text": "An example of a principle in linear algebra is the singular value decomposition (SVD) technique. SVD decomposes a matrix into three separate matrices, allowing for efficient computation of properties such as rank, null space, and pseudoinverse. This technique has applications in data compression, image processing, and numerical optimization. Another example is the least squares method, which is used to find the best-fit line or curve that minimizes the sum of squared differences between observed and predicted values. Linear algebra provides the mathematical foundation for these computational techniques."
+        },
+        {
+            "id": 7,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "concept",
+            "entities": [
+                "eigenmatrix",
+                "characteristic polynomial",
+                "Cramer's rule"
+            ],
+            "correctness": true,
+            "text": "Linear algebra introduces the concept of an eigenmatrix, which is a matrix whose action on a vector is simply scaling the vector by some factor. The characteristic polynomial of a matrix is a polynomial equation that provides the eigenvalues of the matrix. Cramer's rule is a method for solving systems of linear equations using determinants. These concepts are essential for understanding the behavior of linear transformations, stability analysis in control systems, and solving problems involving eigenproblems and eigenspaces."
+        },
+        {
+            "id": 8,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "definition",
+            "entities": [
+                "Jordan canonical form",
+                "Hessenberg form"
+            ],
+            "correctness": true,
+            "text": "Advanced principles in linear algebra include the Jordan canonical form, which is a matrix representation that simplifies the analysis of higher-dimensional linear systems. The Hessenberg form is another matrix representation that reduces computational complexity for certain classes of matrices. These advanced techniques find applications in areas such as quantum mechanics, graph theory, numerical analysis, and optimization. By studying the principles of linear algebra, one can gain a deeper understanding of mathematical structures and develop powerful tools for solving real-world problems."
+        },
+        {
+            "id": 9,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "sparse matrix",
+                "graph Laplacian"
+            ],
+            "correctness": true,
+            "text": "Another example of a principle in linear algebra is the use of sparse matrices. Sparse matrices are matrices that contain mostly zero entries, resulting in efficient storage and computation. They have applications in fields like network analysis, computational biology, and computer graphics. The graph Laplacian is a matrix derived from the adjacency matrix of a graph, providing insights into the graph's connectivity and spectral properties. Understanding these principles allows for the development of algorithms and techniques that exploit the structure and properties of sparse matrices and graph Laplacians."
+        },
+        {
+            "id": 10,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "concept",
+            "entities": [
+                "orthogonal complement",
+                "row space",
+                "column space"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra include the notion of an orthogonal complement, which is a subspace consisting of vectors orthogonal to a given subspace. The row space of a matrix is the subspace spanned by its rows, while the column space is the subspace spanned by its columns. Understanding these concepts is essential for solving systems of linear equations, analyzing the rank and nullity of matrices, and characterizing the geometry and linear transformations associated with matrices."
+        },
+        {
+            "id": 11,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "Gram-Schmidt process",
+                "QR decomposition",
+                "Schur decomposition"
+            ],
+            "correctness": true,
+            "text": "The Gram-Schmidt process is a technique in linear algebra that orthonormalizes a set of vectors. It constructs an orthogonal basis for a subspace by successively removing their projections onto previously computed basis vectors. QR decomposition is a factorization of a matrix into an orthogonal matrix and an upper triangular matrix. Schur decomposition is another factorization that represents a matrix as the product of a unitary matrix and a triangular matrix. These decompositions are useful for solving linear systems, performing eigenvalue computations, and analyzing the structure of matrices."
+        },
+        {
+            "id": 12,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "example",
+            "entities": [
+                "linear programming",
+                "convex optimization"
+            ],
+            "correctness": true,
+            "text": "Linear algebra has applications in optimization problems, such as linear programming and convex optimization. Linear programming involves maximizing or minimizing a linear objective function subject to a set of linear constraints. Convex optimization extends these ideas to non-linear objectives and constraints with convex properties. These techniques are widely used in areas such as operations research, control systems, economics, and machine learning. Understanding the principles of linear algebra enables efficient and effective problem formulation, solution methods, and analysis of optimization problems."
+        },
+        {
+            "id": 13,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "trace",
+                "positive definite",
+                "singular value"
+            ],
+            "correctness": true,
+            "text": "A principle in linear algebra is the concept of trace, which is the sum of the diagonal elements of a square matrix. The trace provides information about invariants under similarity transformations and plays a role in defining properties like the determinant and eigenvalues. Positive definite matrices exhibit certain desirable properties, such as all positive eigenvalues. Singular values represent the scaling factors associated with singular vectors. These concepts are important in applications ranging from statistics and signal processing to physics and engineering."
+        },
+        {
+            "id": 14,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "definition",
+            "entities": [
+                "Krylov subspace",
+                "LU decomposition"
+            ],
+            "correctness": true,
+            "text": "Krylov subspace methods are iterative algorithms for finding approximations to solutions of linear systems or eigenproblems. They rely on constructing a sequence of vectors using powers of a given matrix. LU decomposition is a factorization of a matrix into the product of a lower triangular matrix and an upper triangular matrix. It provides a convenient form for solving systems of linear equations and computing determinants. These techniques are employed in numerical computations, scientific simulations, and engineering applications to efficiently handle large-scale problems."
+        },
+        {
+            "id": 15,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "vector norm",
+                "Euclidean distance"
+            ],
+            "correctness": true,
+            "text": "Linear algebra introduces the concept of a vector norm, which measures the length or magnitude of a vector. A commonly used norm is the Euclidean norm, also known as the L2 norm, which is calculated by taking the square root of the sum of the squares of the vector components. Norms provide a way to quantify similarity, convergence, and error in various mathematical and computational contexts. The Euclidean distance between two vectors is a measure of their dissimilarity or dissimilarity in terms of the norm. These concepts underpin many statistical and machine learning algorithms."
+        },
+        {
+            "id": 16,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "concept",
+            "entities": [
+                "matrix rank",
+                "null space",
+                "linear transformation"
+            ],
+            "correctness": true,
+            "text": "The rank of a matrix is the maximum number of linearly independent rows or columns it contains. It provides insights into the dimensionality and structure of the data represented by the matrix. The null space, also known as the kernel, is the set of vectors that get mapped to the zero vector under a given linear transformation. Linear transformations are mappings between vector spaces that preserve linearity, allowing for the analysis and manipulation of data. Understanding these concepts is crucial in solving systems of linear equations, analyzing image and signal processing algorithms, and performing dimensionality reduction."
+        },
+        {
+            "id": 17,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "Jordan block",
+                "hermitian matrix",
+                "unitary matrix"
+            ],
+            "correctness": true,
+            "text": "A principle in linear algebra is the Jordan block, which is a square matrix with a constant value along the main diagonal and ones on the superdiagonal. Hermitian matrices are complex square matrices that equal their own conjugate transpose. Unitary matrices are complex square matrices whose conjugate transpose equals their inverse. These concepts play a crucial role in spectral theory, quantum mechanics, and signal processing. They enable the decomposition of matrices into simpler forms and provide information about the structure and behavior of linear systems."
+        },
+        {
+            "id": 18,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "example",
+            "entities": [
+                "tensor product",
+                "Kronecker product"
+            ],
+            "correctness": true,
+            "text": "Linear algebra includes the concept of a tensor product, which combines vectors and matrices to form higher-dimensional objects that capture dependencies between different sets of variables. The tensor product is vital for understanding topics like multilinear algebra, quantum mechanics, and fluid dynamics. The Kronecker product is a special case of the tensor product that operates on two matrices, producing a larger block matrix. It has applications in areas such as image processing, pattern recognition, and computational physics. These principles allow for the representation and manipulation of complex data structures."
+        },
+        {
+            "id": 19,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "Hermitian inner product",
+                "positive semidefinite",
+                "orthogonal projection"
+            ],
+            "correctness": true,
+            "text": "Linear algebra introduces the concept of a Hermitian inner product, which extends the notion of an inner product to complex vector spaces. Positive semidefinite matrices are Hermitian matrices with non-negative eigenvalues. Orthogonal projection is a technique that projects a vector onto a subspace while preserving orthogonality. These concepts are essential in areas such as signal processing, statistics, and quantum mechanics, where they underpin fundamental principles and algorithms. Understanding the properties of Hermitian inner products, positive semidefinite matrices, and orthogonal projections enables precise mathematical analysis and effective problem-solving."
+        },
+        {
+            "id": 20,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "definition",
+            "entities": [
+                "perturbation theory",
+                "Rayleigh quotient"
+            ],
+            "correctness": true,
+            "text": "Perturbation theory is a mathematical technique for approximating the solutions to problems that depend on small changes or perturbations in the input data or parameters. It is often used in quantum mechanics, stability analysis, and optimization algorithms. The Rayleigh quotient is a scalar measure associated with a Hermitian matrix, providing an estimate of its eigenvalues based on a given vector. These concepts allow for the analysis of systems subjected to small disturbances or variations and help in understanding properties like stability, convergence, and robustness."
+        },
+        {
+            "id": 21,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "block matrix",
+                "triangularization"
+            ],
+            "correctness": true,
+            "text": "Linear algebra encompasses the notion of a block matrix, which consists of submatrices arranged in a grid pattern. Block matrices provide a convenient way to express large systems of linear equations or transformations. Triangularization is a procedure that transforms a square matrix into a triangular form, simplifying calculations and revealing structural properties. These principles are utilized in fields such as control theory, numerical analysis, and computer graphics. The block matrix representation aids in efficient computation and parallel processing of high-dimensional data."
+        },
+        {
+            "id": 22,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "concept",
+            "entities": [
+                "vector space",
+                "linear combination",
+                "direct sum"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is built upon the concept of a vector space, which is a set of vectors equipped with addition and scalar multiplication operations. Linear combinations involve multiplying vectors by scalars and adding them together to form new vectors. The direct sum of two vector spaces is a way to combine them into a larger vector space. These concepts are foundational in understanding abstract algebra, linear transformations, and geometric interpretations of linear systems. They provide a framework for reasoning about mathematical structures and solving real-world problems."
+        },
+        {
+            "id": 23,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "eigenbasis",
+                "Jordan form",
+                "singular value decomposition"
+            ],
+            "correctness": true,
+            "text": "An important principle in linear algebra is the eigendecomposition of a matrix, which expresses it in terms of its eigenvalues and eigenvectors. An eigenbasis is a basis composed of eigenvectors associated with distinct eigenvalues. The Jordan form is a particular matrix representation that diagonalizes matrices that do not have a full set of linearly independent eigenvectors. Another key concept is the singular value decomposition (SVD), which decomposes a matrix into three separate matrices and allows for efficient computation of matrix properties. These decomposition techniques are fundamental to many numerical algorithms and data analysis methods."
+        },
+        {
+            "id": 24,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "example",
+            "entities": [
+                "homogeneous system",
+                "eigenfaces"
+            ],
+            "correctness": true,
+            "text": "An example of a principle in linear algebra is the study of homogeneous systems of linear equations, where all equations have constant terms equal to zero. Homogeneous systems often represent situations with no unique solution or when the only solution is the trivial one. Another application is the concept of eigenfaces, which are a set of eigenvectors derived from facial images. Eigenfaces can be used for facial recognition and identification tasks. Linear algebra provides the tools to analyze and solve problems related to these examples."
+        },
+        {
+            "id": 25,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "orthogonal basis",
+                "Gram-Schmidt process",
+                "QR decomposition"
+            ],
+            "correctness": true,
+            "text": "One of the key principles in linear algebra is the construction of an orthogonal basis for a vector space. An orthogonal basis consists of vectors that are mutually perpendicular, providing a convenient representation for many mathematical operations. The Gram-Schmidt process is a method to generate such a basis from a set of linearly independent vectors. In addition, the QR decomposition factorizes a matrix into an orthogonal matrix and an upper triangular matrix, preserving the orthogonality properties. These techniques are essential for applications like signal processing, data compression, and computational physics."
+        },
+        {
+            "id": 26,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "definition",
+            "entities": [
+                "induced norm",
+                "matrix equation"
+            ],
+            "correctness": true,
+            "text": "The concept of an induced norm in linear algebra is a norm defined on matrices that takes into account the norms of the vectors they operate on. It provides a measure of how much a matrix amplifies or contracts vectors. Matrix equations involve manipulating matrices to solve systems of linear equations or express relationships between matrices. Understanding these definitions and concepts allows for the development of efficient algorithms and techniques in numerical analysis, network theory, and control systems."
+        },
+        {
+            "id": 27,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "orthogonal matrix",
+                "rotation matrix",
+                "symmetric matrix"
+            ],
+            "correctness": true,
+            "text": "Linear algebra introduces several examples of special kinds of matrices. An orthogonal matrix is a square matrix whose transpose equals its inverse, representing geometric transformations that preserve distances and angles. A rotation matrix is a type of orthogonal matrix used to rotate vectors in a specified plane. Symmetric matrices have the property that their transpose equals themselves, resulting in simplifications and unique characteristics. These matrix types have numerous applications in areas such as computer graphics, machine learning, cryptography, and physics."
+        },
+        {
+            "id": 28,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "concept",
+            "entities": [
+                "vector subspace",
+                "linear span",
+                "dimension"
+            ],
+            "correctness": true,
+            "text": "A central principle in linear algebra is the study of vector subspaces, which are sets of vectors closed under addition and scalar multiplication. The linear span of a set of vectors is the set of all possible linear combinations of those vectors. The concept of dimension quantifies the number of linearly independent vectors that form a basis for a vector space. These concepts form the foundation for understanding linear independence, bases, and subspaces, and they play a crucial role in topics such as linear regression, signal processing, and geometry."
+        },
+        {
+            "id": 29,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "conjugate transpose",
+                "normal matrix",
+                "Hermitian operator"
+            ],
+            "correctness": true,
+            "text": "Linear algebra involves the concept of a conjugate transpose, which is obtained by taking the transpose of a matrix and then complex conjugating its entries. A normal matrix is one that commutes with its own conjugate transpose. A Hermitian operator is a linear operator that is equal to its own adjoint. These concepts have applications in quantum mechanics, signal processing, and optimization, where they provide information about symmetry, orthogonality, and unitarity properties. Understanding these principles enables the analysis and manipulation of complex-valued data and systems."
+        },
+        {
+            "id": 30,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "linear algebra",
+                "matrices",
+                "vectors",
+                "vector spaces"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is a fundamental branch of mathematics that deals with vector spaces and the operations that can be performed on them. It focuses on the study of systems of linear equations and the properties of matrices and vectors. The principles of linear algebra provide a foundation for many areas of mathematics and its applications in various fields, including physics, engineering, computer science, and data analysis. By understanding the principles of linear algebra, one can solve complex problems and model real-world phenomena."
+        },
+        {
+            "id": 31,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Education",
+            "style": "informal",
+            "type": "example",
+            "entities": [],
+            "correctness": true,
+            "text": "Imagine you have a dataset consisting of student grades in different subjects. You can use the principles of linear algebra to represent this dataset as a matrix, where each row corresponds to a student and each column corresponds to a subject. By applying matrix operations, such as matrix multiplication or eigendecomposition, you can analyze the relationships between the students, subjects, and their grades. This example demonstrates how the principles of linear algebra can be applied in real-life scenarios."
+        },
+        {
+            "id": 32,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Machine Learning",
+            "style": "technical",
+            "type": "application",
+            "entities": [
+                "dimensionality reduction",
+                "eigenvalues",
+                "eigenvectors"
+            ],
+            "correctness": true,
+            "text": "In machine learning, the principles of linear algebra play a crucial role in various tasks. For example, dimensionality reduction techniques like Principal Component Analysis (PCA) utilize eigenvalues and eigenvectors to transform high-dimensional data into a lower-dimensional space while retaining important information. By applying linear algebra operations on the data, such as computing eigenvectors and eigenvalues, it is possible to extract meaningful patterns and reduce the complexity of the data, ultimately improving the efficiency and accuracy of machine learning algorithms."
+        },
+        {
+            "id": 33,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Physics",
+            "style": "formal",
+            "type": "concept",
+            "entities": [
+                "quantum mechanics",
+                "Schrodinger equation",
+                "wave functions"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is an essential tool in the field of quantum mechanics. The wave functions used to describe the behavior of particles are represented as vectors in Hilbert spaces, and the operators that perform measurements or transformations are represented by matrices. The Schr\u00f6dinger equation, which governs the evolution of quantum systems, is a linear differential equation that relies heavily on linear algebra concepts. Understanding the principles of linear algebra is vital for comprehending the mathematical foundations of quantum mechanics and studying the behavior of microscopic particles in the quantum realm."
+        },
+        {
+            "id": 34,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Data Science",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "data representation",
+                "matrix operations",
+                "numerical computation"
+            ],
+            "correctness": true,
+            "text": "In data science, the principles of linear algebra are extensively used for data representation and computation. Large datasets can be represented as matrices, where each row corresponds to an observation and each column corresponds to a feature. Various matrix operations, such as matrix multiplication or matrix decomposition techniques like Singular Value Decomposition (SVD) or LU decomposition, are applied to perform numerical computations, extract patterns from the data, and solve optimization problems. Linear algebra is a fundamental tool that empowers data scientists to analyze and manipulate large and complex datasets efficiently."
+        },
+        {
+            "id": 35,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Engineering",
+            "style": "technical",
+            "type": "example",
+            "entities": [
+                "system of linear equations",
+                "electrical circuits",
+                "mechanical structures"
+            ],
+            "correctness": true,
+            "text": "Engineers frequently encounter systems that can be described using linear algebra principles. For example, in electrical engineering, linear algebra is used to analyze and solve circuit equations by representing them as systems of linear equations. In mechanical engineering, linear algebra helps analyze and model structures like trusses or beams. By understanding linear algebra, engineers can design and optimize efficient electrical circuits and mechanical systems, taking into account factors such as current flow, load distribution, and structural stability."
+        },
+        {
+            "id": 36,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Computer Graphics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "3D rendering",
+                "transformation matrices",
+                "projection"
+            ],
+            "correctness": true,
+            "text": "Linear algebra forms the foundation of computer graphics. From 3D rendering to animation, linear algebra principles provide the mathematical tools necessary to transform and represent objects in a virtual space. Transformation matrices enable scaling, rotation, and translation operations, while projection matrices allow for the creation of realistic perspectives. By combining these operations, complex scenes can be rendered in real-time, enabling interactive and visually appealing computer graphics applications."
+        },
+        {
+            "id": 37,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Economics",
+            "style": "informal",
+            "type": "application",
+            "entities": [
+                "supply and demand",
+                "input-output models",
+                "matrix multiplication"
+            ],
+            "correctness": true,
+            "text": "In economics, linear algebra is utilized in various ways. Input-output models, which describe the interdependencies between different sectors of an economy, can be represented as matrices. By performing matrix multiplication or applying other linear algebra techniques, economists can analyze the effects of changes in supply or demand across multiple industries. Linear algebra provides a powerful framework for modeling economic systems, understanding their dynamics, and making predictions about their future behavior."
+        },
+        {
+            "id": 38,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Statistics",
+            "style": "formal",
+            "type": "concept",
+            "entities": [
+                "least squares regression",
+                "normal equations",
+                "covariance matrix"
+            ],
+            "correctness": true,
+            "text": "In statistics, linear algebra plays a crucial role in various methodologies. For instance, least squares regression, an important statistical technique for fitting a line to data points, is based on solving a system of linear equations using the normal equations. The covariance matrix, which quantifies the relationships between variables, is computed using linear algebra operations. Understanding linear algebra concepts allows statisticians to develop and apply models, analyze data patterns, and make accurate predictions."
+        },
+        {
+            "id": 39,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Computer Science",
+            "style": "technical",
+            "type": "introduction",
+            "entities": [
+                "graph algorithms",
+                "adjacency matrices",
+                "eigenvector centrality"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is deeply intertwined with various aspects of computer science. Graph algorithms, such as PageRank for web search or community detection in social networks, rely on linear algebra concepts like adjacency matrices and eigenvector centrality. Matrix representations and operations allow efficient manipulation and analysis of large-scale graphs. Linear algebra provides a powerful toolkit for solving complex computational problems and understanding network structures in computer science."
+        },
+        {
+            "id": 40,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Physics",
+            "style": "informal",
+            "type": "application",
+            "entities": [
+                "quantum mechanics",
+                "linear transformations",
+                "observables"
+            ],
+            "correctness": true,
+            "text": "Quantum mechanics heavily relies on linear algebra to describe physical systems. Linear transformations, represented by matrices, play a key role in quantum mechanics as they describe the evolution of quantum states over time. Observable quantities, such as position or momentum, are also represented using matrices. By applying linear algebra principles, physicists can calculate probabilities of different outcomes and make predictions about the behavior of quantum systems, enabling advances in areas like quantum computing and quantum information theory."
+        },
+        {
+            "id": 41,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Finance",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "portfolio optimization",
+                "asset allocation",
+                "efficient frontier"
+            ],
+            "correctness": true,
+            "text": "Linear algebra plays a crucial role in finance, particularly in portfolio optimization and asset allocation. By representing financial assets and their characteristics as vectors, linear algebra enables the analysis of risk and return trade-offs. Efficient frontier analysis uses linear algebra operations, such as matrix inversion or optimization algorithms, to find the optimal allocation of assets that provides the highest return for a given level of risk. Understanding the principles of linear algebra allows financial analysts and investors to make informed decisions regarding investment and portfolio management."
+        },
+        {
+            "id": 42,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Artificial Intelligence",
+            "style": "technical",
+            "type": "concept",
+            "entities": [
+                "neural networks",
+                "weight matrices",
+                "backpropagation"
+            ],
+            "correctness": true,
+            "text": "Linear algebra forms the backbone of many artificial intelligence algorithms, particularly those involving neural networks. Neural networks consist of interconnected layers of artificial neurons that perform computations using weighted inputs. These weights are represented as matrices, and matrix operations such as multiplication and addition are applied during both the forward-pass and backpropagation steps. By leveraging linear algebra principles, neural networks can be trained to learn complex patterns and make predictions in tasks such as image recognition, natural language processing, and recommendation systems."
+        },
+        {
+            "id": 43,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "introduction",
+            "entities": [
+                "vector spaces",
+                "linear transformations",
+                "null space",
+                "column space"
+            ],
+            "correctness": true,
+            "text": "In mathematics, the principles of linear algebra form the necessary background for many subfields. Concepts such as vector spaces, linear transformations, null space, and column space are fundamental elements of linear algebra. Vector spaces provide a framework for studying objects with magnitude and direction, while linear transformations describe how vectors change under specific operations. The null space represents the set of vectors mapped to zero by a transformation, and the column space represents all possible linear combinations of the columns of a matrix. Understanding these concepts is crucial for further exploration of mathematical topics like calculus, differential equations, and abstract algebra."
+        },
+        {
+            "id": 44,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Architecture",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "structural analysis",
+                "loads and forces",
+                "stiffness matrix"
+            ],
+            "correctness": true,
+            "text": "In architecture and structural engineering, linear algebra is used in the analysis of buildings and structures. Understanding how loads and forces are distributed throughout a structure is essential to ensure its stability and safety. Linear algebra, specifically the stiffness matrix approach, allows architects and engineers to model and analyze complex structural systems. By representing the structure as a system of linear equations, matrix operations can be performed to calculate displacements, stresses, and deformations, providing valuable insights into the behavior of the structure under different conditions."
+        },
+        {
+            "id": 45,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Statistics",
+            "style": "technical",
+            "type": "application",
+            "entities": [
+                "multivariate analysis",
+                "covariance matrices",
+                "principal component analysis"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is extensively used in statistics, especially in multivariate analysis. Covariance matrices are frequently employed to describe the relationships between multiple variables, enabling the calculation of correlation coefficients and variability measures. Principal Component Analysis (PCA) is a widely used statistical technique that utilizes linear algebra to transform correlated variables into uncorrelated principal components. By extracting these components, dimensionality reduction can be achieved while preserving most of the information. Linear algebra concepts and techniques enhance statistical analysis by providing powerful tools for data exploration, visualization, and inference."
+        },
+        {
+            "id": 46,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Optimization",
+            "style": "informal",
+            "type": "concept",
+            "entities": [
+                "linear programming",
+                "objective function",
+                "constraints"
+            ],
+            "correctness": true,
+            "text": "Linear algebra plays a significant role in optimization problems, particularly in linear programming. Linear programming involves maximizing or minimizing an objective function subject to a set of linear constraints. By representing the problem as a system of linear equations, linear algebra techniques can be used to find optimal solutions. The simplex algorithm, for example, utilizes matrix operations and Gaussian elimination to navigate through the space of feasible solutions. Linear algebra provides essential tools for optimizing resources, making business decisions, and solving real-world problems in fields like operations research and supply chain management."
+        },
+        {
+            "id": 47,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Biology",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "gene expression",
+                "gene networks",
+                "matrix factorization"
+            ],
+            "correctness": true,
+            "text": "In biology, linear algebra finds applications in understanding gene expression and gene networks. Gene expression data, obtained from technologies like microarrays or RNA sequencing, can be represented as matrices, where rows correspond to genes and columns correspond to samples. Matrix factorization techniques, such as singular value decomposition or non-negative matrix factorization, are employed to extract underlying patterns and identify relationships between genes. Linear algebra enables the analysis and interpretation of large biological datasets, shedding light on gene interactions, regulatory mechanisms, and biological processes."
+        },
+        {
+            "id": 48,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Psychology",
+            "style": "informal",
+            "type": "concept",
+            "entities": [
+                "factor analysis",
+                "covariance matrix",
+                "eigenvalues"
+            ],
+            "correctness": true,
+            "text": "Linear algebra concepts are applied in psychology to explore and analyze data collected during psychological studies. Factor analysis, a statistical technique used to identify underlying factors influencing observed variables, involves manipulating matrices and performing matrix factorization. Covariance matrices and eigenvalues are used to identify correlations and quantify the importance of different factors. Linear algebra provides psychologists with powerful tools to uncover hidden structures and explain complex phenomena within the realm of human behavior and cognitive processes."
+        },
+        {
+            "id": 49,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Geology",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "seismic imaging",
+                "wavefield extrapolation",
+                "finite-difference method"
+            ],
+            "correctness": true,
+            "text": "In geology, linear algebra is essential for various applications, including seismic imaging and wavefield extrapolation. Seismic data collected from underground reflects subsurface structures and is processed using linear algebra techniques. The finite-difference method, which simulates wave propagation, solves partial differential equations by discretizing them into linear systems that can be solved numerically. By leveraging linear algebra, geologists can interpret seismic data, reconstruct subsurface images, and gain insights into the geological formations and resources present in a given area."
+        },
+        {
+            "id": 50,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "application",
+            "entities": [
+                "linear regression",
+                "least squares",
+                "normal equations"
+            ],
+            "correctness": true,
+            "text": "Linear algebra has numerous applications in mathematics, such as linear regression. Linear regression models the relationship between a dependent variable and one or more independent variables through a linear equation. The least squares method, widely used in linear regression, involves solving a system of linear equations using the normal equations. By employing linear algebra techniques, mathematicians can estimate parameters, make predictions, and analyze data in diverse mathematical contexts."
+        },
+        {
+            "id": 51,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Sociology",
+            "style": "formal",
+            "type": "concept",
+            "entities": [
+                "social networks",
+                "adjacency matrix",
+                "centrality measures"
+            ],
+            "correctness": true,
+            "text": "Linear algebra finds applications in sociology, particularly in the study of social networks. Social relationships within a population can be represented as graphs, where individuals are nodes and interactions are edges. An adjacency matrix, derived from the graph, captures the connections between individuals. Linear algebra operations enable the computation of centrality measures, such as eigenvector centrality or PageRank, which quantify the importance of individuals within a social network. By applying linear algebra techniques, sociologists can understand social structures, influence patterns, and information flow in different communities."
+        },
+        {
+            "id": 52,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Marketing",
+            "style": "informal",
+            "type": "example",
+            "entities": [
+                "market segmentation",
+                "customer profiling",
+                "cluster analysis"
+            ],
+            "correctness": true,
+            "text": "In marketing, linear algebra contributes to various aspects of customer analysis and segmentation. The process of segmenting markets based on customer characteristics and behaviors often involves clustering techniques, such as k-means clustering or hierarchical clustering. These methods rely on calculating distances between customers using linear algebra operations, allowing marketers to identify homogeneous groups and tailor marketing strategies accordingly. Linear algebra provides marketers with powerful tools for customer profiling, targeting specific segments, and maximizing the effectiveness of marketing campaigns."
+        },
+        {
+            "id": 53,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Physics",
+            "style": "technical",
+            "type": "introduction",
+            "entities": [
+                "quantum mechanics",
+                "linear transformations",
+                "observables"
+            ],
+            "correctness": true,
+            "text": "In quantum mechanics, linear algebra is a fundamental mathematical framework used to describe physical phenomena at the microscopic scale. Quantum states are represented as vectors in a complex vector space, and measurements and transformations are represented by linear operators. The application of linear transformations to these states allows physicists to determine probabilities of obtaining different measurement outcomes and calculate other properties of quantum systems. The principles of linear algebra are essential in understanding and predicting the behavior of particles, forming the basis for quantum physics and its technological applications."
+        },
+        {
+            "id": 54,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Chemistry",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "molecular orbitals",
+                "eigenvalue problem",
+                "quantum chemistry"
+            ],
+            "correctness": true,
+            "text": "Linear algebra plays a key role in understanding the electronic structure and chemical properties of molecules. In quantum chemistry, molecular orbitals, which represent the distribution of electrons within molecules, are obtained by solving the eigenvalue problem for matrices derived from the Schr\u00f6dinger equation. Linear algebra allows chemists to calculate important properties, such as bond strengths, ionization energies, and molecular spectra. By leveraging linear algebra techniques, chemists can examine the behavior of molecules, predict their reactivity, and design new compounds with desired properties."
+        },
+        {
+            "id": 55,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Nutrition",
+            "style": "informal",
+            "type": "example",
+            "entities": [
+                "nutrient composition",
+                "dietary guidelines",
+                "food labeling"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is not directly applicable to nutrition. However, it indirectly contributes to the field by providing quantitative tools used in nutrient analysis and dietary planning. For instance, nutrient composition databases, which store information on the nutritional content of various foods, rely on matrix representations and operations for efficient data retrieval and analysis. Dietary guidelines and food labeling standards are also influenced by statistical methods, which may involve linear algebra as a foundational concept for data processing and interpretation."
+        },
+        {
+            "id": 56,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Computer Science",
+            "style": "technical",
+            "type": "concept",
+            "entities": [
+                "computer vision",
+                "image processing",
+                "convolutional neural networks"
+            ],
+            "correctness": true,
+            "text": "Linear algebra forms the basis for computer vision and image processing algorithms. From edge detection to image recognition, linear algebra plays a crucial role in transforming and analyzing visual data. Convolutional neural networks (CNNs), a popular deep learning model for image classification tasks, utilize convolutions and linear algebra operations to extract features and make predictions. By leveraging linear algebra techniques, computer scientists can develop advanced algorithms for tasks like object detection, image segmentation, and facial recognition, enabling machines to understand and interpret images."
+        },
+        {
+            "id": 57,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Environmental Science",
+            "style": "informal",
+            "type": "application",
+            "entities": [
+                "ecosystem modeling",
+                "compartment models",
+                "migration matrices"
+            ],
+            "correctness": true,
+            "text": "In environmental science, linear algebra is used in various contexts, such as ecosystem modeling. Compartment models, which represent the flow of energy or chemicals within ecosystems, involve linear algebra calculations. Migration matrices, which describe the movement of organisms between different spatial locations, are also formulated using linear algebra concepts. By utilizing linear algebra techniques, environmental scientists can simulate ecological processes, predict the impact of environmental changes, and design effective conservation strategies."
+        },
+        {
+            "id": 58,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Fashion",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "color space",
+                "image processing",
+                "clustering"
+            ],
+            "correctness": true,
+            "text": "While not directly related to fashion, linear algebra indirectly contributes to the field by providing mathematical tools for color representation and image processing. Color spaces, such as RGB or CMYK, rely on linear algebra operations to define and manipulate colors. Image processing techniques, like clustering algorithms for color segmentation or feature extraction, employ linear algebra concepts to analyze and modify visual data. Linear algebra helps fashion designers, colorists, and image analysts optimize color combinations, identify trends, and enhance visual aesthetics."
+        },
+        {
+            "id": 59,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Sports",
+            "style": "informal",
+            "type": "concept",
+            "entities": [
+                "performance analysis",
+                "statistical modeling",
+                "correlation matrix"
+            ],
+            "correctness": true,
+            "text": "While not directly associated with sports, linear algebra concepts and techniques are indirectly relevant in fields like performance analysis and statistical modeling. In sports analytics, variables such as player statistics, match results, or game strategies can be represented using matrices. Statistical models and correlation analyses rely on linear algebra operations for calculating coefficients and quantifying relationships. By applying linear algebra principles, analysts and coaches can gain insights into team performance, player development, and strategize winning approaches."
+        },
+        {
+            "id": 60,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Language Processing",
+            "style": "technical",
+            "type": "application",
+            "entities": [
+                "natural language processing",
+                "word embeddings",
+                "document similarity"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is vital in natural language processing (NLP) tasks that involve the analysis and understanding of textual data. Word embeddings, which represent words as vectors in a high-dimensional space, are derived using techniques like word2vec or GloVe, utilizing linear algebra operations. Similarity between documents or semantic relations between words can be measured through vector computations, such as calculating distances or performing matrix decompositions. Linear algebra enables NLP algorithms to process, classify, and generate textual information, contributing to applications like sentiment analysis, machine translation, and chatbots."
+        },
+        {
+            "id": 61,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 8,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "linear equations",
+                "vector spaces",
+                "matrices"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is a branch of mathematics that deals with the study of linear equations, vector spaces, and matrices. It provides a powerful framework for solving systems of linear equations, analyzing geometric transformations, and understanding abstract structures in various fields. The principles of linear algebra are fundamental to many areas of mathematics and its applications, such as computer graphics, data analysis, physics, and engineering. It involves concepts like vector addition, scalar multiplication, dot product, and matrix operations, which form the basis for solving complex problems in these disciplines."
+        },
+        {
+            "id": 62,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "overview",
+            "entities": [
+                "row reduction",
+                "eigenvalues",
+                "determinants"
+            ],
+            "correctness": true,
+            "text": "When studying the principles of linear algebra, one encounters important concepts like row reduction, eigenvalues, and determinants. Row reduction involves transforming a matrix into its reduced row echelon form, which helps in solving systems of linear equations and determining properties of the associated vector spaces. Eigenvalues and eigenvectors provide valuable insights into the behavior of linear transformations and matrices. Determinants are used for finding the volume scaling factor and determining invertibility of matrices. These concepts, along with others, contribute to a deeper understanding of linear algebra and its applications in various fields."
+        },
+        {
+            "id": 63,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "linear independence",
+                "rank-nullity theorem",
+                "span"
+            ],
+            "correctness": true,
+            "text": "Linear algebra involves concepts such as linear independence, span, and the rank-nullity theorem. Linearly independent vectors are those that cannot be written as a linear combination of each other, while the span of a set of vectors is the set of all possible linear combinations of those vectors. The rank-nullity theorem relates the dimension of the null space and the rank of a matrix. These concepts play a crucial role in solving systems of equations, analyzing subspaces, and understanding the geometric properties of vector spaces."
+        },
+        {
+            "id": 64,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "extra",
+            "entities": [
+                "linear transformations",
+                "orthogonal vectors",
+                "inner product"
+            ],
+            "correctness": true,
+            "text": "In addition to the basic principles of linear algebra, there are advanced topics like linear transformations, orthogonal vectors, and inner products. Linear transformations are functions that preserve vector addition and scalar multiplication, playing a key role in areas such as computer graphics and robotics. Orthogonal vectors are those that form right angles with each other, providing a foundation for concepts like projections and least squares approximation. Inner products generalize the notion of dot product to vector spaces, enabling the study of lengths, angles, and orthogonality in higher dimensions."
+        },
+        {
+            "id": 65,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "matrix multiplication",
+                "inverse matrices",
+                "matrix decomposition"
+            ],
+            "correctness": true,
+            "text": "Matrix multiplication, inverse matrices, and matrix decomposition are essential principles in linear algebra. Matrix multiplication involves the combination of rows and columns of matrices to obtain new matrices, providing a powerful tool for transformation and computation. Inverse matrices represent the multiplicative inverse of a given matrix, enabling the solution of equations and the study of symmetry. Matrix decomposition techniques, such as LU decomposition and eigendecomposition, break down matrices into simpler forms that facilitate calculations and reveal important properties. These concepts are used extensively in various fields, including data analysis, optimization, and computer graphics."
+        },
+        {
+            "id": 66,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "overview",
+            "entities": [
+                "linear span",
+                "null space",
+                "column space"
+            ],
+            "correctness": true,
+            "text": "Understanding the principles of linear algebra involves concepts related to linear spans, null spaces, and column spaces. The linear span of a set of vectors is the set of all possible linear combinations of those vectors. The null space of a matrix consists of all vectors that get mapped to zero under a given linear transformation. The column space of a matrix is the span of its column vectors. These concepts play a crucial role in characterizing the properties of matrices, solving systems of linear equations, and determining the rank and nullity of matrices."
+        },
+        {
+            "id": 67,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "eigenvalues",
+                "diagonalization",
+                "spectral theorem"
+            ],
+            "correctness": true,
+            "text": "Eigenvalues, diagonalization, and the spectral theorem are important principles within linear algebra. Eigenvalues represent the scalars by which corresponding eigenvectors get scaled under a given linear transformation. Diagonalization is the process of finding a diagonal matrix that is similar to a given matrix, revealing hidden patterns and simplifying calculations. The spectral theorem connects eigenvectors, eigenvalues, and orthogonal bases, providing an insightful way to analyze symmetric and self-adjoint matrices. These concepts find applications in fields such as quantum mechanics, signal processing, and optimization."
+        },
+        {
+            "id": 68,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "extra",
+            "entities": [
+                "least squares approximation",
+                "subspace projection",
+                "Singular Value Decomposition (SVD)"
+            ],
+            "correctness": true,
+            "text": "Beyond the fundamental principles of linear algebra, there are advanced topics like least squares approximation, subspace projection, and Singular Value Decomposition (SVD). Least squares approximation is a method for finding the best-fit line or surface given a set of data points, used in regression analysis and curve fitting. Subspace projection involves projecting a vector onto a subspace, which has applications in image compression and dimensionality reduction. SVD decomposes a matrix into three matrices, facilitating computations like matrix inversion, pseudoinverse, and low-rank approximations. These concepts expand the versatility of linear algebra in solving complex problems across various disciplines."
+        },
+        {
+            "id": 69,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "orthonormal basis",
+                "Gram-Schmidt process",
+                "unitary matrices"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra encompass important concepts such as orthonormal bases, the Gram-Schmidt process, and unitary matrices. An orthonormal basis is a set of vectors that are mutually orthogonal and have a norm of unity, providing an elegant way to represent vectors and simplify calculations. The Gram-Schmidt process converts a set of linearly independent vectors into an orthonormal basis, preserving the span of the original set. Unitary matrices are square matrices with complex entries that preserve inner products, enabling the study of transformations with properties like length preserving and angle preserving. These concepts have applications in signal processing, quantum computing, and error correction."
+        },
+        {
+            "id": 70,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "overview",
+            "entities": [
+                "linear transformations",
+                "eigenspaces",
+                "change of basis"
+            ],
+            "correctness": true,
+            "text": "When exploring the principles of linear algebra, one encounters concepts like linear transformations, eigenspaces, and change of basis. Linear transformations are functions that map vectors to vectors while preserving certain properties. Eigenspaces are subspaces associated with eigenvalues, providing a geometric interpretation of their effects. Change of basis involves expressing vectors and matrices in terms of alternative bases, aiding calculations and uncovering hidden structures. These concepts contribute to the understanding of linear algebra's role in representing physical phenomena, analyzing data, and solving optimization problems."
+        },
+        {
+            "id": 71,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "vector projections",
+                "linear independence",
+                "coordinate transformations"
+            ],
+            "correctness": true,
+            "text": "Linear algebra involves principles such as vector projections, linear independence, and coordinate transformations. Vector projection is the process of finding the component of a vector along a given direction, used in applications like physics and engineering. Linear independence refers to a set of vectors that cannot be represented as combinations of each other, serving as a foundational concept in determining the dimension of vector spaces. Coordinate transformations involve changing the representation of vectors and matrices from one coordinate system to another, facilitating calculations and simplifying problem-solving in various fields."
+        },
+        {
+            "id": 72,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "extra",
+            "entities": [
+                "Jordan canonical form",
+                "orthogonal diagonalization",
+                "normal matrices"
+            ],
+            "correctness": true,
+            "text": "In addition to the foundational principles of linear algebra, there are advanced concepts like Jordan canonical form, orthogonal diagonalization, and normal matrices. The Jordan canonical form is a way to represent matrices up to similarity transformations, unveiling their structural properties. Orthogonal diagonalization involves finding a diagonal matrix and an orthogonal matrix that together can represent a given matrix, leading to efficient computations and simplifications. Normal matrices are matrices that commute with their adjoint, allowing for useful eigendecompositions and spectral analyses. These concepts find applications in fields such as quantum mechanics, control theory, and data compression."
+        },
+        {
+            "id": 73,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 9,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "linear subspace",
+                "orthogonal complement",
+                "direct sum"
+            ],
+            "correctness": true,
+            "text": "Linear algebra encompasses key concepts including linear subspaces, orthogonal complements, and direct sums. A linear subspace is a subset of a vector space closed under scalar multiplication and vector addition, forming a fundamental building block in understanding vector spaces. The orthogonal complement of a subspace consists of vectors perpendicular to every vector in the subspace, providing a geometrically significant perspective. The direct sum of two or more subspaces combines them into a larger subspace without overlap. These notions help analyze the structure and properties of vector spaces, enabling the solution of complex systems of equations and optimization problems."
+        },
+        {
+            "id": 74,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "overview",
+            "entities": [
+                "Gaussian elimination",
+                "spanning sets",
+                "kernel"
+            ],
+            "correctness": true,
+            "text": "When studying the principles of linear algebra, one encounters important techniques like Gaussian elimination, spanning sets, and the kernel. Gaussian elimination is a systematic method for solving systems of linear equations, transforming them into row echelon form and yielding solutions or revealing inconsistencies. Spanning sets represent sets of vectors that can generate other vectors through linear combinations, providing a concise representation of vector spaces. The kernel of a linear transformation is the set of vectors that map to zero, serving as a fundamental concept in understanding their behavior and rank. These concepts play a crucial role in diverse areas, including computer graphics, economics, and control systems."
+        },
+        {
+            "id": 75,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "Jordan block",
+                "normality condition",
+                "characteristic polynomial"
+            ],
+            "correctness": true,
+            "text": "Linear algebra involves principles such as Jordan blocks, the normality condition, and characteristic polynomials. Jordan blocks are square matrices with a specific structure used in analyzing the properties of larger matrices. Meeting the normality condition means that a matrix commutes with its adjoint, leading to useful spectral decompositions. The characteristic polynomial of a matrix is a polynomial equation whose roots are the eigenvalues of the matrix, allowing for computations of their values and determining properties like trace and determinant. These concepts find applications in fields such as physics, machine learning, and network analysis."
+        },
+        {
+            "id": 76,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "extra",
+            "entities": [
+                "orthogonal matrices",
+                "symmetric matrices",
+                "positive definite matrices"
+            ],
+            "correctness": true,
+            "text": "Beyond the foundational principles of linear algebra, there are advanced topics like orthogonal matrices, symmetric matrices, and positive definite matrices. Orthogonal matrices represent linear transformations that preserve lengths and angles, widely used in applications involving rotations and reflections. Symmetric matrices are square matrices that are equal to their own transpose, possessing properties that simplify computations and have special relationships with eigenvectors and eigenvalues. Positive definite matrices have all positive eigenvalues, playing a crucial role in optimization and statistics. These concepts find applications in various areas, including physics, computer graphics, machine learning, and finance."
+        },
+        {
+            "id": 77,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 8,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "normal subspaces",
+                "adjoint transformation",
+                "inner product spaces"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra encompass essential concepts like normal subspaces, adjoint transformations, and inner product spaces. Normal subspaces are subspaces that are invariant under the action of a given linear transformation and its adjoint, providing a powerful tool for analyzing symmetry and orthogonality. The adjoint transformation is a map that preserves inner products and plays a crucial role in studying operators and self-adjoint matrices. Inner product spaces generalize the concept of dot product, enabling the study of lengths, angles, orthogonality, and projections in more general settings. These concepts have wide applications in quantum mechanics, signal processing, and optimization."
+        },
+        {
+            "id": 78,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "overview",
+            "entities": [
+                "eigendecomposition",
+                "matrix similarity",
+                "positive semidefinite matrices"
+            ],
+            "correctness": true,
+            "text": "Understanding the principles of linear algebra involves important ideas like eigendecomposition, matrix similarity, and positive semidefinite matrices. Eigendecomposition represents a matrix as a product of eigenvalues and corresponding eigenvectors, revealing its spectral properties. Matrix similarity refers to when two matrices share the same eigenvectors but may differ in eigenvalues or overall scaling. Positive semidefinite matrices possess non-negative eigenvalues and play a significant role in mathematical optimization, probability theory, and control systems. These concepts broaden the understanding of linear algebra's role in tackling problems across diverse fields."
+        },
+        {
+            "id": 79,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "change of basis matrix",
+                "congruence transformation",
+                "rank factorization"
+            ],
+            "correctness": true,
+            "text": "Linear algebra involves principles such as change of basis matrices, congruence transformations, and rank factorization. A change of basis matrix transforms coordinates from one basis to another, facilitating the analysis of linear transformations and systems of equations under different coordinate systems. Congruence transformations preserve the structure and non-zero eigenvalues of a matrix while changing its orthogonal properties, finding applications in engineering and physics. Rank factorization breaks down a matrix into a product of matrices that captures its rank properties and facilitates computations. These concepts contribute to the understanding of linear algebra's role in visualizing data, modeling physical phenomena, and solving optimization problems."
+        },
+        {
+            "id": 80,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "extra",
+            "entities": [
+                "singular value decomposition",
+                "pseudoinverse",
+                "low-rank approximation"
+            ],
+            "correctness": true,
+            "text": "Beyond the core principles of linear algebra, there are advanced topics like singular value decomposition, pseudoinverse, and low-rank approximation. Singular value decomposition decomposes a matrix into three simpler matrices that provide insights into its properties and facilitate computations like matrix inversion and dimensionality reduction. The pseudoinverse is a generalization of the inverse matrix for non-square matrices, enabling the solution of underdetermined systems and regularization techniques. Low-rank approximation represents a matrix as a combination of low-rank factors, enabling compression, noise reduction, and efficient computation. These concepts find applications in areas such as image processing, recommender systems, and data compression."
+        },
+        {
+            "id": 81,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 10,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "linear independence",
+                "basis",
+                "dimension theorem"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra cover important concepts such as linear independence, basis, and the dimension theorem. Linear independence refers to a set of vectors that cannot be represented as combinations of each other, forming a foundational property for characterizing vector spaces. A basis is a collection of linearly independent vectors that span the entire vector space, providing a fundamental building block for representing vectors and vector spaces. The dimension theorem states that any two bases of a vector space have the same number of vectors, allowing for the definition of dimensions. These concepts underpin the analysis of vector spaces and the solution of systems of linear equations in diverse applications."
+        },
+        {
+            "id": 82,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "overview",
+            "entities": [
+                "linear maps",
+                "isomorphisms",
+                "mapping compositions"
+            ],
+            "correctness": true,
+            "text": "When exploring the principles of linear algebra, one encounters concepts like linear maps, isomorphisms, and mapping compositions. Linear maps are functions that preserve vector addition and scalar multiplication, enabling the study of transformations and their properties. Isomorphisms are bijective linear maps that establish a one-to-one correspondence between vector spaces, indicating their structural similarity. Mapping compositions involve combining multiple linear maps into a composite map, facilitating the analysis of complex transformations and systems of equations. These concepts contribute to the understanding of linear algebra's role in geometry, cryptography, and network analysis."
+        },
+        {
+            "id": 83,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "triangular matrices",
+                "Cholesky decomposition",
+                "canonical forms"
+            ],
+            "correctness": true,
+            "text": "Linear algebra involves principles such as triangular matrices, Cholesky decomposition, and canonical forms. Triangular matrices have elements below or above the main diagonal that are necessarily zero, simplifying calculations and revealing properties like determinants and inverses. Cholesky decomposition expresses a positive definite matrix as the product of a lower triangular matrix and its conjugate transpose, which has applications in solving systems of linear equations and generating correlated random variables. Canonical forms represent special representations of matrices that aid analysis and computation, characterizing their structural properties. These concepts find applications in fields such as optimization, control systems, and scientific computing."
+        },
+        {
+            "id": 84,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "extra",
+            "entities": [
+                "Hermitian matrices",
+                "positive definite operators",
+                "unitary transformations"
+            ],
+            "correctness": true,
+            "text": "Beyond the core principles of linear algebra, there are advanced topics like Hermitian matrices, positive definite operators, and unitary transformations. Hermitian matrices are complex square matrices that are self-adjoint, possessing real eigenvalues and orthogonal eigenvectors. Positive definite operators are self-adjoint linear operators with strictly positive eigenvalues, finding applications in optimization and statistics. Unitary transformations are linear transformations that preserve lengths and angles while maintaining orthogonality, used extensively in quantum mechanics and signal processing. These concepts enrich the understanding of linear algebra in analyzing and solving problems across diverse fields."
+        },
+        {
+            "id": 85,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 9,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "linear regression",
+                "normal equations",
+                "least squares method"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra encompass important concepts such as linear regression, normal equations, and the least squares method. Linear regression is a statistical method for estimating relationships between variables, involving the minimization of residuals between observed and predicted values. The normal equations provide a closed-form solution to the optimal coefficients in linear regression, contributing to efficient calculations. The least squares method minimizes the sum of the squared residuals, providing an unbiased estimate of model parameters and widely used in various applications from data analysis to machine learning. These concepts form the basis for understanding and applying regression models in practical scenarios."
+        },
+        {
+            "id": 86,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "overview",
+            "entities": [
+                "orthonormal matrices",
+                "unitary similarity",
+                "normal matrices"
+            ],
+            "correctness": true,
+            "text": "Understanding the principles of linear algebra involves essential concepts like orthonormal matrices, unitary similarity, and normal matrices. Orthonormal matrices are square matrices with orthonormal rows or columns, capturing properties of rotations and reflections. Unitary similarity refers to matrices that are similar to their conjugate transposes, preserving certain properties like eigenvalues and inner products. Normal matrices are matrices that commute with their adjoint, transforming orthogonal bases into other orthogonal bases while preserving norm properties. These concepts broaden the understanding of linear algebra's role in representing symmetries, diagonalizing matrices, and solving eigenvalue problems."
+        },
+        {
+            "id": 87,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "similarity transformations",
+                "Hessenberg form",
+                "orthogonal representations"
+            ],
+            "correctness": true,
+            "text": "Linear algebra involves principles such as similarity transformations, Hessenberg form, and orthogonal representations. Similarity transformations involve changing the basis representation of a matrix but preserving certain properties like eigenvalues, traces, and ranks. Hessenberg form represents a square matrix as upper triangular with additional nonzero elements below the main diagonal, which simplifies calculations and reveals structural properties. Orthogonal representations represent vectors or matrices using orthonormal bases, which aid in simplifying calculations and solvers, and also preserve geometric properties. These concepts contribute to the understanding of linear algebra's role in solving systems of equations, analyzing networks, and performing computations."
+        },
+        {
+            "id": 88,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "extra",
+            "entities": [
+                "block diagonal matrices",
+                "Kronecker product",
+                "tensor products"
+            ],
+            "correctness": true,
+            "text": "Beyond the core principles of linear algebra, there are advanced topics like block diagonal matrices, Kronecker products, and tensor products. Block diagonal matrices consist of diagonal matrices as blocks, enabling the representation and analysis of systems with independent components. Kronecker product combines two matrices element-wise, leading to the construction of larger matrices with structured patterns. Tensor products represent a generalization of matrix multiplication to higher-dimensional arrays, providing a framework for multi-linear algebra and quantum mechanics. These concepts find applications in areas such as signal processing, quantum computing, and image compression."
+        },
+        {
+            "id": 89,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 9,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "linear programming",
+                "duality theory",
+                "simplex method"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra encompass crucial concepts like linear programming, duality theory, and the simplex method. Linear programming is a mathematical optimization technique used to maximize or minimize an objective function subject to linear constraints, finding various real-world applications from resource allocation to transportation planning. Duality theory establishes relationships between primal and dual linear programming problems, revealing insights into their solutions and properties. The simplex method is an algorithm that efficiently solves linear programming problems by traversing through feasible solutions. These concepts form the foundation for understanding optimization problems and designing efficient algorithms in diverse fields."
+        },
+        {
+            "id": 90,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Mathematics",
+            "style": "informal",
+            "type": "overview",
+            "entities": [
+                "normed vector spaces",
+                "Banach spaces",
+                "Hilbert spaces"
+            ],
+            "correctness": true,
+            "text": "When exploring the principles of linear algebra, one encounters concepts like normed vector spaces, Banach spaces, and Hilbert spaces. Normed vector spaces are vector spaces equipped with a norm that measures the size or length of vectors, facilitating the study of convergence and continuity. Banach spaces are complete normed vector spaces, providing a rich framework for functional analysis and approximation theory. Hilbert spaces are complete inner product spaces, enabling the rigorous study of orthogonal projections, Fourier series, and quantum mechanics. These concepts broaden the understanding of linear algebra's role in mathematical analysis and the development of various numerical algorithms."
+        },
+        {
+            "id": 91,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "affine transformations",
+                "affine subspaces",
+                "barycentric coordinates"
+            ],
+            "correctness": true,
+            "text": "Linear algebra encompasses principles such as affine transformations, affine subspaces, and barycentric coordinates. Affine transformations combine linear transformations with translations, playing a central role in computer graphics and geometric modeling. Affine subspaces are sets of points that can be expressed as translations of linear subspaces, serving as a foundation for understanding geometries and interpolation techniques. Barycentric coordinates represent points within triangles or higher-dimensional simplices using weights, facilitating interpolation and representing geometric properties. These concepts contribute to the understanding of linear algebra's applications in computer graphics, physics, and optimization problems."
+        },
+        {
+            "id": 92,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 10,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "linear algebra",
+                "matrix",
+                "vector",
+                "eigenvector"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is a branch of mathematics that deals with the study of vectors and matrices. It provides a way to represent and solve systems of linear equations, as well as analyze transformations in vector spaces. The principles of linear algebra lay the foundation for various fields such as computer graphics, machine learning, and quantum mechanics. Matrices are used to represent linear transformations, while vectors are employed to describe quantities with both magnitude and direction. Eigenvectors, for example, play a crucial role in analyzing the behavior of linear transformations."
+        },
+        {
+            "id": 93,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "linear algebra",
+                "scalar",
+                "determinant",
+                "span"
+            ],
+            "correctness": true,
+            "text": "In the realm of mathematics, linear algebra focuses on the study of linear equations and their properties. It involves various concepts and principles such as scalars, determinants, and spans. A scalar is a single numerical value that can be multiplied by a matrix or a vector. Determinants help determine whether a matrix is invertible or not, while a span refers to the set of all possible linear combinations of a given set of vectors. These principles serve as fundamental tools in solving systems of linear equations and analyzing mathematical structures."
+        },
+        {
+            "id": 94,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "linear transformations",
+                "matrix multiplication",
+                "dimensionality"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra find applications in various fields. For instance, in computer graphics, linear transformations are used to manipulate and render 3D objects on a 2D screen. Matrix multiplication is employed to combine multiple transformations into a single transformation, allowing complex animations and effects. Additionally, linear algebra plays a crucial role in data analysis and machine learning, where it helps analyze large datasets, identify patterns, and make predictions. Understanding the principles of linear algebra is essential for anyone working in these domains."
+        },
+        {
+            "id": 95,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "history",
+            "entities": [
+                "Hermite",
+                "Cayley",
+                "Gauss",
+                "Galois"
+            ],
+            "correctness": true,
+            "text": "The historical development of linear algebra can be traced back to various mathematicians throughout time. Notable figures include Charles Hermite, who introduced the concept of an n-dimensional space, Arthur Cayley, who utilized matrices to represent transformations, Carl Friedrich Gauss, who contributed to the theory of determinants, and \u00c9variste Galois, who made significant advancements in group theory, which has connections to linear algebra. The continued collaboration and contributions of these mathematicians have shaped the principles and applications of linear algebra that we study today."
+        },
+        {
+            "id": 96,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "linear systems",
+                "least squares",
+                "regression analysis"
+            ],
+            "correctness": true,
+            "text": "Linear algebra plays a significant role in solving systems of linear equations, known as linear systems. These systems arise in various domains such as physics, economics, and engineering. One common application is least squares regression analysis, which involves finding the best-fitting line or curve to a set of data points. By representing the problem as a system of linear equations, techniques from linear algebra can be used to efficiently solve the problem and find optimal solutions. Understanding the principles of linear algebra is vital for accurately analyzing and interpreting data in such scenarios."
+        },
+        {
+            "id": 97,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 12,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "vector space",
+                "subspace",
+                "linear independence",
+                "basis"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra revolve around the concept of vector spaces. A vector space is a collection of vectors that satisfy certain properties, such as closure under addition and scalar multiplication. Within a vector space, subspaces can be defined, which are subsets that also exhibit vector space properties. Linear algebra explores the notions of linear independence and basis within these vector spaces. Linearly independent vectors form a set that cannot be expressed as a linear combination of other vectors in the set. Basis vectors, on the other hand, span the entire vector space and can be used to express any vector within that space."
+        },
+        {
+            "id": 98,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "eigenvalues",
+                "eigenvectors",
+                "diagonalization"
+            ],
+            "correctness": true,
+            "text": "Eigenvalues and eigenvectors are fundamental concepts in linear algebra with various applications. For example, diagonalization involves decomposing a matrix into diagonal form using its eigenvectors and eigenvalues. This technique is valuable in simplifying calculations and understanding the behavior of linear transformations. Eigenvalues also play a crucial role in determining stability and equilibrium points in systems governed by differential equations. From physics to finance, these concepts find wide-ranging applications, illustrating the significance of the principles of linear algebra in diverse fields of study."
+        },
+        {
+            "id": 99,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "history",
+            "entities": [
+                "Hadamard",
+                "Frobenius",
+                "Sylvester",
+                "Jordan"
+            ],
+            "correctness": true,
+            "text": "The historical contributions to linear algebra extended beyond the previously mentioned mathematicians. J.J. Sylvester introduced the term 'matrix' and made significant contributions to the theory of matrices. Jacques Hadamard explored the properties of determinants and their relationship to matrices. Ferdinand Georg Frobenius contributed to the theories of linear operators and group representation. Furthermore, Camille Jordan made important advancements in the theory of matrices and linear transformations. The combined efforts of these mathematicians led to the development of the principles and applications of linear algebra that we utilize today."
+        },
+        {
+            "id": 100,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "orthogonal",
+                "projection",
+                "inner product",
+                "Gram-Schmidt"
+            ],
+            "correctness": true,
+            "text": "In linear algebra, several important concepts are associated with vectors and vector spaces. For instance, orthogonal vectors are perpendicular to each other, such as the axes in a Cartesian coordinate system. The projection of a vector onto another vector quantifies the length of the component of the first vector in the direction of the second vector. Inner products or dot products provide a measure of similarity between two vectors. The Gram-Schmidt process, on the other hand, is a procedure for constructing an orthogonal basis for a subspace within a given vector space."
+        },
+        {
+            "id": 101,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "linear programming",
+                "optimization",
+                "convex sets"
+            ],
+            "correctness": true,
+            "text": "Linear algebra finds applications in optimization problems, particularly in the field of linear programming. Linear programming involves maximizing or minimizing a linear objective function while satisfying a set of linear constraints. The solution to such problems lies within the principles of linear algebra, as they can be formulated and solved using matrix operations, such as matrix multiplication and Gaussian elimination. Convex sets are also essential in linear programming, as they allow for efficient optimization algorithms by guaranteeing the existence of a global optimal solution."
+        },
+        {
+            "id": 102,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 15,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "linear transformations",
+                "invertible",
+                "isomorphism",
+                "null space"
+            ],
+            "correctness": true,
+            "text": "Linear transformations play a central role in linear algebra. They are functions that preserve vector addition and scalar multiplication. Invertible linear transformations are those that have an inverse transformation, allowing for unique solutions in systems of linear equations. Isomorphisms are bijective linear transformations that preserve vector space properties. The null space of a linear transformation contains the vectors that transform to the zero vector. These concepts, along with many others, form the basis of the principles and theorems that enable us to study and understand linear algebra."
+        },
+        {
+            "id": 103,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "linear algebra",
+                "Euclidean space",
+                "coordinate system",
+                "linear combination"
+            ],
+            "correctness": true,
+            "text": "Linear algebra provides the tools and techniques necessary for analyzing relationships between vectors and linear equations. It forms the foundation for many other branches of mathematics and various applications. The study of linear algebra begins with Euclidean space, which serves as a geometric representation for vectors and their operations. Coordinate systems allow for the description of vectors using numerical coordinates. Linear combinations involve scaling and adding multiple vectors to create new vectors within a vector space. Understanding the principles of linear algebra is essential for mathematicians, scientists, and engineers alike."
+        },
+        {
+            "id": 104,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "coding theory",
+                "error correction",
+                "linear codes"
+            ],
+            "correctness": true,
+            "text": "Linear algebra has practical applications in coding theory and error correction. Linear codes, which are error-correcting codes, can be represented as matrices. These codes allow for the detection and correction of errors that occur during data transmission. By carefully designing linear codes using mathematical principles from linear algebra, efficient error correction techniques can be developed. This is particularly important in communication systems, such as wireless networks and satellite transmissions, where data integrity must be maintained despite potential noise and interference."
+        },
+        {
+            "id": 105,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "history",
+            "entities": [
+                "Gauss-Jordan elimination",
+                "linear independence",
+                "rank",
+                "nullity"
+            ],
+            "correctness": true,
+            "text": "The history of linear algebra witnessed significant developments. One notable advancement was the introduction of Gauss-Jordan elimination by Carl Friedrich Gauss and Wilhelm Jordan. This technique enables the systematic solution of systems of linear equations and facilitates the determination of properties such as linear independence, rank, and nullity. These concepts have since become fundamental in the study of linear algebra and have found wide applications in various fields, including physics, engineering, and data science."
+        },
+        {
+            "id": 106,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 5,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "linear transformations",
+                "kernel",
+                "range",
+                "dimension theorem"
+            ],
+            "correctness": true,
+            "text": "The theory of linear transformations encompasses concepts such as the kernel and range. The kernel, also known as the null space, represents the set of vectors that get mapped to the zero vector under a linear transformation. The range, on the other hand, is the set of all possible output vectors. The dimension theorem states that the dimension of the kernel plus the dimension of the range equals the dimension of the input vector space. These theorems allow for a deeper understanding of linear transformations and their properties."
+        },
+        {
+            "id": 107,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 8,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "linear algebra",
+                "matrices",
+                "vector spaces",
+                "systems of equations"
+            ],
+            "correctness": true,
+            "text": "Linear algebra provides a powerful framework for studying systems of linear equations and their solutions. It involves the study of matrices, which are rectangular arrays of numbers, and their operations such as addition, multiplication, and inversion. Vector spaces form another essential concept in linear algebra, where vectors can be added and multiplied by scalars. By utilizing these principles, linear algebra enables us to solve a wide range of problems, from determining the intersection of planes in 3D space to finding optimal solutions in various fields."
+        },
+        {
+            "id": 108,
+            "relevance": "medium",
+            "queryTerm": false,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "linear algebra",
+                "transpose",
+                "adjugate",
+                "orthogonal matrix"
+            ],
+            "correctness": true,
+            "text": "Linear algebra involves numerous definitions that are fundamental to the field. The transpose of a matrix is obtained by interchanging its rows and columns. The adjugate of a square matrix is calculated by taking the transpose of the matrix of cofactors. An orthogonal matrix is a square matrix whose transpose is equal to its inverse. These definitions are integral to understanding advanced concepts and operations in linear algebra, maximizing its applications across diverse domains."
+        },
+        {
+            "id": 109,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "quantum mechanics",
+                "state vectors",
+                "Hermitian operators"
+            ],
+            "correctness": true,
+            "text": "In the realm of quantum mechanics, linear algebra provides a mathematical framework for describing and analyzing physical systems. State vectors, representing quantum states, are typically represented as vectors in a complex vector space. Operators, such as Hermitian operators, act as transformations on these state vectors and play a crucial role in quantum mechanics. The principles of linear algebra enable physicists to study the behavior and properties of quantum systems, allowing for predictions and calculations that have practical applications in fields such as cryptography and quantum computing."
+        },
+        {
+            "id": 110,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "history",
+            "entities": [
+                "Hilbert",
+                "Einstein",
+                "Heisenberg",
+                "Schr\u00f6dinger"
+            ],
+            "correctness": true,
+            "text": "The development of linear algebra owes much to the contributions and collaborations among mathematicians and physicists throughout history. Figures such as David Hilbert, Albert Einstein, Werner Heisenberg, and Erwin Schr\u00f6dinger made significant advancements in the understanding and application of linear algebra within the context of quantum mechanics. Their work laid the foundation for our modern understanding of quantum physics and paved the way for technological breakthroughs in areas such as electronics and telecommunications."
+        },
+        {
+            "id": 111,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "determinants",
+                "inverse",
+                "Cramer's rule",
+                "rank-nullity theorem"
+            ],
+            "correctness": true,
+            "text": "Linear algebra encompasses several important theorems that aid in solving equations and understanding various properties. Determinants are scalar values associated with square matrices and play a significant role in determining invertibility. Cramer's rule provides a method for solving systems of linear equations using determinants. The rank-nullity theorem states that the sum of the rank of a matrix and the nullity of its transpose is equal to the number of columns. These theorems provide valuable insights into the behavior of systems of equations and enable efficient solutions."
+        },
+        {
+            "id": 112,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "graph theory",
+                "adjacency matrix",
+                "eigenvalues",
+                "spectral graph theory"
+            ],
+            "correctness": true,
+            "text": "Linear algebra plays a crucial role in the field of graph theory, which studies relationships between objects represented as nodes or vertices. The adjacency matrix of a graph can be employed to represent connections between nodes. Analyzing the eigenvalues and eigenvectors of adjacency matrices enables insights into various properties of graphs. Spectral graph theory, a branch of mathematics that utilizes linear algebra techniques, aims to uncover structural information about graphs by examining their eigenvalues and eigenvectors. This has applications in social networks, computer networks, and optimization problems involving graphs."
+        },
+        {
+            "id": 113,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "history",
+            "entities": [
+                "Euler",
+                "Cayley-Hamilton",
+                "Bessel",
+                "Laplace"
+            ],
+            "correctness": true,
+            "text": "The historical development of linear algebra involved the contributions of numerous mathematicians. Leonhard Euler pioneered many mathematical concepts and made notable advancements in the field of linear algebra. The Cayley-Hamilton theorem, formulated by Arthur Cayley and William Rowan Hamilton, establishes a relationship between a matrix and its characteristic polynomial. Johann Carl Friedrich Gauss contributed to the study of determinants, while Jean-Baptiste Joseph Fourier and Pierre-Simon Laplace explored integral transforms and differential equations that relate to linear algebra. These mathematicians laid the groundwork for the principles and applications of modern linear algebra."
+        },
+        {
+            "id": 114,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "linear algebra",
+                "vector spaces",
+                "dimension",
+                "subspaces"
+            ],
+            "correctness": true,
+            "text": "Linear algebra provides a formal framework for studying vector spaces and the operations performed on vectors within those spaces. A vector space consists of vectors and associated operations such as addition and scalar multiplication. The dimension of a vector space refers to the number of linearly independent vectors required to span the space. Subspaces are subsets of a vector space that retain vector space properties and can be represented using linear combinations of basis vectors. Understanding these fundamental concepts is essential for applying linear algebra to various fields of study."
+        },
+        {
+            "id": 115,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "image compression",
+                "Singular Value Decomposition",
+                "eigenfaces"
+            ],
+            "correctness": true,
+            "text": "Linear algebra finds applications in image compression techniques. One such method is based on the Singular Value Decomposition (SVD) of an image matrix, where the image is represented as a product of three matrices: a left singular vector matrix, a diagonal singular value matrix, and a right singular vector matrix. By retaining only a subset of the largest singular values, the image can be compressed while preserving its essential features. Another application is eigenfaces, where eigenvectors derived from a set of face images are used to perform facial recognition tasks. These applications demonstrate the practicality of linear algebra in image processing."
+        },
+        {
+            "id": 116,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "history",
+            "entities": [
+                "Laplace Transform",
+                "Fourier Transform",
+                "wavelet transform",
+                "linear operator"
+            ],
+            "correctness": true,
+            "text": "The historical development of linear algebra witnessed advancements in areas beyond strictly linear algebra itself. Joseph Fourier's work led to the formulation of Fourier series and the Fourier Transform, which have connections to linear algebra. Pierre-Simon Laplace introduced Laplace Transform, which is widely used in signal processing and control systems analysis. The concept of linear operators, which act on functions or vectors, played a crucial role in these transformations. Furthermore, the wavelet transform, developed by various mathematicians, explores the decomposition of signals into wavelets using linear algebra techniques."
+        },
+        {
+            "id": 117,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "matrix multiplication",
+                "associativity",
+                "distributivity",
+                "identity matrix"
+            ],
+            "correctness": true,
+            "text": "Matrix multiplication is a fundamental operation in linear algebra, enabling the composition of linear transformations and solving systems of linear equations. The associativity property states that the result of matrix multiplication does not depend on the grouping of matrices. Distributivity allows for the combination of matrix operations through scalar multiplication and addition. The identity matrix acts as the multiplicative identity element, analogous to the number 1 in arithmetic. These properties and theorems form the backbone of matrix operations in linear algebra."
+        },
+        {
+            "id": 118,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "control theory",
+                "state space representation",
+                "observability",
+                "controllability"
+            ],
+            "correctness": true,
+            "text": "Linear algebra plays an essential role in control theory, a field concerned with analyzing and controlling dynamical systems. State space representation utilizes matrices and vectors to describe the behavior of a system over time. Observability refers to the ability to determine the internal state of a system based on its outputs, while controllability relates to the capability to drive the system from one state to another. By employing concepts from linear algebra, control engineers can model, analyze, and design controllers for various types of systems, including mechanical, electrical, and biological systems."
+        },
+        {
+            "id": 119,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "history",
+            "entities": [
+                "tensor operations",
+                "Einsteins's theory of relativity",
+                "tensor calculus",
+                "Riemannian geometry"
+            ],
+            "correctness": true,
+            "text": "Tensor operations, which are a generalization of matrix operations, have connections to linear algebra and played an integral role in the development of various mathematical disciplines. Albert Einstein's theory of relativity relies heavily on tensor calculus for its mathematical formulation. Riemannian geometry, a branch of mathematics that deals with curved spaces, extensively uses tensors to describe and analyze geometrical properties. The understanding and manipulation of tensors enable mathematicians and physicists to express complex relationships and phenomena within these fields."
+        },
+        {
+            "id": 120,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "linear algebra",
+                "linear independence",
+                "span",
+                "basis"
+            ],
+            "correctness": true,
+            "text": "At the core of linear algebra lie fundamental concepts such as linear independence, span, and basis. Linear independence refers to a set of vectors that cannot be expressed as a linear combination of other vectors in that set. The span of a set of vectors represents all possible linear combinations of those vectors. A basis is a set of linearly independent vectors needed to represent all other vectors in a vector space. These concepts provide a framework for understanding the behavior of vectors and systems of linear equations."
+        },
+        {
+            "id": 121,
+            "relevance": "low",
+            "queryTerm": false,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "robotics",
+                "kinematics",
+                "transformation matrix"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is applied extensively in the field of robotics, particularly in kinematics and spatial transformations. The kinematics of a robot involves studying the motion and position of its various parts. Transformation matrices represent the relationship between different coordinate systems in three-dimensional space, allowing robots to perform tasks accurately. By utilizing linear algebra techniques, such as matrix multiplications and inverse operations, roboticists can model, simulate, and control complex robotic systems with precision and efficiency."
+        },
+        {
+            "id": 122,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "history",
+            "entities": [
+                "Leonhard Euler",
+                "James Joseph Sylvester",
+                "Gottfried Leibniz",
+                "Hermann Grassmann"
+            ],
+            "correctness": true,
+            "text": "Numerous historical figures have made significant contributions to the development of linear algebra. Leonhard Euler's work on linear equations laid the groundwork for understanding linear algebra concepts. James Joseph Sylvester coined the term 'matrix' and introduced symbolic language notation. Gottfried Leibniz and Hermann Grassmann explored spaces spanned by vectors and contributed to the development of modern vector analysis. These mathematicians played instrumental roles in shaping the principles and applications of linear algebra that we continue to study today."
+        },
+        {
+            "id": 123,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 8,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "vector space",
+                "linear transformations",
+                "eigenvalues"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is a fundamental branch of mathematics that deals with vector spaces and linear transformations. It provides a powerful framework for studying various mathematical concepts and their applications in fields such as physics, engineering, and computer science. The principles of linear algebra lay the foundation for understanding topics like eigenvalues, eigenvectors, and matrix operations. By applying these principles, mathematicians have been able to solve complex problems related to systems of equations, optimization, and data analysis."
+        },
+        {
+            "id": 124,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "linear independence",
+                "span",
+                "basis"
+            ],
+            "correctness": true,
+            "text": "One of the key principles of linear algebra is the concept of linear independence. A set of vectors is said to be linearly independent if none of them can be expressed as a linear combination of the others. This principle plays a crucial role in determining the span of a set of vectors and identifying a basis for a vector space. By understanding the principles of linear independence, mathematicians are able to analyze and solve problems involving systems of linear equations, subspaces, and transformations."
+        },
+        {
+            "id": 125,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 1,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "matrix multiplication",
+                "inner product"
+            ],
+            "correctness": true,
+            "text": "Matrix multiplication is a fundamental principle in linear algebra. It allows for the composition of linear transformations and the representation of systems of linear equations using matrix notation. Additionally, the inner product operation on vectors is another important principle that arises in linear algebra. It enables the computation of angle between vectors, projection onto a subspace, and the determination of orthogonality."
+        },
+        {
+            "id": 126,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "determinant",
+                "eigendecomposition",
+                "singular value decomposition"
+            ],
+            "correctness": true,
+            "text": "In linear algebra, the determinant is a mathematical concept that represents certain properties of a square matrix. It is used to calculate eigenvalues, describe the invertibility of a matrix, and determine the scaling factor of linear transformations. Eigendecomposition and singular value decomposition are advanced techniques in linear algebra that provide insights into the structures and properties of matrices. They play a crucial role in various applications such as image processing, data compression, and principal component analysis."
+        },
+        {
+            "id": 127,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "linear regression",
+                "matrix factorization",
+                "graph theory"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra have widespread applications in various scientific and technological fields. For instance, in statistics, linear regression relies on the concepts of matrix factorization and least squares approximation to model and analyze relationships between variables. In computer science, graph theory employs linear algebra techniques to study networks and connectivity. By understanding these principles, researchers are able to develop efficient algorithms and tools for solving real-world problems."
+        },
+        {
+            "id": 128,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "proof",
+            "entities": [
+                "rank-nullity theorem",
+                "invertible matrix",
+                "subspace"
+            ],
+            "correctness": true,
+            "text": "The rank-nullity theorem is a significant principle in linear algebra that describes the relationship between the rank and nullity of a linear transformation or matrix. It states that the sum of the rank and nullity is equal to the dimension of the input space. This theorem provides valuable insights into the properties of invertible matrices, the dimensions of subspaces, and the solutions of homogeneous systems of linear equations."
+        },
+        {
+            "id": 129,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "concept",
+            "entities": [
+                "orthogonal complement",
+                "adjoint operator"
+            ],
+            "correctness": true,
+            "text": "Orthogonal complement and adjoint operator are important concepts in linear algebra. The orthogonal complement of a subspace consists of all vectors in the vector space that are orthogonal to every vector in the subspace. This concept is useful for solving problems involving projections, subspaces, and solving systems of linear equations. The adjoint operator is a map from a vector space to its dual space that preserves inner products and plays a crucial role in applications such as quantum mechanics and signal processing."
+        },
+        {
+            "id": 130,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "Jordan canonical form",
+                "Hermitian matrix",
+                "positive definite matrix"
+            ],
+            "correctness": true,
+            "text": "The Jordan canonical form is a theorem in linear algebra that provides a canonical representation of a matrix under certain conditions. It enables mathematicians to analyze the properties and behavior of matrices efficiently. Hermitian matrices and positive definite matrices are special types of matrices that have important properties in various areas of mathematics and physics. They are extensively studied in linear algebra to understand symmetry, eigenvalues, and optimization problems."
+        },
+        {
+            "id": 131,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "linear transformations",
+                "subspace",
+                "null space"
+            ],
+            "correctness": true,
+            "text": "Linear transformations are fundamental principles in linear algebra. They describe mappings between vector spaces that preserve addition and scalar multiplication. Understanding the properties of linear transformations, such as injectivity, surjectivity, and invertibility, is essential for analyzing and solving problems in linear algebra. Additionally, subspaces and null spaces play a crucial role in studying linear transformations as they provide insights into the range and kernel of the transformation."
+        },
+        {
+            "id": 132,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "matrix rank",
+                "row operations",
+                "column space"
+            ],
+            "correctness": true,
+            "text": "Matrix rank is a concept in linear algebra that determines the maximum number of linearly independent columns or rows of a matrix. It provides valuable information about the dimensionality and properties of the matrix. Row operations, such as swapping rows, multiplying rows by scalars, and adding multiples of rows, are frequently used to manipulate matrices and determine their row echelon form or reduced row echelon form. The column space of a matrix refers to the subspace spanned by its column vectors."
+        },
+        {
+            "id": 133,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "Cayley-Hamilton theorem",
+                "trace",
+                "characteristic polynomial"
+            ],
+            "correctness": true,
+            "text": "The Cayley-Hamilton theorem is a significant result in linear algebra that states every square matrix satisfies its characteristic equation. This theorem enables mathematicians to compute powers of matrices, evaluate complex expressions involving matrices, and analyze the behavior of systems described by matrix equations. The trace of a matrix is the sum of its diagonal entries and holds important properties related to eigenvalues. The characteristic polynomial of a matrix provides insights into its eigenvalues and determinant."
+        },
+        {
+            "id": 134,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "least squares approximation",
+                "singular value decomposition",
+                "principal component analysis"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra find numerous applications in fields such as image processing, data analysis, and machine learning. For instance, least squares approximation uses linear algebra techniques to find optimal solutions to over-determined systems of equations. Singular value decomposition is a powerful tool for dimensionality reduction and noise removal in data analysis. Principal component analysis employs linear algebra concepts to extract essential features from high-dimensional datasets."
+        },
+        {
+            "id": 135,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "concept",
+            "entities": [
+                "vector space",
+                "linear combination",
+                "basis"
+            ],
+            "correctness": true,
+            "text": "A vector space is a fundamental concept in linear algebra. It is a collection of vectors that satisfy specific axioms such as closure under addition and scalar multiplication. By combining vectors through linear combinations, mathematicians can generate new vectors within the vector space. A basis for a vector space is a set of linearly independent vectors that span the entire space. Understanding these concepts is crucial for studying the properties and applications of vector spaces in linear algebra."
+        },
+        {
+            "id": 136,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "eigenvectors",
+                "diagonalization",
+                "orthogonal matrix"
+            ],
+            "correctness": true,
+            "text": "Eigenvectors are an important concept in linear algebra that corresponds to vectors that only change by scaling when operated on by a given matrix. They play a crucial role in diagonalizing matrices, solving systems of linear equations, and understanding the behavior of linear transformations. Diagonalization is the process of finding a diagonal matrix that is similar to a given matrix by using its eigenvectors. Additionally, orthogonal matrices possess special properties that preserve lengths and angles."
+        },
+        {
+            "id": 137,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "linear independence",
+                "span",
+                "basis"
+            ],
+            "correctness": true,
+            "text": "In linear algebra, a set of vectors is said to be linearly independent if none of them can be expressed as a linear combination of the others. This principle plays a crucial role in determining the span of a set of vectors and identifying a basis for a vector space. By understanding the principles of linear independence, mathematicians are able to analyze and solve problems involving systems of linear equations, subspaces, and transformations."
+        },
+        {
+            "id": 138,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "concept",
+            "entities": [
+                "orthogonal complement",
+                "adjoint operator"
+            ],
+            "correctness": true,
+            "text": "Orthogonal complement and adjoint operator are important concepts in linear algebra. The orthogonal complement of a subspace consists of all vectors in the vector space that are orthogonal to every vector in the subspace. This concept is useful for solving problems involving projections, subspaces, and solving systems of linear equations. The adjoint operator is a map from a vector space to its dual space that preserves inner products and plays a crucial role in applications such as quantum mechanics and signal processing."
+        },
+        {
+            "id": 139,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "linear regression",
+                "least squares approximation",
+                "graph theory"
+            ],
+            "correctness": true,
+            "text": "Linear algebra has numerous applications in various scientific and technological fields. For instance, linear regression uses linear algebra techniques to model and analyze relationships between variables. Least squares approximation is a method used to find the best-fit line or curve to a set of data points. In computer science, graph theory employs linear algebra techniques to study networks and connectivity. By understanding these principles, researchers are able to develop efficient algorithms and tools for solving real-world problems."
+        },
+        {
+            "id": 140,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "matrix multiplication",
+                "inner product"
+            ],
+            "correctness": true,
+            "text": "Matrix multiplication is a fundamental principle in linear algebra. It allows for the composition of linear transformations and the representation of systems of linear equations using matrix notation. Additionally, the inner product operation on vectors is another important principle that arises in linear algebra. It enables the computation of angles between vectors, projection onto a subspace, and the determination of orthogonality."
+        },
+        {
+            "id": 141,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "determinant",
+                "eigendecomposition",
+                "singular value decomposition"
+            ],
+            "correctness": true,
+            "text": "In linear algebra, the determinant is a mathematical concept that represents certain properties of a square matrix. It is used to calculate eigenvalues, describe the invertibility of a matrix, and determine the scaling factor of linear transformations. Eigendecomposition and singular value decomposition are advanced techniques in linear algebra that provide insights into the structures and properties of matrices. They play a crucial role in various applications such as image processing, data compression, and principal component analysis."
+        },
+        {
+            "id": 142,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "linear independence",
+                "span",
+                "basis"
+            ],
+            "correctness": true,
+            "text": "One of the key principles of linear algebra is the concept of linear independence. A set of vectors is said to be linearly independent if none of them can be expressed as a linear combination of the others. This principle plays a crucial role in determining the span of a set of vectors and identifying a basis for a vector space. By understanding the principles of linear independence, mathematicians are able to analyze and solve problems involving systems of linear equations, subspaces, and transformations."
+        },
+        {
+            "id": 143,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 7,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "introduction",
+            "entities": [
+                "vector space",
+                "linear transformations",
+                "eigenvalues"
+            ],
+            "correctness": true,
+            "text": "Linear algebra is a fundamental branch of mathematics that deals with vector spaces and linear transformations. It provides a powerful framework for studying various mathematical concepts and their applications in fields such as physics, engineering, and computer science. The principles of linear algebra lay the foundation for understanding topics like eigenvalues, eigenvectors, and matrix operations. By applying these principles, mathematicians have been able to solve complex problems related to systems of equations, optimization, and data analysis."
+        },
+        {
+            "id": 144,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "linear transformation",
+                "linear independence",
+                "invertible matrix"
+            ],
+            "correctness": true,
+            "text": "One of the essential principles in linear algebra is the invertibility of a linear transformation or matrix. A linear transformation is invertible if and only if it preserves linear independence. This property has important implications in the realm of systems of linear equations, subspaces, and determinants. An invertible matrix is a square matrix with a non-zero determinant, and it can be used to solve systems of linear equations and transform vectors."
+        },
+        {
+            "id": 145,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "concept",
+            "entities": [
+                "orthogonal complement",
+                "adjoint operator"
+            ],
+            "correctness": true,
+            "text": "Orthogonal complement and adjoint operator are important concepts in linear algebra. The orthogonal complement of a subspace consists of all vectors in the vector space that are orthogonal to every vector in the subspace. This concept is useful for solving problems involving projections, subspaces, and solving systems of linear equations. The adjoint operator is a map from a vector space to its dual space that preserves inner products and plays a crucial role in applications such as quantum mechanics and signal processing."
+        },
+        {
+            "id": 146,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "least squares approximation",
+                "singular value decomposition",
+                "principal component analysis"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra find numerous applications in fields such as image processing, data analysis, and machine learning. For instance, least squares approximation uses linear algebra techniques to find optimal solutions to over-determined systems of equations. Singular value decomposition is a powerful tool for dimensionality reduction and noise removal in data analysis. Principal component analysis employs linear algebra concepts to extract essential features from high-dimensional datasets."
+        },
+        {
+            "id": 147,
+            "relevance": "high",
+            "queryTerm": true,
+            "queryFreq": 6,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "example",
+            "entities": [
+                "vector space",
+                "linear combination",
+                "basis"
+            ],
+            "correctness": true,
+            "text": "A vector space is a fundamental concept in linear algebra. It is a collection of vectors that satisfy specific axioms such as closure under addition and scalar multiplication. By combining vectors through linear combinations, mathematicians can generate new vectors within the vector space. A basis for a vector space is a set of linearly independent vectors that span the entire space. Understanding these concepts is crucial for studying the properties and applications of vector spaces in linear algebra."
+        },
+        {
+            "id": 148,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "matrix rank",
+                "row operations",
+                "column space"
+            ],
+            "correctness": true,
+            "text": "Matrix rank is a concept in linear algebra that determines the maximum number of linearly independent columns or rows of a matrix. It provides valuable information about the dimensionality and properties of the matrix. Row operations, such as swapping rows, multiplying rows by scalars, and adding multiples of rows, are frequently used to manipulate matrices and determine their row echelon form or reduced row echelon form. The column space of a matrix refers to the subspace spanned by its column vectors."
+        },
+        {
+            "id": 149,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 3,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "theorem",
+            "entities": [
+                "Cayley-Hamilton theorem",
+                "trace",
+                "characteristic polynomial"
+            ],
+            "correctness": true,
+            "text": "The Cayley-Hamilton theorem is a significant result in linear algebra that states every square matrix satisfies its characteristic equation. This theorem enables mathematicians to compute powers of matrices, evaluate complex expressions involving matrices, and analyze the behavior of systems described by matrix equations. The trace of a matrix is the sum of its diagonal entries and holds important properties related to eigenvalues. The characteristic polynomial of a matrix provides insights into its eigenvalues and determinant."
+        },
+        {
+            "id": 150,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "application",
+            "entities": [
+                "linear regression",
+                "matrix factorization",
+                "graph theory"
+            ],
+            "correctness": true,
+            "text": "The principles of linear algebra have widespread applications in various scientific and technological fields. For instance, in statistics, linear regression relies on the concepts of matrix factorization and least squares approximation to model and analyze relationships between variables. In computer science, graph theory employs linear algebra techniques to study networks and connectivity. By understanding these principles, researchers are able to develop efficient algorithms and tools for solving real-world problems."
+        },
+        {
+            "id": 151,
+            "relevance": "medium",
+            "queryTerm": true,
+            "queryFreq": 4,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "concept",
+            "entities": [
+                "eigenvectors",
+                "diagonalization",
+                "orthogonal matrix"
+            ],
+            "correctness": true,
+            "text": "Eigenvectors are an important concept in linear algebra that corresponds to vectors that only change by scaling when operated on by a given matrix. They play a crucial role in diagonalizing matrices, solving systems of linear equations, and understanding the behavior of linear transformations. Diagonalization is the process of finding a diagonal matrix that is similar to a given matrix by using its eigenvectors. Additionally, orthogonal matrices possess special properties that preserve lengths and angles."
+        },
+        {
+            "id": 152,
+            "relevance": "low",
+            "queryTerm": true,
+            "queryFreq": 2,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "definition",
+            "entities": [
+                "linear independence",
+                "span",
+                "basis"
+            ],
+            "correctness": true,
+            "text": "In linear algebra, a set of vectors is said to be linearly independent if none of them can be expressed as a linear combination of the others. This principle plays a crucial role in determining the span of a set of vectors and identifying a basis for a vector space. By understanding the principles of linear independence, mathematicians are able to analyze and solve problems involving systems of linear equations, subspaces, and transformations."
+        },
+        {
+            "id": 153,
+            "relevance": "none",
+            "queryTerm": false,
+            "queryFreq": 0,
+            "topic": "Mathematics",
+            "style": "formal",
+            "type": "concept",
+            "entities": [
+                "orthogonal complement",
+                "adjoint operator"
+            ],
+            "correctness": true,
+            "text": "Orthogonal complement and adjoint operator are important concepts in linear algebra. The orthogonal complement of a subspace consists of all vectors in the vector space that are orthogonal to every vector in the subspace. This concept is useful for solving problems involving projections, subspaces, and solving systems of linear equations. The adjoint operator is a map from a vector space to its dual space that preserves inner products and plays a crucial role in applications such as quantum mechanics and signal processing."
+        }
+    ]
+}

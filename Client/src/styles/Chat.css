@@ -1,0 +1,25 @@
+.user-chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh; /* This makes the container take the full viewport height */
+}
+
+/* Chat display area */
+.user-chat-interface {
+    /*flex-grow: 1; !* This makes the chat display area expand to fill available space *!*/
+    height: 90vh;
+    max-height: 90vh;
+    width: 50vw;
+    max-width: 50vw;
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+    /* Add any other styles you need for the chat display area */
+}
+
+/* Input area at the bottom */
+.user-input-area {
+    justify-content: center;
+    align-items: center;
+    /* Add any other styles you need for the input area */
+}
+
+/* Additional styling for the TextField and IconButton can be applied here */
